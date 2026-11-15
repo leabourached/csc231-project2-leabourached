@@ -7,11 +7,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce = 10f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckRadius = 0.1f;
+
     private Rigidbody2D body;
+    private Animator anim;
 
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -26,9 +29,15 @@ public class PlayerController : MonoBehaviour
         body.linearVelocity = new Vector2(moveInput * moveSpeed, body.linearVelocity.y);
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame && IsGrounded())
-        {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
-        }
+
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
+        anim.SetBool("IsGrounded", IsGrounded());
+
+        if (moveInput > 0)
+            transform.localScale = new Vector3(1, 1, 1);
+        else if (moveInput < 0)
+            transform.localScale = new Vector3(-1, 1, 1);
     }
 
     private bool IsGrounded()

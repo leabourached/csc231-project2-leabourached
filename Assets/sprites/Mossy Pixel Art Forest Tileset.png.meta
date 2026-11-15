@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: 92099b10be06ffb4e9436a7b7006ec62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6252348711924654591
+    second: Mossy Pixel Art Forest Tileset_0
+  - first:
+      213: -7169298759212019380
+    second: Mossy Pixel Art Forest Tileset_1
+  - first:
+      213: -128868900451632373
+    second: Mossy Pixel Art Forest Tileset_2
+  - first:
+      213: -4893267693549374507
+    second: Mossy Pixel Art Forest Tileset_3
+  - first:
+      213: 3387482353271916785
+    second: Mossy Pixel Art Forest Tileset_4
+  - first:
+      213: -2853197588115151106
+    second: Mossy Pixel Art Forest Tileset_5
+  - first:
+      213: 8965568451671930283
+    second: Mossy Pixel Art Forest Tileset_6
+  - first:
+      213: -6625460603724157496
+    second: Mossy Pixel Art Forest Tileset_7
+  - first:
+      213: 3956203952075093908
+    second: Mossy Pixel Art Forest Tileset_8
+  - first:
+      213: 6564765067899484364
+    second: Mossy Pixel Art Forest Tileset_9
+  - first:
+      213: 3659924685335961760
+    second: Mossy Pixel Art Forest Tileset_10
+  - first:
+      213: 6694331723932299031
+    second: Mossy Pixel Art Forest Tileset_11
+  - first:
+      213: -3747597335612008053
+    second: Mossy Pixel Art Forest Tileset_12
+  - first:
+      213: 5259303219011572053
+    second: Mossy Pixel Art Forest Tileset_13
+  - first:
+      213: -1145079031465307404
+    second: Mossy Pixel Art Forest Tileset_14
+  - first:
+      213: -4503967830449790650
+    second: Mossy Pixel Art Forest Tileset_15
+  - first:
+      213: 6048504700063246119
+    second: Mossy Pixel Art Forest Tileset_16
+  - first:
+      213: -8374847163640461502
+    second: Mossy Pixel Art Forest Tileset_17
+  - first:
+      213: -3469559444841122096
+    second: Mossy Pixel Art Forest Tileset_18
+  - first:
+      213: 5331652077953360030
+    second: Mossy Pixel Art Forest Tileset_19
+  - first:
+      213: 2775996425343572739
+    second: Mossy Pixel Art Forest Tileset_20
+  - first:
+      213: 2584403165717771892
+    second: Mossy Pixel Art Forest Tileset_21
+  - first:
+      213: -4202743872826775515
+    second: Mossy Pixel Art Forest Tileset_22
+  - first:
+      213: -3292108082913006446
+    second: Mossy Pixel Art Forest Tileset_23
+  - first:
+      213: 8543172194242228707
+    second: Mossy Pixel Art Forest Tileset_24
+  - first:
+      213: -2016664697909872664
+    second: Mossy Pixel Art Forest Tileset_25
+  - first:
+      213: -3488966826606675574
+    second: Mossy Pixel Art Forest Tileset_26
+  - first:
+      213: 553061787603577953
+    second: Mossy Pixel Art Forest Tileset_27
+  - first:
+      213: 7469585728738622161
+    second: Mossy Pixel Art Forest Tileset_28
+  - first:
+      213: 7315200878087249093
+    second: Mossy Pixel Art Forest Tileset_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 668
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e322f60ec4c650800000000000000
+      internalID: 6252348711924654591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 731
+        width: 311
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41d48853c8818c90800000000000000
+      internalID: -7169298759212019380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 523
+        width: 305
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b3cf5fa6a263ef0800000000000000
+      internalID: -128868900451632373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 493
+        width: 279
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3381755fe971cb0800000000000000
+      internalID: -4893267693549374507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 555
+        width: 477
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f84dada041c20f20800000000000000
+      internalID: 3387482353271916785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 735
+        width: 462
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6256619e76768d0800000000000000
+      internalID: -2853197588115151106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 733
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5ba5351091c6c70800000000000000
+      internalID: 8965568451671930283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 643
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd2da12fa2ad04a0800000000000000
+      internalID: -6625460603724157496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 380
+        width: 203
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497be66988247e630800000000000000
+      internalID: 3956203952075093908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 217
+        width: 491
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8ba023c0bba1b50800000000000000
+      internalID: 6564765067899484364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 346
+        width: 241
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a022263c1aaac230800000000000000
+      internalID: 3659924685335961760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 381
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fec9d1c3b07ec50800000000000000
+      internalID: 6694331723932299031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 505
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8955a1341cddfbc0800000000000000
+      internalID: -3747597335612008053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 507
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551d047a96cccf840800000000000000
+      internalID: 5259303219011572053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 273
+        width: 181
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f213c110bcdb10f0800000000000000
+      internalID: -1145079031465307404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 272
+        width: 225
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e04a0f11be71c0800000000000000
+      internalID: -4503967830449790650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221
+        width: 362
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ec857afa90f350800000000000000
+      internalID: 6048504700063246119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 233
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247c50360e096cb80800000000000000
+      internalID: -8374847163640461502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 225
+        width: 156
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b4234116a9dfc0800000000000000
+      internalID: -3469559444841122096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 330
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90226c0155ddf940800000000000000
+      internalID: 5331652077953360030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 227
+        width: 266
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b9b5e7a02568620800000000000000
+      internalID: 2775996425343572739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 319
+        width: 241
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476b0098cf4add320800000000000000
+      internalID: 2584403165717771892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 231
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528e53af6badca5c0800000000000000
+      internalID: -4202743872826775515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 0
+        width: 634
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c27c314251052d0800000000000000
+      internalID: -3292108082913006446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 19
+        width: 458
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e17dc4d8d17f8670800000000000000
+      internalID: 8543172194242228707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 17
+        width: 412
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7f20a542e5304e0800000000000000
+      internalID: -2016664697909872664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 15
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89bcf21823b49fc0800000000000000
+      internalID: -3488966826606675574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 23
+        width: 406
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c24fcf3cedca700800000000000000
+      internalID: 553061787603577953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 15
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dafacc05ac49a760800000000000000
+      internalID: 7469585728738622161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Pixel Art Forest Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 0
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc1407e070d48560800000000000000
+      internalID: 7315200878087249093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mossy Pixel Art Forest Tileset_0: 6252348711924654591
+      Mossy Pixel Art Forest Tileset_1: -7169298759212019380
+      Mossy Pixel Art Forest Tileset_10: 3659924685335961760
+      Mossy Pixel Art Forest Tileset_11: 6694331723932299031
+      Mossy Pixel Art Forest Tileset_12: -3747597335612008053
+      Mossy Pixel Art Forest Tileset_13: 5259303219011572053
+      Mossy Pixel Art Forest Tileset_14: -1145079031465307404
+      Mossy Pixel Art Forest Tileset_15: -4503967830449790650
+      Mossy Pixel Art Forest Tileset_16: 6048504700063246119
+      Mossy Pixel Art Forest Tileset_17: -8374847163640461502
+      Mossy Pixel Art Forest Tileset_18: -3469559444841122096
+      Mossy Pixel Art Forest Tileset_19: 5331652077953360030
+      Mossy Pixel Art Forest Tileset_2: -128868900451632373
+      Mossy Pixel Art Forest Tileset_20: 2775996425343572739
+      Mossy Pixel Art Forest Tileset_21: 2584403165717771892
+      Mossy Pixel Art Forest Tileset_22: -4202743872826775515
+      Mossy Pixel Art Forest Tileset_23: -3292108082913006446
+      Mossy Pixel Art Forest Tileset_24: 8543172194242228707
+      Mossy Pixel Art Forest Tileset_25: -2016664697909872664
+      Mossy Pixel Art Forest Tileset_26: -3488966826606675574
+      Mossy Pixel Art Forest Tileset_27: 553061787603577953
+      Mossy Pixel Art Forest Tileset_28: 7469585728738622161
+      Mossy Pixel Art Forest Tileset_29: 7315200878087249093
+      Mossy Pixel Art Forest Tileset_3: -4893267693549374507
+      Mossy Pixel Art Forest Tileset_4: 3387482353271916785
+      Mossy Pixel Art Forest Tileset_5: -2853197588115151106
+      Mossy Pixel Art Forest Tileset_6: 8965568451671930283
+      Mossy Pixel Art Forest Tileset_7: -6625460603724157496
+      Mossy Pixel Art Forest Tileset_8: 3956203952075093908
+      Mossy Pixel Art Forest Tileset_9: 6564765067899484364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
