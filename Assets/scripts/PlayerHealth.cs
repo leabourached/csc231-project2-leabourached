@@ -1,0 +1,237 @@
+
+using UnityEngine;
+using UnityEngine.InputSystem;
+using System.Collections;
+
+public class PlayerHealth : MonoBehaviour
+{
+    [Header("Health")]
+    [SerializeField] private int maxHealth = 3;
+
+    [Header("Invincibility")]
+    [SerializeField] private float invincibilityTime = 1.5f;
+
+    [Header("Flicker Effect")]
+    [SerializeField] private float flickerSpeed = 0.1f;
+
+    [Range(0f, 1f)]
+    [SerializeField] private float flickerOpacity = 0.3f;
+
+    private int currentHealth;
+    private bool isInvincible = false;
+    private bool isDead = false;
+    private bool flickerVisible = true;
+
+    private Animator anim;
+    private Rigidbody2D body;
+    private PlayerController controller;
+
+    private SpriteRenderer[] sprites;
+    private float[] originalOpacity;
+
+    void Awake()
+    {
+        currentHealth = maxHealth;
+
+        anim = GetComponent<Animator>();
+        body = GetComponent<Rigidbody2D>();
+        controller = GetComponent<PlayerController>();
+
+        // Find Fern's sprites, including child objects
+        sprites = GetComponentsInChildren<SpriteRenderer>(true);
+
+        originalOpacity = new float[sprites.Length];
+
+        for (int i = 0; i < sprites.Length; i++)
+        {
+            originalOpacity[i] = sprites[i].color.a;
+        }
+    }
+
+    void Update()
+    {
+        // TEMPORARY TEST: Press H to take damage
+        if (Keyboard.current != null &&
+            Keyboard.current.hKey.wasPressedThisFrame)
+        {
+            TakeDamage(1);
+        }
+    }
+
+    void LateUpdate()
+    {
+        // Apply flickering after animation updates
+        if (isInvincible && !isDead)
+        {
+            float opacity = flickerVisible
+                ? 1f
+                : flickerOpacity;
+
+            SetOpacity(opacity);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (isDead || isInvincible || damage <= 0)
+            return;
+
+        currentHealth = Mathf.Max(
+            0, currentHealth - damage
+        );
+
+        Debug.Log("Fern Health: " + currentHealth);
+
+        if (controller != null)
+            controller.CancelAttack();
+
+        if (currentHealth <= 0)
+        {
+            Die();
+            return;
+        }
+
+        // Play Hurt animation
+        anim.SetTrigger("Hurt");
+
+        // Become invincible immediately
+        isInvincible = true;
+
+        // Start the flickering effect
+        StartCoroutine(InvincibilityFlicker());
+    }
+
+    IEnumerator InvincibilityFlicker()
+    {
+        float elapsed = 0f;
+        float flickerTimer = 0f;
+
+        flickerVisible = false;
+
+        while (elapsed < invincibilityTime)
+        {
+            elapsed += Time.deltaTime;
+            flickerTimer += Time.deltaTime;
+
+            if (flickerTimer >= flickerSpeed)
+            {
+                flickerVisible = !flickerVisible;
+                flickerTimer = 0f;
+            }
+
+            yield return null;
+        }
+
+        // Invincibility finished
+        isInvincible = false;
+        flickerVisible = true;
+
+        RestoreOpacity();
+    }
+
+    void SetOpacity(float multiplier)
+    {
+        for (int i = 0; i < sprites.Length; i++)
+        {
+            if (sprites[i] == null)
+                continue;
+
+            Color color = sprites[i].color;
+
+            color.a = originalOpacity[i] * multiplier;
+
+            sprites[i].color = color;
+        }
+    }
+
+    void RestoreOpacity()
+    {
+        SetOpacity(1f);
+    }
+
+    void Die()
+    {
+        if (isDead)
+            return;
+
+        isDead = true;
+        isInvincible = false;
+
+        StopAllCoroutines();
+
+        // Make Fern fully visible when he dies
+        flickerVisible = true;
+        RestoreOpacity();
+
+        // Disable movement
+        if (controller != null)
+            controller.enabled = false;
+
+        if (body != null)
+            body.linearVelocity = Vector2.zero;
+
+        // Clear animation triggers
+        anim.ResetTrigger("Hurt");
+        anim.ResetTrigger("Attack1");
+        anim.ResetTrigger("Attack2");
+        anim.ResetTrigger("Death");
+
+        anim.SetFloat("Speed", 0f);
+
+        Debug.Log("Fern has died!");
+
+        StartCoroutine(PlayDeathOnce());
+    }
+
+    IEnumerator PlayDeathOnce()
+    {
+        // KEEP YOUR ORIGINAL ANIMATION NAME
+        int deathState = Animator.StringToHash(
+            "Base Layer.fern_death"
+        );
+
+        if (!anim.HasState(0, deathState))
+        {
+            Debug.LogError(
+                "Cannot find fern_death!"
+            );
+            yield break;
+        }
+
+        // Play death animation
+        anim.speed = 1f;
+        anim.Play(deathState, 0, 0f);
+        anim.Update(0f);
+
+        // Wait until the final part of the animation
+        while (true)
+        {
+            yield return null;
+
+            AnimatorStateInfo state =
+                anim.GetCurrentAnimatorStateInfo(0);
+
+            if (!state.IsName("Base Layer.fern_death"))
+            {
+                Debug.LogWarning(
+                    "Something interrupted fern_death!"
+                );
+                yield break;
+            }
+
+            if (state.normalizedTime >= 0.95f)
+                break;
+        }
+
+        // Hold the final death pose
+        anim.Play(deathState, 0, 0.999f);
+        anim.Update(0f);
+
+        // Freeze Animator
+        anim.speed = 0f;
+
+        Debug.Log(
+            "Fern's death animation is finished!"
+        );
+    }
+}
