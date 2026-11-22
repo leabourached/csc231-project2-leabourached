@@ -1,0 +1,1658 @@
+fileFormatVersion: 2
+guid: 98867c8c733489c439c4a4c17452a49b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7207865506550225231
+    second: Fern_64px_Terrain_Tileset_0
+  - first:
+      213: 2232336626463806588
+    second: Fern_64px_Terrain_Tileset_1
+  - first:
+      213: -4571195676873819169
+    second: Fern_64px_Terrain_Tileset_2
+  - first:
+      213: -3851079937004156354
+    second: Fern_64px_Terrain_Tileset_3
+  - first:
+      213: -7191956015922607972
+    second: Fern_64px_Terrain_Tileset_4
+  - first:
+      213: -8095785026416900632
+    second: Fern_64px_Terrain_Tileset_5
+  - first:
+      213: -989340890128744509
+    second: Fern_64px_Terrain_Tileset_6
+  - first:
+      213: -2849978908632280120
+    second: Fern_64px_Terrain_Tileset_7
+  - first:
+      213: 2692805683487258527
+    second: Fern_64px_Terrain_Tileset_8
+  - first:
+      213: -7403991335758762427
+    second: Fern_64px_Terrain_Tileset_9
+  - first:
+      213: 2384029917230649301
+    second: Fern_64px_Terrain_Tileset_10
+  - first:
+      213: -2487881043945216942
+    second: Fern_64px_Terrain_Tileset_11
+  - first:
+      213: 2936633339987714114
+    second: Fern_64px_Terrain_Tileset_12
+  - first:
+      213: -737930597194473270
+    second: Fern_64px_Terrain_Tileset_13
+  - first:
+      213: 5890565714934569632
+    second: Fern_64px_Terrain_Tileset_14
+  - first:
+      213: -2121216699985446526
+    second: Fern_64px_Terrain_Tileset_15
+  - first:
+      213: -8492904633494670323
+    second: Fern_64px_Terrain_Tileset_16
+  - first:
+      213: 438794885120551539
+    second: Fern_64px_Terrain_Tileset_17
+  - first:
+      213: 3170769351190247952
+    second: Fern_64px_Terrain_Tileset_18
+  - first:
+      213: -4849630932470062012
+    second: Fern_64px_Terrain_Tileset_19
+  - first:
+      213: -6623514894647903880
+    second: Fern_64px_Terrain_Tileset_20
+  - first:
+      213: 9044704268696579330
+    second: Fern_64px_Terrain_Tileset_21
+  - first:
+      213: -6363788097329820495
+    second: Fern_64px_Terrain_Tileset_22
+  - first:
+      213: -879869807015429021
+    second: Fern_64px_Terrain_Tileset_23
+  - first:
+      213: -6744066381911700509
+    second: Fern_64px_Terrain_Tileset_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 47
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 327
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4997b24d7b770460800000000000000
+      internalID: 7207865506550225231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 328
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c741877955adafe10800000000000000
+      internalID: 2232336626463806588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 328
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb722940c9df80c0800000000000000
+      internalID: -4571195676873819169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 329
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3acb3183373e8ac0800000000000000
+      internalID: -3851079937004156354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 333
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9803beab1a013c90800000000000000
+      internalID: -7191956015922607972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 333
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e58e7a696ef5af80800000000000000
+      internalID: -8095785026416900632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 333
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf7b12c3b72542f0800000000000000
+      internalID: -989340890128744509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 333
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c31e9d4847d278d0800000000000000
+      internalID: -2849978908632280120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 333
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9739658084ce5520800000000000000
+      internalID: 2692805683487258527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 279
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e6700bb1dbf3990800000000000000
+      internalID: -7403991335758762427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 283
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfcf6e1496c51120800000000000000
+      internalID: 2384029917230649301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 282
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254a7343f55497dd0800000000000000
+      internalID: -2487881043945216942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 281
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2406989b67401c820800000000000000
+      internalID: 2936633339987714114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 282
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0e455180852c5f0800000000000000
+      internalID: -737930597194473270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 282
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa15c4ee4e7fb150800000000000000
+      internalID: 5890565714934569632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 282
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289bdb966acef82e0800000000000000
+      internalID: -2121216699985446526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 282
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f741bb34232a80800000000000000
+      internalID: -8492904633494670323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 282
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a6ed88f99e61600800000000000000
+      internalID: 438794885120551539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 232
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01af36aece5d00c20800000000000000
+      internalID: 3170769351190247952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 229
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44420628c56a2bcb0800000000000000
+      internalID: -4849630932470062012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879b004db4c8414a0800000000000000
+      internalID: -6623514894647903880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d6e1a8c9e358d70800000000000000
+      internalID: 9044704268696579330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc0cc831784fa7a0800000000000000
+      internalID: -6363788097329820495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cf04082131ac3f0800000000000000
+      internalID: -879869807015429021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebcf747b534862a0800000000000000
+      internalID: -6744066381911700509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670fdb6579b0a9546ac0c2768a57473a
+      internalID: 1174165759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 231
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1b1028cc7f6264c9e6fecc4c38128f
+      internalID: 2088178559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230496f7c44f44d449ccef511b1aa44c
+      internalID: 718754659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0d7f63601e73b4f8ba9c0593dbd315
+      internalID: -1350222759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e613a2f4c770468f9ca950716e3da
+      internalID: 51130605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 193
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d5396ed908d04ea832585b6264a68
+      internalID: -998904200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 193
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f82cb058a94a3342b5704eb5391664b
+      internalID: -2133525065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81936b4ba35cfe54bae5989255d57838
+      internalID: -1872144600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408f0e8b76fb36343bbcf089d44738e1
+      internalID: 1693204601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 180
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473ed3dff3595584c8aef3e98697647e
+      internalID: -570675169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 192
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0430719201ba2449745d6065998c81
+      internalID: -13081271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80496bd74f846164e9d49aaaa0d2dd03
+      internalID: 2068392384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b906e0055a95b7d44937cbf8ea9a1a6c
+      internalID: -178429888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaeff5ff3a87a745b0a5640d0327a79
+      internalID: -467824964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d3adbc55286104eb6055b8240384a6
+      internalID: 1362781193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b129b92835bac4490b7a0a76b12cc1
+      internalID: 392638048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50356a4491533e3479982d939e7c29df
+      internalID: -735365174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160f0ac6edf8894db6fb29c77bb50ad
+      internalID: -89731260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd688cb4c6f104f4f9f61e5cb60617b2
+      internalID: 1716768029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 129
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca42485e607b04c8df0eee5f09bade
+      internalID: 2119091114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25a417f76ddab44ba58c89880484e9
+      internalID: 2145517662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b5a18e2746d546b36e8dd37826915
+      internalID: -404914077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe89b76ff107174bb17af90a8f375c9
+      internalID: 1325654154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a21af2740af7c1499cd17446bba26af
+      internalID: 1220669687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170db2979680a7a4bb78424343166b10
+      internalID: -1919996857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8fb963ed175d48aafbcd6fb7f091c
+      internalID: -2065263049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b82aea2d124d37468db6c5ae01613a7
+      internalID: -30349113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764565b433f06cd4fabb3f879078295a
+      internalID: -1869981678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 78
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da20f7077aa41e44c8af36b5745586a6
+      internalID: -546452331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4b8058614bcce40847b22bbb31a0cf
+      internalID: -482866987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3898db5bcb57142991b18bf61c2b7e
+      internalID: -1107105936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc31dc711ed6c414dabde7209408df18
+      internalID: 1421127970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59012df7ed3314348beb3fb72820ee6d
+      internalID: -115903875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd762f590b10a748a73b072171857e7
+      internalID: 1938779905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740768ec05ccb894a8c435f17cc23d93
+      internalID: 373913414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a29bf0ebc46c42a5532bc5c788240
+      internalID: -580940947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1211119da6b704ba4d809855bbc400
+      internalID: -1038943701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern_64px_Terrain_Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 27
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bdd355a3d20a942969824c92dc9eab
+      internalID: -932539060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a7d6a3bbfce95848bd0a6541645b786
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":51.0,"y":51.0},"gridSpriteOffset":{"x":3.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fern_64px_Terrain_Tileset_0: 7207865506550225231
+      Fern_64px_Terrain_Tileset_1: 2232336626463806588
+      Fern_64px_Terrain_Tileset_10: 2384029917230649301
+      Fern_64px_Terrain_Tileset_11: -2487881043945216942
+      Fern_64px_Terrain_Tileset_12: 2936633339987714114
+      Fern_64px_Terrain_Tileset_13: -737930597194473270
+      Fern_64px_Terrain_Tileset_14: 5890565714934569632
+      Fern_64px_Terrain_Tileset_15: -2121216699985446526
+      Fern_64px_Terrain_Tileset_16: -8492904633494670323
+      Fern_64px_Terrain_Tileset_17: 438794885120551539
+      Fern_64px_Terrain_Tileset_18: 3170769351190247952
+      Fern_64px_Terrain_Tileset_19: -4849630932470062012
+      Fern_64px_Terrain_Tileset_2: -4571195676873819169
+      Fern_64px_Terrain_Tileset_20: -6623514894647903880
+      Fern_64px_Terrain_Tileset_21: 9044704268696579330
+      Fern_64px_Terrain_Tileset_22: -6363788097329820495
+      Fern_64px_Terrain_Tileset_23: -879869807015429021
+      Fern_64px_Terrain_Tileset_24: -6744066381911700509
+      Fern_64px_Terrain_Tileset_25: 1174165759
+      Fern_64px_Terrain_Tileset_26: 2088178559
+      Fern_64px_Terrain_Tileset_27: 718754659
+      Fern_64px_Terrain_Tileset_28: -1350222759
+      Fern_64px_Terrain_Tileset_29: 51130605
+      Fern_64px_Terrain_Tileset_3: -3851079937004156354
+      Fern_64px_Terrain_Tileset_30: -998904200
+      Fern_64px_Terrain_Tileset_31: -2133525065
+      Fern_64px_Terrain_Tileset_32: -1872144600
+      Fern_64px_Terrain_Tileset_33: 1693204601
+      Fern_64px_Terrain_Tileset_34: -570675169
+      Fern_64px_Terrain_Tileset_35: -13081271
+      Fern_64px_Terrain_Tileset_36: 2068392384
+      Fern_64px_Terrain_Tileset_37: -178429888
+      Fern_64px_Terrain_Tileset_38: -467824964
+      Fern_64px_Terrain_Tileset_39: 1362781193
+      Fern_64px_Terrain_Tileset_4: -7191956015922607972
+      Fern_64px_Terrain_Tileset_40: 392638048
+      Fern_64px_Terrain_Tileset_41: -735365174
+      Fern_64px_Terrain_Tileset_42: -89731260
+      Fern_64px_Terrain_Tileset_43: 1716768029
+      Fern_64px_Terrain_Tileset_44: 2119091114
+      Fern_64px_Terrain_Tileset_45: 2145517662
+      Fern_64px_Terrain_Tileset_46: -404914077
+      Fern_64px_Terrain_Tileset_47: 1325654154
+      Fern_64px_Terrain_Tileset_48: 1220669687
+      Fern_64px_Terrain_Tileset_49: -1919996857
+      Fern_64px_Terrain_Tileset_5: -8095785026416900632
+      Fern_64px_Terrain_Tileset_50: -2065263049
+      Fern_64px_Terrain_Tileset_51: -30349113
+      Fern_64px_Terrain_Tileset_52: -1869981678
+      Fern_64px_Terrain_Tileset_53: -546452331
+      Fern_64px_Terrain_Tileset_54: -482866987
+      Fern_64px_Terrain_Tileset_55: -1107105936
+      Fern_64px_Terrain_Tileset_56: 1421127970
+      Fern_64px_Terrain_Tileset_57: -115903875
+      Fern_64px_Terrain_Tileset_58: 1938779905
+      Fern_64px_Terrain_Tileset_59: 373913414
+      Fern_64px_Terrain_Tileset_6: -989340890128744509
+      Fern_64px_Terrain_Tileset_60: -580940947
+      Fern_64px_Terrain_Tileset_61: -1038943701
+      Fern_64px_Terrain_Tileset_62: -932539060
+      Fern_64px_Terrain_Tileset_7: -2849978908632280120
+      Fern_64px_Terrain_Tileset_8: 2692805683487258527
+      Fern_64px_Terrain_Tileset_9: -7403991335758762427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
