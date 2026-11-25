@@ -18,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float flickerOpacity = 0.3f;
 
     private int currentHealth;
+
     private bool isInvincible = false;
     private bool isDead = false;
     private bool flickerVisible = true;
@@ -29,6 +30,10 @@ public class PlayerHealth : MonoBehaviour
     private SpriteRenderer[] sprites;
     private float[] originalOpacity;
 
+    public bool IsDead => isDead;
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -37,20 +42,18 @@ public class PlayerHealth : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         controller = GetComponent<PlayerController>();
 
-        // Find Fern's sprites, including child objects
-        sprites = GetComponentsInChildren<SpriteRenderer>(true);
+        sprites =
+            GetComponentsInChildren<SpriteRenderer>(true);
 
         originalOpacity = new float[sprites.Length];
 
         for (int i = 0; i < sprites.Length; i++)
-        {
             originalOpacity[i] = sprites[i].color.a;
-        }
     }
 
     void Update()
     {
-        // TEMPORARY TEST: Press H to take damage
+        // Temporary damage testing key.
         if (Keyboard.current != null &&
             Keyboard.current.hKey.wasPressedThisFrame)
         {
@@ -60,12 +63,10 @@ public class PlayerHealth : MonoBehaviour
 
     void LateUpdate()
     {
-        // Apply flickering after animation updates
         if (isInvincible && !isDead)
         {
-            float opacity = flickerVisible
-                ? 1f
-                : flickerOpacity;
+            float opacity =
+                flickerVisible ? 1f : flickerOpacity;
 
             SetOpacity(opacity);
         }
@@ -77,7 +78,8 @@ public class PlayerHealth : MonoBehaviour
             return;
 
         currentHealth = Mathf.Max(
-            0, currentHealth - damage
+            0,
+            currentHealth - damage
         );
 
         Debug.Log("Fern Health: " + currentHealth);
@@ -91,17 +93,24 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
-        // Play Hurt animation
         anim.SetTrigger("Hurt");
 
-        // Become invincible immediately
         isInvincible = true;
 
-        // Start the flickering effect
         StartCoroutine(InvincibilityFlicker());
     }
 
-    IEnumerator InvincibilityFlicker()
+    public void KillFromLantern()
+    {
+        if (isDead)
+            return;
+
+        Debug.Log("Fern died because his flame went out!");
+
+        Die();
+    }
+
+    private IEnumerator InvincibilityFlicker()
     {
         float elapsed = 0f;
         float flickerTimer = 0f;
@@ -122,14 +131,13 @@ public class PlayerHealth : MonoBehaviour
             yield return null;
         }
 
-        // Invincibility finished
         isInvincible = false;
         flickerVisible = true;
 
         RestoreOpacity();
     }
 
-    void SetOpacity(float multiplier)
+    private void SetOpacity(float multiplier)
     {
         for (int i = 0; i < sprites.Length; i++)
         {
@@ -138,18 +146,19 @@ public class PlayerHealth : MonoBehaviour
 
             Color color = sprites[i].color;
 
-            color.a = originalOpacity[i] * multiplier;
+            color.a =
+                originalOpacity[i] * multiplier;
 
             sprites[i].color = color;
         }
     }
 
-    void RestoreOpacity()
+    private void RestoreOpacity()
     {
         SetOpacity(1f);
     }
 
-    void Die()
+    private void Die()
     {
         if (isDead)
             return;
@@ -159,18 +168,18 @@ public class PlayerHealth : MonoBehaviour
 
         StopAllCoroutines();
 
-        // Make Fern fully visible when he dies
         flickerVisible = true;
         RestoreOpacity();
 
-        // Disable movement
         if (controller != null)
+        {
+            controller.CancelAttack();
             controller.enabled = false;
+        }
 
         if (body != null)
             body.linearVelocity = Vector2.zero;
 
-        // Clear animation triggers
         anim.ResetTrigger("Hurt");
         anim.ResetTrigger("Attack1");
         anim.ResetTrigger("Attack2");
@@ -183,27 +192,23 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(PlayDeathOnce());
     }
 
-    IEnumerator PlayDeathOnce()
+    private IEnumerator PlayDeathOnce()
     {
-        // KEEP YOUR ORIGINAL ANIMATION NAME
         int deathState = Animator.StringToHash(
             "Base Layer.fern_death"
         );
 
         if (!anim.HasState(0, deathState))
         {
-            Debug.LogError(
-                "Cannot find fern_death!"
-            );
+            Debug.LogError("Cannot find fern_death!");
             yield break;
         }
 
-        // Play death animation
         anim.speed = 1f;
+
         anim.Play(deathState, 0, 0f);
         anim.Update(0f);
 
-        // Wait until the final part of the animation
         while (true)
         {
             yield return null;
@@ -216,6 +221,7 @@ public class PlayerHealth : MonoBehaviour
                 Debug.LogWarning(
                     "Something interrupted fern_death!"
                 );
+
                 yield break;
             }
 
@@ -223,15 +229,11 @@ public class PlayerHealth : MonoBehaviour
                 break;
         }
 
-        // Hold the final death pose
         anim.Play(deathState, 0, 0.999f);
         anim.Update(0f);
 
-        // Freeze Animator
         anim.speed = 0f;
 
-        Debug.Log(
-            "Fern's death animation is finished!"
-        );
+        Debug.Log("Fern's death animation is finished!");
     }
 }

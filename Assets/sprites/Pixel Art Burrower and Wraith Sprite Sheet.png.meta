@@ -442,10 +442,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 777
-        width: 106
-        height: 59
+        x: 775
+        y: 715
+        width: 130
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 821
-        width: 60
-        height: 56
+        x: 799
+        y: 637
+        width: 151
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 179
-        y: 816
-        width: 6
-        height: 9
+        x: 1278
+        y: 636
+        width: 159
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,12 +508,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 286
-        y: 787
-        width: 171
-        height: 51
+        x: 1617
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 468
-        y: 803
-        width: 132
-        height: 53
+        x: 1463
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -552,12 +552,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 607
-        y: 803
-        width: 128
-        height: 58
+        x: 1320
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -574,12 +574,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 737
-        y: 803
+        x: 1172
+        y: 805
         width: 136
-        height: 68
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 880
-        y: 777
-        width: 272
-        height: 110
+        x: 1022
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -618,12 +618,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 1171
-        y: 745
-        width: 132
-        height: 142
+        x: 879
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -640,12 +640,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 802
-        width: 131
-        height: 85
+        x: 739
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -662,12 +662,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 1464
-        y: 765
-        width: 134
-        height: 122
+        x: 602
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -684,12 +684,12 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 1614
-        y: 801
-        width: 139
-        height: 86
+        x: 465
+        y: 805
+        width: 136
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -706,10 +706,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 14
-        y: 497
-        width: 297
-        height: 244
+        x: 630
+        y: 555
+        width: 156
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +728,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 329
-        y: 699
-        width: 140
-        height: 75
+        x: 801
+        y: 557
+        width: 178
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +750,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 484
-        y: 704
-        width: 130
-        height: 73
+        x: 1173
+        y: 555
+        width: 150
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 627
-        y: 706
-        width: 133
-        height: 74
+        x: 641
+        y: 411
+        width: 144
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,35 +791,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 620
-        width: 333
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a779d242f187361e0800000000000000
-      internalID: -2205787317335124102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Pixel Art Burrower and Wraith Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 326
-        y: 557
-        width: 142
-        height: 142
+        x: 810
+        y: 417
+        width: 148
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,10 +816,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 468
-        y: 557
-        width: 160
-        height: 148
+        x: 977
+        y: 418
+        width: 140
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,10 +838,10 @@ TextureImporter:
       name: Pixel Art Burrower and Wraith Sprite Sheet_20
       rect:
         serializedVersion: 2
-        x: 801
-        y: 555
-        width: 182
-        height: 71
+        x: 1148
+        y: 418
+        width: 170
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,270 +852,6 @@ TextureImporter:
       bones: []
       spriteID: defd66082420c64f0800000000000000
       internalID: -834289346325061651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 555
-        width: 182
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15b612a4f63dd67a0800000000000000
-      internalID: -6382212621975590063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 1113
-        y: 618
-        width: 154
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec284b42be2241890800000000000000
-      internalID: -7488321887081823538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 1171
-        y: 559
-        width: 154
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a5e892fd347e6ef0800000000000000
-      internalID: -113025131225750106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 410
-        width: 138
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b19fa8cc2f1d5ec70800000000000000
-      internalID: 8999830271113754907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_29
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 406
-        width: 140
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bffc0bb1fc37d470800000000000000
-      internalID: 8419265037315407800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_30
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 406
-        width: 168
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54598d15cc62f2750800000000000000
-      internalID: 6282282664193463621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_44
-      rect:
-        serializedVersion: 2
-        x: 806
-        y: 406
-        width: 152
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff84dcc8ede41ab50800000000000000
-      internalID: 6602645246453827839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_46
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 345
-        width: 40
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8ccc500b0f4be930800000000000000
-      internalID: 4173516388358212747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_47
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 389
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2de9706f19ba39e60800000000000000
-      internalID: 7967900809134841554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_48
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 359
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c22923c04b11e08a0800000000000000
-      internalID: -6337108160667282900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_49
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 390
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc7ee442c312fd5e0800000000000000
-      internalID: -1882749577026672691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_50
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 392
-        width: 34
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 029fe7a5112c11310800000000000000
-      internalID: 1374092741113215264
       vertices: []
       indices: 
       edges: []
@@ -1226,28 +940,6 @@ TextureImporter:
       bones: []
       spriteID: e2a7a4206806eea10800000000000000
       internalID: 1940594618123581998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixel Art Burrower and Wraith Sprite Sheet_72
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 291
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5aaac1f61c6ef1ea0800000000000000
-      internalID: -5899743268364834139
       vertices: []
       indices: 
       edges: []
@@ -1776,6 +1468,28 @@ TextureImporter:
       bones: []
       spriteID: 8c7a43ed609e48a80800000000000000
       internalID: -8465385183842621496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 805
+        width: 136
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d7c0921eb86940adf4b7beab1ee48
+      internalID: -3138594319968998675
       vertices: []
       indices: 
       edges: []
