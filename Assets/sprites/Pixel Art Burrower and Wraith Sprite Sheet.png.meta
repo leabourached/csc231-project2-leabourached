@@ -1,0 +1,1910 @@
+fileFormatVersion: 2
+guid: 3939ecc79436eb74eaf6e3edba3ff8a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4189834985023977089
+    second: Pixel Art Burrower and Wraith Sprite Sheet_0
+  - first:
+      213: 6403228386078006933
+    second: Pixel Art Burrower and Wraith Sprite Sheet_1
+  - first:
+      213: 6821004157481007308
+    second: Pixel Art Burrower and Wraith Sprite Sheet_2
+  - first:
+      213: -5606072434837204172
+    second: Pixel Art Burrower and Wraith Sprite Sheet_3
+  - first:
+      213: 1349459706197074305
+    second: Pixel Art Burrower and Wraith Sprite Sheet_4
+  - first:
+      213: 6202938003582465594
+    second: Pixel Art Burrower and Wraith Sprite Sheet_5
+  - first:
+      213: -1216102017828565902
+    second: Pixel Art Burrower and Wraith Sprite Sheet_6
+  - first:
+      213: -810690787120391964
+    second: Pixel Art Burrower and Wraith Sprite Sheet_7
+  - first:
+      213: -2727976286148210939
+    second: Pixel Art Burrower and Wraith Sprite Sheet_8
+  - first:
+      213: 2589222520842774578
+    second: Pixel Art Burrower and Wraith Sprite Sheet_9
+  - first:
+      213: 4688374063854639072
+    second: Pixel Art Burrower and Wraith Sprite Sheet_10
+  - first:
+      213: -1805441390388657446
+    second: Pixel Art Burrower and Wraith Sprite Sheet_11
+  - first:
+      213: 8628014264854881891
+    second: Pixel Art Burrower and Wraith Sprite Sheet_12
+  - first:
+      213: 2787270292283835347
+    second: Pixel Art Burrower and Wraith Sprite Sheet_13
+  - first:
+      213: 4887289356751929113
+    second: Pixel Art Burrower and Wraith Sprite Sheet_14
+  - first:
+      213: 7372110391178670282
+    second: Pixel Art Burrower and Wraith Sprite Sheet_15
+  - first:
+      213: -2205787317335124102
+    second: Pixel Art Burrower and Wraith Sprite Sheet_16
+  - first:
+      213: -3138594319968998675
+    second: Pixel Art Burrower and Wraith Sprite Sheet_17
+  - first:
+      213: 6971144513617810897
+    second: Pixel Art Burrower and Wraith Sprite Sheet_18
+  - first:
+      213: 1022821819124088405
+    second: Pixel Art Burrower and Wraith Sprite Sheet_19
+  - first:
+      213: -834289346325061651
+    second: Pixel Art Burrower and Wraith Sprite Sheet_20
+  - first:
+      213: -6382212621975590063
+    second: Pixel Art Burrower and Wraith Sprite Sheet_21
+  - first:
+      213: -7488321887081823538
+    second: Pixel Art Burrower and Wraith Sprite Sheet_22
+  - first:
+      213: -113025131225750106
+    second: Pixel Art Burrower and Wraith Sprite Sheet_23
+  - first:
+      213: 689580121979859095
+    second: Pixel Art Burrower and Wraith Sprite Sheet_24
+  - first:
+      213: 5514114453902513814
+    second: Pixel Art Burrower and Wraith Sprite Sheet_25
+  - first:
+      213: 7307818897037835438
+    second: Pixel Art Burrower and Wraith Sprite Sheet_26
+  - first:
+      213: -2731401114640471780
+    second: Pixel Art Burrower and Wraith Sprite Sheet_27
+  - first:
+      213: 8999830271113754907
+    second: Pixel Art Burrower and Wraith Sprite Sheet_28
+  - first:
+      213: 8419265037315407800
+    second: Pixel Art Burrower and Wraith Sprite Sheet_29
+  - first:
+      213: 6282282664193463621
+    second: Pixel Art Burrower and Wraith Sprite Sheet_30
+  - first:
+      213: 6670514442309285206
+    second: Pixel Art Burrower and Wraith Sprite Sheet_31
+  - first:
+      213: 1788169294920922387
+    second: Pixel Art Burrower and Wraith Sprite Sheet_32
+  - first:
+      213: -6355376964226138771
+    second: Pixel Art Burrower and Wraith Sprite Sheet_33
+  - first:
+      213: -6466194364539710393
+    second: Pixel Art Burrower and Wraith Sprite Sheet_34
+  - first:
+      213: -3359494115942832360
+    second: Pixel Art Burrower and Wraith Sprite Sheet_35
+  - first:
+      213: -5831766283007445113
+    second: Pixel Art Burrower and Wraith Sprite Sheet_36
+  - first:
+      213: 7193552469188913187
+    second: Pixel Art Burrower and Wraith Sprite Sheet_37
+  - first:
+      213: 9075434614477893023
+    second: Pixel Art Burrower and Wraith Sprite Sheet_38
+  - first:
+      213: 8153696326045612048
+    second: Pixel Art Burrower and Wraith Sprite Sheet_39
+  - first:
+      213: 1562511947568611426
+    second: Pixel Art Burrower and Wraith Sprite Sheet_40
+  - first:
+      213: 6574645931761304606
+    second: Pixel Art Burrower and Wraith Sprite Sheet_41
+  - first:
+      213: 1509091698968172503
+    second: Pixel Art Burrower and Wraith Sprite Sheet_42
+  - first:
+      213: 1212030572308474614
+    second: Pixel Art Burrower and Wraith Sprite Sheet_43
+  - first:
+      213: 6602645246453827839
+    second: Pixel Art Burrower and Wraith Sprite Sheet_44
+  - first:
+      213: 1439762627990847325
+    second: Pixel Art Burrower and Wraith Sprite Sheet_45
+  - first:
+      213: 4173516388358212747
+    second: Pixel Art Burrower and Wraith Sprite Sheet_46
+  - first:
+      213: 7967900809134841554
+    second: Pixel Art Burrower and Wraith Sprite Sheet_47
+  - first:
+      213: -6337108160667282900
+    second: Pixel Art Burrower and Wraith Sprite Sheet_48
+  - first:
+      213: -1882749577026672691
+    second: Pixel Art Burrower and Wraith Sprite Sheet_49
+  - first:
+      213: 1374092741113215264
+    second: Pixel Art Burrower and Wraith Sprite Sheet_50
+  - first:
+      213: -3906310726700989868
+    second: Pixel Art Burrower and Wraith Sprite Sheet_51
+  - first:
+      213: 6316269953407114297
+    second: Pixel Art Burrower and Wraith Sprite Sheet_52
+  - first:
+      213: 1076922279532893449
+    second: Pixel Art Burrower and Wraith Sprite Sheet_53
+  - first:
+      213: 1940594618123581998
+    second: Pixel Art Burrower and Wraith Sprite Sheet_54
+  - first:
+      213: -1493960760314222273
+    second: Pixel Art Burrower and Wraith Sprite Sheet_55
+  - first:
+      213: 8803480575295597710
+    second: Pixel Art Burrower and Wraith Sprite Sheet_56
+  - first:
+      213: 2464296354585061796
+    second: Pixel Art Burrower and Wraith Sprite Sheet_57
+  - first:
+      213: -4839950963398758846
+    second: Pixel Art Burrower and Wraith Sprite Sheet_58
+  - first:
+      213: -738511269180382926
+    second: Pixel Art Burrower and Wraith Sprite Sheet_59
+  - first:
+      213: 4909971306004490860
+    second: Pixel Art Burrower and Wraith Sprite Sheet_60
+  - first:
+      213: 4179398185240797920
+    second: Pixel Art Burrower and Wraith Sprite Sheet_61
+  - first:
+      213: 7473924467839906624
+    second: Pixel Art Burrower and Wraith Sprite Sheet_62
+  - first:
+      213: 7120551133837456266
+    second: Pixel Art Burrower and Wraith Sprite Sheet_63
+  - first:
+      213: 1605901699943679582
+    second: Pixel Art Burrower and Wraith Sprite Sheet_64
+  - first:
+      213: -852897823392197599
+    second: Pixel Art Burrower and Wraith Sprite Sheet_65
+  - first:
+      213: 904837768918586428
+    second: Pixel Art Burrower and Wraith Sprite Sheet_66
+  - first:
+      213: -5928662834113299656
+    second: Pixel Art Burrower and Wraith Sprite Sheet_67
+  - first:
+      213: 2042184609478062485
+    second: Pixel Art Burrower and Wraith Sprite Sheet_68
+  - first:
+      213: 8454010725614483163
+    second: Pixel Art Burrower and Wraith Sprite Sheet_69
+  - first:
+      213: 4125631236507079609
+    second: Pixel Art Burrower and Wraith Sprite Sheet_70
+  - first:
+      213: 1646991295449409838
+    second: Pixel Art Burrower and Wraith Sprite Sheet_71
+  - first:
+      213: -5899743268364834139
+    second: Pixel Art Burrower and Wraith Sprite Sheet_72
+  - first:
+      213: 4402298777338345088
+    second: Pixel Art Burrower and Wraith Sprite Sheet_73
+  - first:
+      213: 24863392217452279
+    second: Pixel Art Burrower and Wraith Sprite Sheet_74
+  - first:
+      213: -8173508380938566236
+    second: Pixel Art Burrower and Wraith Sprite Sheet_75
+  - first:
+      213: -3093352542253872759
+    second: Pixel Art Burrower and Wraith Sprite Sheet_76
+  - first:
+      213: -513223791260328301
+    second: Pixel Art Burrower and Wraith Sprite Sheet_77
+  - first:
+      213: 7183473889004740834
+    second: Pixel Art Burrower and Wraith Sprite Sheet_78
+  - first:
+      213: -6232430931340941001
+    second: Pixel Art Burrower and Wraith Sprite Sheet_79
+  - first:
+      213: -140828451456869299
+    second: Pixel Art Burrower and Wraith Sprite Sheet_80
+  - first:
+      213: 1733141160174946489
+    second: Pixel Art Burrower and Wraith Sprite Sheet_81
+  - first:
+      213: 5411666143424832582
+    second: Pixel Art Burrower and Wraith Sprite Sheet_82
+  - first:
+      213: -3900091420447101185
+    second: Pixel Art Burrower and Wraith Sprite Sheet_83
+  - first:
+      213: -4643476764958233119
+    second: Pixel Art Burrower and Wraith Sprite Sheet_84
+  - first:
+      213: -4853320000963128180
+    second: Pixel Art Burrower and Wraith Sprite Sheet_85
+  - first:
+      213: -1705661790366869355
+    second: Pixel Art Burrower and Wraith Sprite Sheet_86
+  - first:
+      213: -7566771140508182455
+    second: Pixel Art Burrower and Wraith Sprite Sheet_87
+  - first:
+      213: -7056675929610497176
+    second: Pixel Art Burrower and Wraith Sprite Sheet_88
+  - first:
+      213: -8778457591215936467
+    second: Pixel Art Burrower and Wraith Sprite Sheet_89
+  - first:
+      213: -2182507373074042376
+    second: Pixel Art Burrower and Wraith Sprite Sheet_90
+  - first:
+      213: -9019286630822222682
+    second: Pixel Art Burrower and Wraith Sprite Sheet_91
+  - first:
+      213: 680034061189475630
+    second: Pixel Art Burrower and Wraith Sprite Sheet_92
+  - first:
+      213: -1221489294156716299
+    second: Pixel Art Burrower and Wraith Sprite Sheet_93
+  - first:
+      213: -1606413901703928193
+    second: Pixel Art Burrower and Wraith Sprite Sheet_94
+  - first:
+      213: -8027387040715697928
+    second: Pixel Art Burrower and Wraith Sprite Sheet_95
+  - first:
+      213: -8465385183842621496
+    second: Pixel Art Burrower and Wraith Sprite Sheet_96
+  - first:
+      213: 2287311091419641588
+    second: Pixel Art Burrower and Wraith Sprite Sheet_97
+  - first:
+      213: 14136708668516533
+    second: Pixel Art Burrower and Wraith Sprite Sheet_98
+  - first:
+      213: 4555296761037447258
+    second: Pixel Art Burrower and Wraith Sprite Sheet_99
+  - first:
+      213: -1545921163714796049
+    second: Pixel Art Burrower and Wraith Sprite Sheet_100
+  - first:
+      213: 3533235305964399700
+    second: Pixel Art Burrower and Wraith Sprite Sheet_101
+  - first:
+      213: 665366370305131388
+    second: Pixel Art Burrower and Wraith Sprite Sheet_102
+  - first:
+      213: 526951799126343159
+    second: Pixel Art Burrower and Wraith Sprite Sheet_103
+  - first:
+      213: 1041107433489706733
+    second: Pixel Art Burrower and Wraith Sprite Sheet_104
+  - first:
+      213: 9152052241831356686
+    second: Pixel Art Burrower and Wraith Sprite Sheet_105
+  - first:
+      213: -50902042508330361
+    second: Pixel Art Burrower and Wraith Sprite Sheet_106
+  - first:
+      213: 1292208719963505159
+    second: Pixel Art Burrower and Wraith Sprite Sheet_107
+  - first:
+      213: -1435411622593893119
+    second: Pixel Art Burrower and Wraith Sprite Sheet_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 777
+        width: 106
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186bbdd58b8452a30800000000000000
+      internalID: 4189834985023977089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 821
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e90e79a46dcd850800000000000000
+      internalID: 6403228386078006933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 816
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc83e1a542319ae50800000000000000
+      internalID: 6821004157481007308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 787
+        width: 171
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4335b60a2da3332b0800000000000000
+      internalID: -5606072434837204172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 803
+        width: 132
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181649af37e3ab210800000000000000
+      internalID: 1349459706197074305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 803
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36bd4bef33451650800000000000000
+      internalID: 6202938003582465594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 803
+        width: 136
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c41b078a98f1fe0800000000000000
+      internalID: -1216102017828565902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 777
+        width: 272
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d10b3609dfb4f0800000000000000
+      internalID: -810690787120391964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 745
+        width: 132
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f427c6508442ad0800000000000000
+      internalID: -2727976286148210939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 802
+        width: 131
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23866471a24cee320800000000000000
+      internalID: 2589222520842774578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 765
+        width: 134
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7d53afe53701140800000000000000
+      internalID: 4688374063854639072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 801
+        width: 139
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2c81ffe98c1f6e0800000000000000
+      internalID: -1805441390388657446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 497
+        width: 297
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366adadb24ddcb770800000000000000
+      internalID: 8628014264854881891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 699
+        width: 140
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c390309f5ea620800000000000000
+      internalID: 2787270292283835347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 704
+        width: 130
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ffeb7a6c323d340800000000000000
+      internalID: 4887289356751929113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 706
+        width: 133
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0bb27775ffe4660800000000000000
+      internalID: 7372110391178670282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 620
+        width: 333
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a779d242f187361e0800000000000000
+      internalID: -2205787317335124102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 557
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d55a1c100b7eb060800000000000000
+      internalID: 6971144513617810897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 557
+        width: 160
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ef86d760bc13e00800000000000000
+      internalID: 1022821819124088405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 555
+        width: 182
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defd66082420c64f0800000000000000
+      internalID: -834289346325061651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 555
+        width: 182
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b612a4f63dd67a0800000000000000
+      internalID: -6382212621975590063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 618
+        width: 154
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec284b42be2241890800000000000000
+      internalID: -7488321887081823538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 559
+        width: 154
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5e892fd347e6ef0800000000000000
+      internalID: -113025131225750106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 410
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19fa8cc2f1d5ec70800000000000000
+      internalID: 8999830271113754907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 406
+        width: 140
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bffc0bb1fc37d470800000000000000
+      internalID: 8419265037315407800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 406
+        width: 168
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54598d15cc62f2750800000000000000
+      internalID: 6282282664193463621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 406
+        width: 152
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff84dcc8ede41ab50800000000000000
+      internalID: 6602645246453827839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 345
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ccc500b0f4be930800000000000000
+      internalID: 4173516388358212747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 389
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de9706f19ba39e60800000000000000
+      internalID: 7967900809134841554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 359
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22923c04b11e08a0800000000000000
+      internalID: -6337108160667282900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 390
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7ee442c312fd5e0800000000000000
+      internalID: -1882749577026672691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 392
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029fe7a5112c11310800000000000000
+      internalID: 1374092741113215264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 303
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45280b0371ff9c9c0800000000000000
+      internalID: -3906310726700989868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 303
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cdd4ebe06e7a750800000000000000
+      internalID: 6316269953407114297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 303
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90513428b1ff1fe00800000000000000
+      internalID: 1076922279532893449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 304
+        width: 111
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a7a4206806eea10800000000000000
+      internalID: 1940594618123581998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 291
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaac1f61c6ef1ea0800000000000000
+      internalID: -5899743268364834139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 234
+        width: 145
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867362e96b181d30800000000000000
+      internalID: 4402298777338345088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 233
+        width: 136
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe480d9f15585000800000000000000
+      internalID: 24863392217452279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 237
+        width: 141
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a58a71ce6dd19e80800000000000000
+      internalID: -8173508380938566236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 238
+        width: 145
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98908e980443215d0800000000000000
+      internalID: -3093352542253872759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 236
+        width: 178
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e16a75ea9a0e8f0800000000000000
+      internalID: -513223791260328301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 230
+        width: 155
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0eb6f3173d0b360800000000000000
+      internalID: 7183473889004740834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 168
+        width: 155
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739244ab615f189a0800000000000000
+      internalID: -6232430931340941001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 76
+        width: 178
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c15a0054dab0ef0800000000000000
+      internalID: -140828451456869299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 78
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b806ddd3ba5d0810800000000000000
+      internalID: 1733141160174946489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 80
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64468d96fa91a1b40800000000000000
+      internalID: 5411666143424832582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 94
+        width: 171
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffea3b4448710e9c0800000000000000
+      internalID: -3900091420447101185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 160
+        width: 159
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed62e50c7e0f8fb0800000000000000
+      internalID: -4643476764958233119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 156
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c845b415c2b85acb0800000000000000
+      internalID: -4853320000963128180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598d93e73a54458e0800000000000000
+      internalID: -1705661790366869355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 130
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9481559fcbd6df690800000000000000
+      internalID: -7566771140508182455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 128
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863548041a6a11e90800000000000000
+      internalID: -7056675929610497176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 130
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c2ebfb457ac2680800000000000000
+      internalID: -8778457591215936467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 128
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1304c8b1d26b1e0800000000000000
+      internalID: -2182507373074042376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 146
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a46962789e05d280800000000000000
+      internalID: -9019286630822222682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 136
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d6d5c2067ff6900800000000000000
+      internalID: 680034061189475630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 140
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6a8dc65f56c0fe0800000000000000
+      internalID: -1221489294156716299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 12
+        width: 156
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7620ba411fd4b9e0800000000000000
+      internalID: -1606413901703928193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 6
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f01193740ef89090800000000000000
+      internalID: -8027387040715697928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Burrower and Wraith Sprite Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 9
+        width: 140
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7a43ed609e48a80800000000000000
+      internalID: -8465385183842621496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66472d263cc525e4ba4bd63ca6696774
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Burrower and Wraith Sprite Sheet_0: 4189834985023977089
+      Pixel Art Burrower and Wraith Sprite Sheet_1: 6403228386078006933
+      Pixel Art Burrower and Wraith Sprite Sheet_10: 4688374063854639072
+      Pixel Art Burrower and Wraith Sprite Sheet_100: -1545921163714796049
+      Pixel Art Burrower and Wraith Sprite Sheet_101: 3533235305964399700
+      Pixel Art Burrower and Wraith Sprite Sheet_102: 665366370305131388
+      Pixel Art Burrower and Wraith Sprite Sheet_103: 526951799126343159
+      Pixel Art Burrower and Wraith Sprite Sheet_104: 1041107433489706733
+      Pixel Art Burrower and Wraith Sprite Sheet_105: 9152052241831356686
+      Pixel Art Burrower and Wraith Sprite Sheet_106: -50902042508330361
+      Pixel Art Burrower and Wraith Sprite Sheet_107: 1292208719963505159
+      Pixel Art Burrower and Wraith Sprite Sheet_108: -1435411622593893119
+      Pixel Art Burrower and Wraith Sprite Sheet_11: -1805441390388657446
+      Pixel Art Burrower and Wraith Sprite Sheet_12: 8628014264854881891
+      Pixel Art Burrower and Wraith Sprite Sheet_13: 2787270292283835347
+      Pixel Art Burrower and Wraith Sprite Sheet_14: 4887289356751929113
+      Pixel Art Burrower and Wraith Sprite Sheet_15: 7372110391178670282
+      Pixel Art Burrower and Wraith Sprite Sheet_16: -2205787317335124102
+      Pixel Art Burrower and Wraith Sprite Sheet_17: -3138594319968998675
+      Pixel Art Burrower and Wraith Sprite Sheet_18: 6971144513617810897
+      Pixel Art Burrower and Wraith Sprite Sheet_19: 1022821819124088405
+      Pixel Art Burrower and Wraith Sprite Sheet_2: 6821004157481007308
+      Pixel Art Burrower and Wraith Sprite Sheet_20: -834289346325061651
+      Pixel Art Burrower and Wraith Sprite Sheet_21: -6382212621975590063
+      Pixel Art Burrower and Wraith Sprite Sheet_22: -7488321887081823538
+      Pixel Art Burrower and Wraith Sprite Sheet_23: -113025131225750106
+      Pixel Art Burrower and Wraith Sprite Sheet_24: 689580121979859095
+      Pixel Art Burrower and Wraith Sprite Sheet_25: 5514114453902513814
+      Pixel Art Burrower and Wraith Sprite Sheet_26: 7307818897037835438
+      Pixel Art Burrower and Wraith Sprite Sheet_27: -2731401114640471780
+      Pixel Art Burrower and Wraith Sprite Sheet_28: 8999830271113754907
+      Pixel Art Burrower and Wraith Sprite Sheet_29: 8419265037315407800
+      Pixel Art Burrower and Wraith Sprite Sheet_3: -5606072434837204172
+      Pixel Art Burrower and Wraith Sprite Sheet_30: 6282282664193463621
+      Pixel Art Burrower and Wraith Sprite Sheet_31: 6670514442309285206
+      Pixel Art Burrower and Wraith Sprite Sheet_32: 1788169294920922387
+      Pixel Art Burrower and Wraith Sprite Sheet_33: -6355376964226138771
+      Pixel Art Burrower and Wraith Sprite Sheet_34: -6466194364539710393
+      Pixel Art Burrower and Wraith Sprite Sheet_35: -3359494115942832360
+      Pixel Art Burrower and Wraith Sprite Sheet_36: -5831766283007445113
+      Pixel Art Burrower and Wraith Sprite Sheet_37: 7193552469188913187
+      Pixel Art Burrower and Wraith Sprite Sheet_38: 9075434614477893023
+      Pixel Art Burrower and Wraith Sprite Sheet_39: 8153696326045612048
+      Pixel Art Burrower and Wraith Sprite Sheet_4: 1349459706197074305
+      Pixel Art Burrower and Wraith Sprite Sheet_40: 1562511947568611426
+      Pixel Art Burrower and Wraith Sprite Sheet_41: 6574645931761304606
+      Pixel Art Burrower and Wraith Sprite Sheet_42: 1509091698968172503
+      Pixel Art Burrower and Wraith Sprite Sheet_43: 1212030572308474614
+      Pixel Art Burrower and Wraith Sprite Sheet_44: 6602645246453827839
+      Pixel Art Burrower and Wraith Sprite Sheet_45: 1439762627990847325
+      Pixel Art Burrower and Wraith Sprite Sheet_46: 4173516388358212747
+      Pixel Art Burrower and Wraith Sprite Sheet_47: 7967900809134841554
+      Pixel Art Burrower and Wraith Sprite Sheet_48: -6337108160667282900
+      Pixel Art Burrower and Wraith Sprite Sheet_49: -1882749577026672691
+      Pixel Art Burrower and Wraith Sprite Sheet_5: 6202938003582465594
+      Pixel Art Burrower and Wraith Sprite Sheet_50: 1374092741113215264
+      Pixel Art Burrower and Wraith Sprite Sheet_51: -3906310726700989868
+      Pixel Art Burrower and Wraith Sprite Sheet_52: 6316269953407114297
+      Pixel Art Burrower and Wraith Sprite Sheet_53: 1076922279532893449
+      Pixel Art Burrower and Wraith Sprite Sheet_54: 1940594618123581998
+      Pixel Art Burrower and Wraith Sprite Sheet_55: -1493960760314222273
+      Pixel Art Burrower and Wraith Sprite Sheet_56: 8803480575295597710
+      Pixel Art Burrower and Wraith Sprite Sheet_57: 2464296354585061796
+      Pixel Art Burrower and Wraith Sprite Sheet_58: -4839950963398758846
+      Pixel Art Burrower and Wraith Sprite Sheet_59: -738511269180382926
+      Pixel Art Burrower and Wraith Sprite Sheet_6: -1216102017828565902
+      Pixel Art Burrower and Wraith Sprite Sheet_60: 4909971306004490860
+      Pixel Art Burrower and Wraith Sprite Sheet_61: 4179398185240797920
+      Pixel Art Burrower and Wraith Sprite Sheet_62: 7473924467839906624
+      Pixel Art Burrower and Wraith Sprite Sheet_63: 7120551133837456266
+      Pixel Art Burrower and Wraith Sprite Sheet_64: 1605901699943679582
+      Pixel Art Burrower and Wraith Sprite Sheet_65: -852897823392197599
+      Pixel Art Burrower and Wraith Sprite Sheet_66: 904837768918586428
+      Pixel Art Burrower and Wraith Sprite Sheet_67: -5928662834113299656
+      Pixel Art Burrower and Wraith Sprite Sheet_68: 2042184609478062485
+      Pixel Art Burrower and Wraith Sprite Sheet_69: 8454010725614483163
+      Pixel Art Burrower and Wraith Sprite Sheet_7: -810690787120391964
+      Pixel Art Burrower and Wraith Sprite Sheet_70: 4125631236507079609
+      Pixel Art Burrower and Wraith Sprite Sheet_71: 1646991295449409838
+      Pixel Art Burrower and Wraith Sprite Sheet_72: -5899743268364834139
+      Pixel Art Burrower and Wraith Sprite Sheet_73: 4402298777338345088
+      Pixel Art Burrower and Wraith Sprite Sheet_74: 24863392217452279
+      Pixel Art Burrower and Wraith Sprite Sheet_75: -8173508380938566236
+      Pixel Art Burrower and Wraith Sprite Sheet_76: -3093352542253872759
+      Pixel Art Burrower and Wraith Sprite Sheet_77: -513223791260328301
+      Pixel Art Burrower and Wraith Sprite Sheet_78: 7183473889004740834
+      Pixel Art Burrower and Wraith Sprite Sheet_79: -6232430931340941001
+      Pixel Art Burrower and Wraith Sprite Sheet_8: -2727976286148210939
+      Pixel Art Burrower and Wraith Sprite Sheet_80: -140828451456869299
+      Pixel Art Burrower and Wraith Sprite Sheet_81: 1733141160174946489
+      Pixel Art Burrower and Wraith Sprite Sheet_82: 5411666143424832582
+      Pixel Art Burrower and Wraith Sprite Sheet_83: -3900091420447101185
+      Pixel Art Burrower and Wraith Sprite Sheet_84: -4643476764958233119
+      Pixel Art Burrower and Wraith Sprite Sheet_85: -4853320000963128180
+      Pixel Art Burrower and Wraith Sprite Sheet_86: -1705661790366869355
+      Pixel Art Burrower and Wraith Sprite Sheet_87: -7566771140508182455
+      Pixel Art Burrower and Wraith Sprite Sheet_88: -7056675929610497176
+      Pixel Art Burrower and Wraith Sprite Sheet_89: -8778457591215936467
+      Pixel Art Burrower and Wraith Sprite Sheet_9: 2589222520842774578
+      Pixel Art Burrower and Wraith Sprite Sheet_90: -2182507373074042376
+      Pixel Art Burrower and Wraith Sprite Sheet_91: -9019286630822222682
+      Pixel Art Burrower and Wraith Sprite Sheet_92: 680034061189475630
+      Pixel Art Burrower and Wraith Sprite Sheet_93: -1221489294156716299
+      Pixel Art Burrower and Wraith Sprite Sheet_94: -1606413901703928193
+      Pixel Art Burrower and Wraith Sprite Sheet_95: -8027387040715697928
+      Pixel Art Burrower and Wraith Sprite Sheet_96: -8465385183842621496
+      Pixel Art Burrower and Wraith Sprite Sheet_97: 2287311091419641588
+      Pixel Art Burrower and Wraith Sprite Sheet_98: 14136708668516533
+      Pixel Art Burrower and Wraith Sprite Sheet_99: 4555296761037447258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
