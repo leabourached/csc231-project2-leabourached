@@ -500,6 +500,8 @@ GameObject:
   m_Component:
   - component: {fileID: 113889521}
   - component: {fileID: 113889520}
+  - component: {fileID: 113889522}
+  - component: {fileID: 113889523}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_8 (2)
   m_TagString: Untagged
@@ -582,6 +584,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &113889522
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113889519}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.4347825, y: 1.5}
+    newSize: {x: 2.4347825, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.4347825, y: 1.5}
+  m_EdgeRadius: 0
+--- !u!114 &113889523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113889519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1001 &134247685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -633,6 +694,10 @@ PrefabInstance:
     - target: {fileID: 5255537022617808066, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1018,6 +1083,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1108,6 +1177,10 @@ PrefabInstance:
     - target: {fileID: 5255537022617808066, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2080,6 +2153,67 @@ Transform:
   - {fileID: 113889521}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &502387610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2294209509954283884, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: shrineID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 84.92823
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.724956
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703133380652126727, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_Name
+      value: Mossy Autumn Shrine Adventure Sprite Sheet_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
 --- !u!114 &527212142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2397,6 +2531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2412,6 +2550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 598583240}
   - component: {fileID: 598583239}
+  - component: {fileID: 598583241}
+  - component: {fileID: 598583242}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_6 (2)
   m_TagString: Untagged
@@ -2494,6 +2634,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &598583241
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598583238}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.021739, y: 1.2065217}
+    newSize: {x: 5.021739, y: 1.2065217}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.021739, y: 1.2065217}
+  m_EdgeRadius: 0
+--- !u!114 &598583242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598583238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &604868095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2703,8 @@ GameObject:
   m_Component:
   - component: {fileID: 604868097}
   - component: {fileID: 604868096}
+  - component: {fileID: 604868098}
+  - component: {fileID: 604868099}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_35 (2)
   m_TagString: Untagged
@@ -2586,6 +2787,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &604868098
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604868095}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.423913, y: 1.3478261}
+    newSize: {x: 2.423913, y: 1.3478261}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.423913, y: 1.3478261}
+  m_EdgeRadius: 0
+--- !u!114 &604868099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604868095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &632426665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3259,8 @@ GameObject:
   m_Component:
   - component: {fileID: 662366902}
   - component: {fileID: 662366901}
+  - component: {fileID: 662366903}
+  - component: {fileID: 662366904}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_6 (1)
   m_TagString: Untagged
@@ -3081,6 +3343,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &662366903
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662366900}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.021739, y: 1.2065217}
+    newSize: {x: 5.021739, y: 1.2065217}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.021739, y: 1.2065217}
+  m_EdgeRadius: 0
+--- !u!114 &662366904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662366900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &671046533
 GameObject:
   m_ObjectHideFlags: 0
@@ -4984,6 +5305,8 @@ GameObject:
   m_Component:
   - component: {fileID: 996870738}
   - component: {fileID: 996870737}
+  - component: {fileID: 996870739}
+  - component: {fileID: 996870740}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_8 (1)
   m_TagString: Untagged
@@ -5066,6 +5389,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &996870739
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996870736}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.4347825, y: 1.5}
+    newSize: {x: 2.4347825, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.4347825, y: 1.5}
+  m_EdgeRadius: 0
+--- !u!114 &996870740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996870736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &1001869237
 GameObject:
   m_ObjectHideFlags: 0
@@ -5168,6 +5550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1002955407}
   - component: {fileID: 1002955406}
+  - component: {fileID: 1002955408}
+  - component: {fileID: 1002955409}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_35 (1)
   m_TagString: Untagged
@@ -5250,6 +5634,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1002955408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002955405}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.423913, y: 1.3478261}
+    newSize: {x: 2.423913, y: 1.3478261}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.423913, y: 1.3478261}
+  m_EdgeRadius: 0
+--- !u!114 &1002955409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002955405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1001 &1013187508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5476,6 +5919,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1057458493}
   - component: {fileID: 1057458492}
+  - component: {fileID: 1057458494}
+  - component: {fileID: 1057458495}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_8
   m_TagString: Untagged
@@ -5558,6 +6003,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1057458494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057458491}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.4347825, y: 1.5}
+    newSize: {x: 2.4347825, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.4347825, y: 1.5}
+  m_EdgeRadius: 0
+--- !u!114 &1057458495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057458491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
+--- !u!1001 &1066753296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2294209509954283884, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: shrineID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 117.50618
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1296616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703133380652126727, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_Name
+      value: Mossy Autumn Shrine Adventure Sprite Sheet_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
 --- !u!1001 &1078258153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5609,6 +6174,10 @@ PrefabInstance:
     - target: {fileID: 5255537022617808066, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6090,6 +6659,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6132,6 +6705,67 @@ Transform:
   - {fileID: 743383862}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1267231774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2294209509954283884, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: shrineID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 169.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.09599
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703133380652126727, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_Name
+      value: Mossy Autumn Shrine Adventure Sprite Sheet_0 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
 --- !u!114 &1268930446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6176,6 +6810,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1278909601}
   - component: {fileID: 1278909600}
+  - component: {fileID: 1278909602}
+  - component: {fileID: 1278909603}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_6 (3)
   m_TagString: Untagged
@@ -6258,6 +6894,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1278909602
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278909599}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.021739, y: 1.2065217}
+    newSize: {x: 5.021739, y: 1.2065217}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.021739, y: 1.2065217}
+  m_EdgeRadius: 0
+--- !u!114 &1278909603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278909599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &1286020503
 GameObject:
   m_ObjectHideFlags: 0
@@ -13400,6 +14095,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 344854897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1505842979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1505842980}
+  m_Layer: 0
+  m_Name: checkpoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1505842980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505842979}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.42, y: -2.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1834560120}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1513619998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13534,7 +14261,7 @@ MonoBehaviour:
     rid: 1811904462834630733
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.12
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000i
@@ -13614,6 +14341,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1557999996}
   - component: {fileID: 1557999995}
+  - component: {fileID: 1557999997}
+  - component: {fileID: 1557999998}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_35
   m_TagString: Untagged
@@ -13696,6 +14425,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1557999997
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557999994}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.423913, y: 1.3478261}
+    newSize: {x: 2.423913, y: 1.3478261}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.423913, y: 1.3478261}
+  m_EdgeRadius: 0
+--- !u!114 &1557999998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557999994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1001 &1589914012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14275,6 +15063,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14512,9 +15304,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 3
-  invincibilityTime: 1
+  invincibilityTime: 2.2
   flickerSpeed: 0.1
   flickerOpacity: 0.3
+  respawnDelay: 1.2
 --- !u!114 &1662503850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14723,6 +15516,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14780,6 +15577,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14836,6 +15637,10 @@ PrefabInstance:
     - target: {fileID: 5255537022617808066, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15141,6 +15946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912501723623539227, guid: 3820dbb3e1c87d243aa2964e0418c6f0, type: 3}
+      propertyPath: pyrkaID
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15238,6 +16047,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 219829642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1834560120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+  m_PrefabInstance: {fileID: 8305040484989490375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901763210
 GameObject:
   m_ObjectHideFlags: 0
@@ -15248,6 +16062,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1901763212}
   - component: {fileID: 1901763211}
+  - component: {fileID: 1901763213}
+  - component: {fileID: 1901763214}
   m_Layer: 0
   m_Name: Mossy Pixel Art Forest Tileset_6
   m_TagString: Untagged
@@ -15330,6 +16146,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482349385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1901763213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901763210}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.021739, y: 1.2065217}
+    newSize: {x: 5.021739, y: 1.2065217}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.021739, y: 1.2065217}
+  m_EdgeRadius: 0
+--- !u!114 &1901763214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901763210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e823c5c4456824d8841b9f711ed438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeDamage
+  damage: 1
 --- !u!1 &1931371139
 GameObject:
   m_ObjectHideFlags: 0
@@ -15847,7 +16722,7 @@ Transform:
   m_GameObject: {fileID: 1978369353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 175.51225, y: -4.0503864, z: 0}
+  m_LocalPosition: {x: 169.99, y: -4.0503864, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16331,6 +17206,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8589372619658588158, guid: 9a6225f420970f548990b05f35a20596, type: 3}
   m_PrefabInstance: {fileID: 7194667821373718755}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8305040484989490375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1505842980}
+    m_Modifications:
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049041110123567874, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703133380652126727, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
+      propertyPath: m_Name
+      value: Mossy Autumn Shrine Adventure Sprite Sheet_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4ad70d01332e1a459988c9470c4dbc7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -16361,3 +17293,7 @@ SceneRoots:
   - {fileID: 238312219}
   - {fileID: 1647676068}
   - {fileID: 566947174}
+  - {fileID: 1505842980}
+  - {fileID: 502387610}
+  - {fileID: 1066753296}
+  - {fileID: 1267231774}

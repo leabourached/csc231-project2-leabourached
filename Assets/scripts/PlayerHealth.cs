@@ -17,10 +17,12 @@ public class PlayerHealth : MonoBehaviour
     [Range(0f, 1f)]
     [SerializeField] private float flickerOpacity = 0.3f;
 
-    private int currentHealth;
+    [Header("Respawn")]
+    [SerializeField] private float respawnDelay = 1.2f;
 
-    private bool isInvincible = false;
-    private bool isDead = false;
+    private int currentHealth;
+    private bool isInvincible;
+    private bool isDead;
     private bool flickerVisible = true;
 
     private Animator anim;
@@ -34,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
     public int CurrentHealth => currentHealth;
     public int MaxHealth => maxHealth;
 
-    void Awake()
+    private void Awake()
     {
         currentHealth = maxHealth;
 
@@ -48,12 +50,14 @@ public class PlayerHealth : MonoBehaviour
         originalOpacity = new float[sprites.Length];
 
         for (int i = 0; i < sprites.Length; i++)
+        {
             originalOpacity[i] = sprites[i].color.a;
+        }
     }
 
-    void Update()
+    private void Update()
     {
-        // Temporary damage testing key.
+        // Temporary testing button.
         if (Keyboard.current != null &&
             Keyboard.current.hKey.wasPressedThisFrame)
         {
@@ -61,15 +65,28 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void LateUpdate()
+    private void LateUpdate()
     {
         if (isInvincible && !isDead)
         {
-            float opacity =
-                flickerVisible ? 1f : flickerOpacity;
+            float opacity = flickerVisible
+                ? 1f
+                : flickerOpacity;
 
             SetOpacity(opacity);
         }
+    }
+
+    public void HealToFull()
+    {
+        if (isDead)
+            return;
+
+        currentHealth = maxHealth;
+
+        Debug.Log(
+            "Fern healed: " + currentHealth + "/" + maxHealth
+        );
     }
 
     public void TakeDamage(int damage)
@@ -78,8 +95,7 @@ public class PlayerHealth : MonoBehaviour
             return;
 
         currentHealth = Mathf.Max(
-            0,
-            currentHealth - damage
+            0, currentHealth - damage
         );
 
         Debug.Log("Fern Health: " + currentHealth);
@@ -105,8 +121,13 @@ public class PlayerHealth : MonoBehaviour
         if (isDead)
             return;
 
-        Debug.Log("Fern died because his flame went out!");
+        Debug.Log("Fern's flame went out!");
 
+        Die();
+    }
+
+    public void Kill()
+    {
         Die();
     }
 
@@ -164,6 +185,7 @@ public class PlayerHealth : MonoBehaviour
             return;
 
         isDead = true;
+        currentHealth = 0;
         isInvincible = false;
 
         StopAllCoroutines();
@@ -189,51 +211,49 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("Fern has died!");
 
-        StartCoroutine(PlayDeathOnce());
+        StartCoroutine(DeathAndRespawn());
     }
 
-    private IEnumerator PlayDeathOnce()
+    private IEnumerator DeathAndRespawn()
     {
         int deathState = Animator.StringToHash(
             "Base Layer.fern_death"
         );
 
-        if (!anim.HasState(0, deathState))
+        if (anim.HasState(0, deathState))
         {
-            Debug.LogError("Cannot find fern_death!");
-            yield break;
-        }
+            anim.speed = 1f;
 
-        anim.speed = 1f;
+            anim.Play(deathState, 0, 0f);
+            anim.Update(0f);
 
-        anim.Play(deathState, 0, 0f);
-        anim.Update(0f);
+            float elapsed = 0f;
 
-        while (true)
-        {
-            yield return null;
-
-            AnimatorStateInfo state =
-                anim.GetCurrentAnimatorStateInfo(0);
-
-            if (!state.IsName("Base Layer.fern_death"))
+            while (elapsed < 5f)
             {
-                Debug.LogWarning(
-                    "Something interrupted fern_death!"
-                );
+                yield return null;
 
-                yield break;
+                elapsed += Time.deltaTime;
+
+                AnimatorStateInfo state =
+                    anim.GetCurrentAnimatorStateInfo(0);
+
+                if (!state.IsName(
+                    "Base Layer.fern_death"))
+                    break;
+
+                if (state.normalizedTime >= 0.95f)
+                    break;
             }
 
-            if (state.normalizedTime >= 0.95f)
-                break;
+            anim.Play(deathState, 0, 0.999f);
+            anim.Update(0f);
+
+            anim.speed = 0f;
         }
 
-        anim.Play(deathState, 0, 0.999f);
-        anim.Update(0f);
+        yield return new WaitForSeconds(respawnDelay);
 
-        anim.speed = 0f;
-
-        Debug.Log("Fern's death animation is finished!");
+        ShrineCheckpoint.Respawn();
     }
 }

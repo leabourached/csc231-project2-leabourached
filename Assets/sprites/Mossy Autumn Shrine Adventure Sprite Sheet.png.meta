@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: d3b36f0dc1ab356468459371c08844fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5300168355054325834
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_0
+  - first:
+      213: 449648614055366766
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_1
+  - first:
+      213: 6729613981625836326
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_2
+  - first:
+      213: 4065249108383183635
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_3
+  - first:
+      213: -5432001602902082102
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_4
+  - first:
+      213: 3692896479762781678
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_5
+  - first:
+      213: 7192526110282881034
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_6
+  - first:
+      213: 6891904448910913602
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_7
+  - first:
+      213: 9021316115155263448
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_8
+  - first:
+      213: 1880157568036844298
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_9
+  - first:
+      213: 4665888791012820189
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_10
+  - first:
+      213: -1903251115734987111
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_11
+  - first:
+      213: 1297096495396276760
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_12
+  - first:
+      213: -7483927267300356815
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_13
+  - first:
+      213: -8481786535327441946
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_14
+  - first:
+      213: 9211563946584630771
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_15
+  - first:
+      213: 6249440569682506598
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_16
+  - first:
+      213: -477236254955653070
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_17
+  - first:
+      213: 2954141279427522416
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_18
+  - first:
+      213: 6985195334906271623
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_19
+  - first:
+      213: -3291027801131426056
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_20
+  - first:
+      213: -1692646099733647682
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_21
+  - first:
+      213: -1105883854733230737
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_22
+  - first:
+      213: 8535256235168502273
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_23
+  - first:
+      213: 552656945467517865
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_24
+  - first:
+      213: -8535836614064182326
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_25
+  - first:
+      213: 21245801377948097
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_26
+  - first:
+      213: 7060419425462971584
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_27
+  - first:
+      213: -3949201908773170248
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_28
+  - first:
+      213: -8360968919904415673
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_29
+  - first:
+      213: -7769548913608594168
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_30
+  - first:
+      213: -496600395915133246
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_31
+  - first:
+      213: 4640671667789386248
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_32
+  - first:
+      213: 5624180210609967003
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_33
+  - first:
+      213: -1231940205736206446
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_34
+  - first:
+      213: 4635298504849707152
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_35
+  - first:
+      213: -5471217036728101987
+    second: Mossy Autumn Shrine Adventure Sprite Sheet_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 92
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mossy Autumn Shrine Adventure Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 767
+        width: 222
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf683b66f40276b0800000000000000
+      internalID: -5300168355054325834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Autumn Shrine Adventure Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 769
+        width: 199
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60548a38097d3600800000000000000
+      internalID: 449648614055366766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Autumn Shrine Adventure Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 769
+        width: 199
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6236f42e244646d50800000000000000
+      internalID: 6729613981625836326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Autumn Shrine Adventure Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 770
+        width: 199
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31337a4868aaa6830800000000000000
+      internalID: 4065249108383183635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 68a63b70710501c4ca4ca4e731273ca4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":213.0,"y":249.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Mossy Autumn Shrine Adventure Sprite Sheet_0: -5300168355054325834
+      Mossy Autumn Shrine Adventure Sprite Sheet_1: 449648614055366766
+      Mossy Autumn Shrine Adventure Sprite Sheet_10: 4665888791012820189
+      Mossy Autumn Shrine Adventure Sprite Sheet_11: -1903251115734987111
+      Mossy Autumn Shrine Adventure Sprite Sheet_12: 1297096495396276760
+      Mossy Autumn Shrine Adventure Sprite Sheet_13: -7483927267300356815
+      Mossy Autumn Shrine Adventure Sprite Sheet_14: -8481786535327441946
+      Mossy Autumn Shrine Adventure Sprite Sheet_15: 9211563946584630771
+      Mossy Autumn Shrine Adventure Sprite Sheet_16: 6249440569682506598
+      Mossy Autumn Shrine Adventure Sprite Sheet_17: -477236254955653070
+      Mossy Autumn Shrine Adventure Sprite Sheet_18: 2954141279427522416
+      Mossy Autumn Shrine Adventure Sprite Sheet_19: 6985195334906271623
+      Mossy Autumn Shrine Adventure Sprite Sheet_2: 6729613981625836326
+      Mossy Autumn Shrine Adventure Sprite Sheet_20: -3291027801131426056
+      Mossy Autumn Shrine Adventure Sprite Sheet_21: -1692646099733647682
+      Mossy Autumn Shrine Adventure Sprite Sheet_22: -1105883854733230737
+      Mossy Autumn Shrine Adventure Sprite Sheet_23: 8535256235168502273
+      Mossy Autumn Shrine Adventure Sprite Sheet_24: 552656945467517865
+      Mossy Autumn Shrine Adventure Sprite Sheet_25: -8535836614064182326
+      Mossy Autumn Shrine Adventure Sprite Sheet_26: 21245801377948097
+      Mossy Autumn Shrine Adventure Sprite Sheet_27: 7060419425462971584
+      Mossy Autumn Shrine Adventure Sprite Sheet_3: 4065249108383183635
+      Mossy Autumn Shrine Adventure Sprite Sheet_4: -5432001602902082102
+      Mossy Autumn Shrine Adventure Sprite Sheet_5: 3692896479762781678
+      Mossy Autumn Shrine Adventure Sprite Sheet_6: 7192526110282881034
+      Mossy Autumn Shrine Adventure Sprite Sheet_7: 6891904448910913602
+      Mossy Autumn Shrine Adventure Sprite Sheet_8: 9021316115155263448
+      Mossy Autumn Shrine Adventure Sprite Sheet_9: 1880157568036844298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

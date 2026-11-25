@@ -1,9 +1,13 @@
 
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class Pyrka : MonoBehaviour
 {
+    [Header("Identity")]
+    [SerializeField] private int pyrkaID = 1;
+
     [Header("Following")]
     [SerializeField] private float followDistance = 1.2f;
     [SerializeField] private float spacing = 0.8f;
@@ -17,12 +21,25 @@ public class Pyrka : MonoBehaviour
     [Header("Sprite Direction")]
     [SerializeField] private bool spriteFacesRight = true;
 
+    [Header("Shrine Delivery")]
+    [SerializeField] private float deliveryDuration = 0.6f;
+
     private static List<Pyrka> collectedPyrkas =
         new List<Pyrka>();
 
-    public static int Count => collectedPyrkas.Count;
+    private static HashSet<int> deliveredIDs =
+        new HashSet<int>();
+
+    public static int Count =>
+        collectedPyrkas.Count;
+
+    public static int DeliveredCount =>
+        deliveredIDs.Count;
+
     public static int RequiredPyrkas => 3;
-    public static bool HasAllPyrkas => Count >= RequiredPyrkas;
+
+    public static bool HasAllPyrkas =>
+        Count == RequiredPyrkas;
 
     private Transform player;
     private PlayerHealth playerHealth;
@@ -30,31 +47,41 @@ public class Pyrka : MonoBehaviour
     private Collider2D pickupCollider;
     private SpriteRenderer sprite;
 
-    private bool collected = false;
+    private bool collected;
+    private bool delivering;
 
     private Vector3 followVelocity;
     private Vector3 startPosition;
 
     public bool IsCollected => collected;
 
-    [RuntimeInitializeOnLoadMethod(
-        RuntimeInitializeLoadType.SubsystemRegistration)]
-    private static void ResetInventory()
+    public static void ResetProgress()
     {
         collectedPyrkas.Clear();
+        deliveredIDs.Clear();
     }
 
-    void Awake()
+    private void Awake()
     {
         anim = GetComponent<Animator>();
         pickupCollider = GetComponent<Collider2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
 
         startPosition = transform.position;
+
+        // Do not respawn already delivered Pyrkas.
+        if (deliveredIDs.Contains(pyrkaID))
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
     }
 
-    void LateUpdate()
+    private void LateUpdate()
     {
+        if (delivering)
+            return;
+
         int followIndex = collected
             ? collectedPyrkas.IndexOf(this)
             : 0;
@@ -79,7 +106,6 @@ public class Pyrka : MonoBehaviour
 
         float facing = Mathf.Sign(player.localScale.x);
 
-        // Face the same direction as Fern.
         if (sprite != null)
         {
             sprite.flipX = spriteFacesRight
@@ -104,9 +130,23 @@ public class Pyrka : MonoBehaviour
         );
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collected)
+        TryCollect(other);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        TryCollect(other);
+    }
+
+    private void TryCollect(Collider2D other)
+    {
+        if (collected || delivering)
+            return;
+
+        // Fern can carry a maximum of three Pyrkas.
+        if (Count >= RequiredPyrkas)
             return;
 
         PlayerHealth health =
@@ -114,6 +154,15 @@ public class Pyrka : MonoBehaviour
 
         if (health == null || health.IsDead)
             return;
+
+        if (deliveredIDs.Contains(pyrkaID))
+            return;
+
+        foreach (Pyrka pyrka in collectedPyrkas)
+        {
+            if (pyrka.pyrkaID == pyrkaID)
+                return;
+        }
 
         player = health.transform;
         playerHealth = health;
@@ -125,23 +174,123 @@ public class Pyrka : MonoBehaviour
         if (pickupCollider != null)
             pickupCollider.enabled = false;
 
-        if (anim != null)
-        {
-            int followState = Animator.StringToHash(
-                "Base Layer.pyrka_follow"
-            );
-
-            if (anim.HasState(0, followState))
-                anim.Play(followState, 0, 0f);
-        }
+        PlayAnimation("pyrka_follow");
 
         Debug.Log("Pyrka rescued!");
-
-        Debug.Log("Pyrkas collected: " +
-            Count + "/" + RequiredPyrkas);
+        Debug.Log("Pyrkas: " + Count + "/3");
     }
 
-    void OnDestroy()
+    public static bool DeliverThree(Transform target)
+    {
+        if (Count != RequiredPyrkas)
+            return false;
+
+        Pyrka[] pyrkas = collectedPyrkas.ToArray();
+
+        foreach (Pyrka pyrka in pyrkas)
+        {
+            if (pyrka == null)
+                return false;
+        }
+
+        foreach (Pyrka pyrka in pyrkas)
+        {
+            pyrka.Deliver(target);
+        }
+
+        Debug.Log("3 Pyrkas delivered!");
+        Debug.Log("Pyrkas: " + Count + "/3");
+        Debug.Log("Total rescued: " + DeliveredCount);
+
+        return true;
+    }
+
+    private void Deliver(Transform target)
+    {
+        if (delivering)
+            return;
+
+        delivering = true;
+
+        collectedPyrkas.Remove(this);
+        deliveredIDs.Add(pyrkaID);
+
+        StartCoroutine(EnterShrine(target));
+    }
+
+    private IEnumerator EnterShrine(Transform target)
+    {
+        Vector3 start = transform.position;
+
+        float elapsed = 0f;
+
+        while (elapsed < deliveryDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            float t = Mathf.Clamp01(
+                elapsed / deliveryDuration
+            );
+
+            t = Mathf.SmoothStep(0f, 1f, t);
+
+            if (target != null)
+            {
+                transform.position = Vector3.Lerp(
+                    start,
+                    target.position,
+                    t
+                );
+            }
+
+            yield return null;
+        }
+
+        if (PlayAnimation("pyrka_disappear"))
+        {
+            elapsed = 0f;
+
+            yield return null;
+
+            while (elapsed < 5f)
+            {
+                AnimatorStateInfo state =
+                    anim.GetCurrentAnimatorStateInfo(0);
+
+                if (state.IsName(
+                    "Base Layer.pyrka_disappear") &&
+                    state.normalizedTime >= 1f)
+                {
+                    break;
+                }
+
+                elapsed += Time.deltaTime;
+
+                yield return null;
+            }
+        }
+
+        Destroy(gameObject);
+    }
+
+    private bool PlayAnimation(string stateName)
+    {
+        if (anim == null)
+            return false;
+
+        int hash = Animator.StringToHash(
+            "Base Layer." + stateName
+        );
+
+        if (!anim.HasState(0, hash))
+            return false;
+
+        anim.Play(hash, 0, 0f);
+
+        return true;
+    }
+
+    private void OnDestroy()
     {
         collectedPyrkas.Remove(this);
     }
