@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [Header("Jump Feel")]
     [SerializeField] private float coyoteTime = 0.12f;
     [SerializeField] private float jumpBufferTime = 0.12f;
+    [SerializeField] private float fallGravityMultiplier = 2.2f;
 
     [Header("Ground Detection")]
     [SerializeField] private Transform groundCheck;
@@ -25,78 +26,84 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D body;
     private Animator anim;
+    private LanternController lantern;
 
-    private bool isAttacking = false;
-    private bool isStaffAttack = false;
-    private bool staffHitUsed = false;
-
+    private bool isAttacking;
+    private bool isStaffAttack;
+    private bool staffHitUsed;
     private bool grounded;
-    private float moveInput;
 
+    private bool attackEndRequested;
+    private int attackStateHash;
+    private int attackStartFrame;
+
+    private float moveInput;
     private float coyoteUntil = -1f;
     private float jumpQueuedUntil = -1f;
 
-    private int jumpsUsed = 0;
+    private int jumpsUsed;
     private const int maxJumps = 2;
 
     private float originalScaleX;
+    private float normalGravityScale;
 
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        lantern = GetComponent<LanternController>();
 
-        originalScaleX = Mathf.Abs(
-            transform.localScale.x
-        );
+        originalScaleX = Mathf.Abs(transform.localScale.x);
+        normalGravityScale = body.gravityScale;
     }
 
     void Update()
     {
-        if (Keyboard.current == null)
-        {
-            moveInput = 0f;
-            return;
-        }
-
         moveInput = 0f;
 
-        if (Keyboard.current.aKey.isPressed ||
-            Keyboard.current.leftArrowKey.isPressed)
+        if (Keyboard.current != null)
         {
-            moveInput = -1f;
+            if (Keyboard.current.aKey.isPressed ||
+                Keyboard.current.leftArrowKey.isPressed)
+            {
+                moveInput = -1f;
+            }
+            else if (Keyboard.current.dKey.isPressed ||
+                     Keyboard.current.rightArrowKey.isPressed)
+            {
+                moveInput = 1f;
+            }
         }
-        else if (Keyboard.current.dKey.isPressed ||
-                 Keyboard.current.rightArrowKey.isPressed)
-        {
-            moveInput = 1f;
-        }
+
+        CheckAttackFinished();
+
+        if (Keyboard.current == null)
+            return;
 
         if (!isAttacking)
         {
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
             {
-                jumpQueuedUntil =
-                    Time.time + jumpBufferTime;
+                jumpQueuedUntil = Time.time + jumpBufferTime;
             }
 
             if (moveInput != 0f)
             {
                 Vector3 scale = transform.localScale;
 
-                scale.x =
-                    originalScaleX * Mathf.Sign(moveInput);
+                scale.x = originalScaleX *
+                    Mathf.Sign(moveInput);
 
                 transform.localScale = scale;
             }
 
             if (Keyboard.current.jKey.wasPressedThisFrame)
             {
-                StartAttack("Attack1");
+                StartAttack(true);
             }
             else if (Keyboard.current.kKey.wasPressedThisFrame)
             {
-                StartAttack("Attack2");
+                StartAttack(false);
             }
         }
     }
@@ -104,7 +111,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         grounded = IsGrounded() &&
-                   body.linearVelocity.y <= 0.05f;
+            body.linearVelocity.y <= 0.05f;
 
         if (grounded)
         {
@@ -116,23 +123,57 @@ public class PlayerController : MonoBehaviour
             jumpsUsed = 1;
         }
 
-        if (!isAttacking)
+        float speedMultiplier = 1f;
+        float pullVelocity = 0f;
+
+        if (lantern != null)
         {
+            speedMultiplier = lantern.SpeedMultiplier;
+            pullVelocity = lantern.GetPullVelocity();
+        }
+
+        // Allow movement during airborne attacks.
+        if (!isAttacking || !grounded)
+        {
+            float horizontalSpeed =
+                moveInput * moveSpeed * speedMultiplier;
+
             body.linearVelocity = new Vector2(
-                moveInput * moveSpeed,
+                horizontalSpeed + pullVelocity,
                 body.linearVelocity.y
             );
+        }
+        else
+        {
+            body.linearVelocity = new Vector2(
+                pullVelocity,
+                body.linearVelocity.y
+            );
+        }
 
-            if (jumpQueuedUntil >= Time.time &&
-                jumpsUsed < maxJumps)
-            {
-                PerformJump();
-            }
+        if (!isAttacking &&
+            jumpQueuedUntil >= Time.time &&
+            jumpsUsed < maxJumps)
+        {
+            PerformJump();
+        }
+
+        // Faster falling without reducing jump height.
+        if (!grounded && body.linearVelocity.y < 0f)
+        {
+            body.gravityScale =
+                normalGravityScale * fallGravityMultiplier;
+        }
+        else
+        {
+            body.gravityScale = normalGravityScale;
         }
 
         anim.SetFloat(
             "Speed",
-            isAttacking ? 0f : Mathf.Abs(moveInput)
+            isAttacking && grounded
+                ? 0f
+                : Mathf.Abs(moveInput)
         );
 
         anim.SetBool("IsGrounded", grounded);
@@ -144,6 +185,8 @@ public class PlayerController : MonoBehaviour
             ? jumpForce
             : doubleJumpForce;
 
+        body.gravityScale = normalGravityScale;
+
         body.linearVelocity = new Vector2(
             body.linearVelocity.x,
             force
@@ -151,24 +194,72 @@ public class PlayerController : MonoBehaviour
 
         jumpsUsed++;
         grounded = false;
+
         coyoteUntil = -1f;
         jumpQueuedUntil = -1f;
     }
 
-    private void StartAttack(string attackTrigger)
+    private void StartAttack(bool staffAttack)
     {
+        string stateName = staffAttack
+            ? "Base Layer.fern_attack"
+            : "Base Layer.fern_lantern";
+
+        int stateHash = Animator.StringToHash(stateName);
+
+        if (!anim.HasState(0, stateHash))
+        {
+            Debug.LogError("Missing attack state: " + stateName);
+            return;
+        }
+
         isAttacking = true;
-        isStaffAttack = attackTrigger == "Attack1";
+        isStaffAttack = staffAttack;
         staffHitUsed = false;
+
+        attackEndRequested = false;
+        attackStateHash = stateHash;
+        attackStartFrame = Time.frameCount;
 
         jumpQueuedUntil = -1f;
 
-        body.linearVelocity = new Vector2(
-            0f,
-            body.linearVelocity.y
-        );
+        if (grounded)
+        {
+            body.linearVelocity = new Vector2(
+                0f,
+                body.linearVelocity.y
+            );
+        }
 
-        anim.SetTrigger(attackTrigger);
+        anim.ResetTrigger("Attack1");
+        anim.ResetTrigger("Attack2");
+
+        // Immediately interrupt the current animation.
+        anim.Play(attackStateHash, 0, 0f);
+    }
+
+    private void CheckAttackFinished()
+    {
+        if (!isAttacking)
+            return;
+
+        AnimatorStateInfo state =
+            anim.GetCurrentAnimatorStateInfo(0);
+
+        if (state.fullPathHash == attackStateHash)
+        {
+            // Backup if EndAttack is missing.
+            if (attackEndRequested ||
+                state.normalizedTime >= 1f)
+            {
+                FinishAttack();
+            }
+        }
+        else if (Time.frameCount > attackStartFrame + 1)
+        {
+            // Prevent freezing if an attack is interrupted.
+            CancelAttack();
+        }
     }
 
     public void StaffHit()
@@ -197,8 +288,7 @@ public class PlayerController : MonoBehaviour
             ShadowChaser enemy =
                 hit.GetComponentInParent<ShadowChaser>();
 
-            if (enemy != null &&
-                damagedEnemies.Add(enemy))
+            if (enemy != null && damagedEnemies.Add(enemy))
             {
                 enemy.TakeDamage(attackDamage);
 
@@ -209,9 +299,35 @@ public class PlayerController : MonoBehaviour
 
     public void EndAttack()
     {
-        isAttacking = false;
-        isStaffAttack = false;
-        staffHitUsed = false;
+        if (isAttacking)
+        {
+            attackEndRequested = true;
+        }
+    }
+
+    private void FinishAttack()
+    {
+        CancelAttack();
+
+        grounded = IsGrounded() &&
+            body.linearVelocity.y <= 0.05f;
+
+        anim.SetBool("IsGrounded", grounded);
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
+
+        // Return to the correct animation.
+        if (!grounded)
+        {
+            anim.Play("Base Layer.fern_jump", 0, 0f);
+        }
+        else if (Mathf.Abs(moveInput) > 0.01f)
+        {
+            anim.Play("Base Layer.fern_run", 0, 0f);
+        }
+        else
+        {
+            anim.Play("Base Layer.fern_idle", 0, 0f);
+        }
     }
 
     public void CancelAttack()
@@ -219,6 +335,7 @@ public class PlayerController : MonoBehaviour
         isAttacking = false;
         isStaffAttack = false;
         staffHitUsed = false;
+        attackEndRequested = false;
 
         jumpQueuedUntil = -1f;
 
@@ -247,6 +364,14 @@ public class PlayerController : MonoBehaviour
         }
 
         return false;
+    }
+
+    void OnDisable()
+    {
+        if (body != null)
+        {
+            body.gravityScale = normalGravityScale;
+        }
     }
 
     private void OnDrawGizmosSelected()
