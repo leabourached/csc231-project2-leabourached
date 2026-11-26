@@ -62,7 +62,6 @@ public class ShrineCheckpoint : MonoBehaviour
 
     private void Start()
     {
-        // Restore unlocked appearance after respawning.
         if (IsUnlocked)
             ActivateVisuals(true);
 
@@ -145,6 +144,9 @@ public class ShrineCheckpoint : MonoBehaviour
 
         ActivateVisuals(false);
 
+        // Play the shrine unlock sound once.
+        AudioManager.Instance?.PlayShrineUnlock();
+
         Debug.Log("Shrine " + shrineID + " unlocked!");
         Debug.Log("Checkpoint saved!");
         Debug.Log("Fern's hearts restored!");
@@ -152,11 +154,9 @@ public class ShrineCheckpoint : MonoBehaviour
 
     private void ActivateVisuals(bool restoring)
     {
-        // Turn on the shrine's light.
         if (shrineLight != null)
             shrineLight.enabled = true;
 
-        // Play the unlocked animation.
         if (shrineAnimator != null)
         {
             shrineAnimator.enabled = true;
@@ -170,6 +170,7 @@ public class ShrineCheckpoint : MonoBehaviour
                 Debug.LogWarning(
                     "Cannot find shrine_unlocked!"
                 );
+
                 return;
             }
 
@@ -177,7 +178,6 @@ public class ShrineCheckpoint : MonoBehaviour
             shrineAnimator.Play(state, 0, 0f);
             shrineAnimator.Update(0f);
 
-            // Restore final frame for non-looping clips.
             if (restoring &&
                 !shrineAnimator.GetCurrentAnimatorStateInfo(0).loop)
             {

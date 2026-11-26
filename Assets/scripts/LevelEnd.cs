@@ -53,8 +53,7 @@ public class LevelEnd : MonoBehaviour
                 unlocked++;
         }
 
-        if (shrines.Length == 0 ||
-            unlocked < shrines.Length)
+        if (shrines.Length == 0 || unlocked < shrines.Length)
         {
             if (requirementMessage != null)
             {
@@ -71,7 +70,6 @@ public class LevelEnd : MonoBehaviour
 
         levelCompleted = true;
 
-        // Disable Fern's controls completely.
         PlayerController controller =
             player.GetComponent<PlayerController>();
 
@@ -81,17 +79,16 @@ public class LevelEnd : MonoBehaviour
             controller.enabled = false;
         }
 
-        // Stop Fern's remaining movement.
         Rigidbody2D body =
             player.GetComponent<Rigidbody2D>();
 
         if (body != null)
-        {
             body.linearVelocity = Vector2.zero;
-        }
 
         if (requirementMessage != null)
             requirementMessage.gameObject.SetActive(false);
+
+        AudioManager.Instance?.PlayVictory();
 
         if (levelCompletePanel != null)
             levelCompletePanel.SetActive(true);

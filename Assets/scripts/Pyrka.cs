@@ -30,12 +30,8 @@ public class Pyrka : MonoBehaviour
     private static HashSet<int> deliveredIDs =
         new HashSet<int>();
 
-    public static int Count =>
-        collectedPyrkas.Count;
-
-    public static int DeliveredCount =>
-        deliveredIDs.Count;
-
+    public static int Count => collectedPyrkas.Count;
+    public static int DeliveredCount => deliveredIDs.Count;
     public static int RequiredPyrkas => 3;
 
     public static bool HasAllPyrkas =>
@@ -69,7 +65,6 @@ public class Pyrka : MonoBehaviour
 
         startPosition = transform.position;
 
-        // Do not respawn already delivered Pyrkas.
         if (deliveredIDs.Contains(pyrkaID))
         {
             gameObject.SetActive(false);
@@ -145,7 +140,6 @@ public class Pyrka : MonoBehaviour
         if (collected || delivering)
             return;
 
-        // Fern can carry a maximum of three Pyrkas.
         if (Count >= RequiredPyrkas)
             return;
 
@@ -168,13 +162,15 @@ public class Pyrka : MonoBehaviour
         playerHealth = health;
 
         collected = true;
-
         collectedPyrkas.Add(this);
 
         if (pickupCollider != null)
             pickupCollider.enabled = false;
 
         PlayAnimation("pyrka_follow");
+
+        // Play collection sound once.
+        AudioManager.Instance?.PlayPyrkaCollect();
 
         Debug.Log("Pyrka rescued!");
         Debug.Log("Pyrkas: " + Count + "/3");
@@ -221,7 +217,6 @@ public class Pyrka : MonoBehaviour
     private IEnumerator EnterShrine(Transform target)
     {
         Vector3 start = transform.position;
-
         float elapsed = 0f;
 
         while (elapsed < deliveryDuration)
@@ -258,8 +253,8 @@ public class Pyrka : MonoBehaviour
                     anim.GetCurrentAnimatorStateInfo(0);
 
                 if (state.IsName(
-                    "Base Layer.pyrka_disappear") &&
-                    state.normalizedTime >= 1f)
+                    "Base Layer.pyrka_disappear"
+                    ) && state.normalizedTime >= 1f)
                 {
                     break;
                 }

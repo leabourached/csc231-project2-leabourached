@@ -29,6 +29,7 @@ public class AudioManager : MonoBehaviour
     }
 
     [Header("Movement Sounds")]
+    public SoundEffect footsteps = new SoundEffect();
     public SoundEffect jump = new SoundEffect();
     public SoundEffect landing = new SoundEffect();
 
@@ -36,7 +37,25 @@ public class AudioManager : MonoBehaviour
     public SoundEffect staffSwing = new SoundEffect();
     public SoundEffect lanternShine = new SoundEffect();
 
+    [Header("Collectible Sounds")]
+    public SoundEffect pyrkaCollect = new SoundEffect();
+
+    [Header("Shrine Sounds")]
+    public SoundEffect shrineUnlock = new SoundEffect();
+
+    [Header("Player Health Sounds")]
+    public SoundEffect hurt = new SoundEffect();
+    public SoundEffect death = new SoundEffect();
+
+    [Header("Monster Sounds")]
+    public SoundEffect monster1 = new SoundEffect();
+    public SoundEffect monster2 = new SoundEffect();
+
+    [Header("Victory Sound")]
+    public SoundEffect victory = new SoundEffect();
+
     public bool SFXMuted { get; private set; }
+    public bool AmbienceMuted { get; private set; }
 
     private void Awake()
     {
@@ -54,6 +73,14 @@ public class AudioManager : MonoBehaviour
 
         backgroundAudio.playOnAwake = false;
         backgroundAudio.loop = false;
+
+        AmbienceMuted =
+            PlayerPrefs.GetInt("AmbienceMuted", 0) == 1;
+
+        SFXMuted =
+            PlayerPrefs.GetInt("SFXMuted", 0) == 1;
+
+        backgroundAudio.mute = AmbienceMuted;
     }
 
     private void Start()
@@ -90,6 +117,13 @@ public class AudioManager : MonoBehaviour
         backgroundAudio.Play();
     }
 
+    // MOVEMENT
+
+    public void PlayFootsteps()
+    {
+        PlaySound(footsteps);
+    }
+
     public void PlayJump()
     {
         PlaySound(jump);
@@ -100,6 +134,8 @@ public class AudioManager : MonoBehaviour
         PlaySound(landing);
     }
 
+    // COMBAT
+
     public void PlayStaffSwing()
     {
         PlaySound(staffSwing);
@@ -109,6 +145,51 @@ public class AudioManager : MonoBehaviour
     {
         PlaySound(lanternShine);
     }
+
+    // COLLECTIBLES AND SHRINES
+
+    public void PlayPyrkaCollect()
+    {
+        PlaySound(pyrkaCollect);
+    }
+
+    public void PlayShrineUnlock()
+    {
+        PlaySound(shrineUnlock);
+    }
+
+    // HEALTH
+
+    public void PlayHurt()
+    {
+        PlaySound(hurt);
+    }
+
+    public void PlayDeath()
+    {
+        PlaySound(death);
+    }
+
+    // MONSTERS
+
+    public void PlayMonster1()
+    {
+        PlaySound(monster1);
+    }
+
+    public void PlayMonster2()
+    {
+        PlaySound(monster2);
+    }
+
+    // VICTORY
+
+    public void PlayVictory()
+    {
+        PlaySound(victory);
+    }
+
+    // SOUND PLAYBACK
 
     public void PlaySound(SoundEffect sound)
     {
@@ -127,10 +208,11 @@ public class AudioManager : MonoBehaviour
 
         source.clip = sound.clip;
         source.volume = sound.volume;
-        source.pitch = sound.pitch;
+        source.pitch = Mathf.Clamp(sound.pitch, 0.1f, 3f);
         source.spatialBlend = 0f;
         source.loop = false;
         source.playOnAwake = false;
+        source.mute = SFXMuted;
 
         float start = Mathf.Clamp(
             sound.startTime, 0f,
@@ -152,20 +234,50 @@ public class AudioManager : MonoBehaviour
         Destroy(obj);
     }
 
+    // AUDIO SETTINGS
+
     public void ToggleAmbience()
     {
-        backgroundAudio.mute = !backgroundAudio.mute;
+        SetAmbienceMuted(!AmbienceMuted);
     }
 
     public void ToggleSFX()
     {
-        SFXMuted = !SFXMuted;
+        SetSFXMuted(!SFXMuted);
+    }
+
+    public void SetAmbienceMuted(bool muted)
+    {
+        AmbienceMuted = muted;
+        backgroundAudio.mute = muted;
+
+        PlayerPrefs.SetInt("AmbienceMuted", muted ? 1 : 0);
+        PlayerPrefs.Save();
+    }
+
+    public void SetSFXMuted(bool muted)
+    {
+        SFXMuted = muted;
 
         foreach (AudioSource source in
                  GetComponentsInChildren<AudioSource>())
         {
             if (source != backgroundAudio)
-                source.mute = SFXMuted;
+                source.mute = muted;
         }
+
+        PlayerPrefs.SetInt("SFXMuted", muted ? 1 : 0);
+        PlayerPrefs.Save();
+    }
+
+    public void SetAmbienceVolume(float volume)
+    {
+        backgroundAudio.volume = Mathf.Clamp01(volume);
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+            Instance = null;
     }
 }

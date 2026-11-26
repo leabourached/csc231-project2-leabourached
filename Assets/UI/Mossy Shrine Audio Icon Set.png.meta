@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e205147165a0bd746ab5105fd52cac9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3628429656284148817
+    second: Mossy Shrine Audio Icon Set_0
+  - first:
+      213: 7244965636442495396
+    second: Mossy Shrine Audio Icon Set_1
+  - first:
+      213: 3171778337485696297
+    second: Mossy Shrine Audio Icon Set_2
+  - first:
+      213: 5385860820501357660
+    second: Mossy Shrine Audio Icon Set_3
+  - first:
+      213: -4933288990898722031
+    second: Mossy Shrine Audio Icon Set_4
+  - first:
+      213: -8943159946534927322
+    second: Mossy Shrine Audio Icon Set_5
+  - first:
+      213: -6068574151579859201
+    second: Mossy Shrine Audio Icon Set_6
+  - first:
+      213: -1612408300935034780
+    second: Mossy Shrine Audio Icon Set_7
+  - first:
+      213: -1972369989299617657
+    second: Mossy Shrine Audio Icon Set_8
+  - first:
+      213: 578048212642027467
+    second: Mossy Shrine Audio Icon Set_9
+  - first:
+      213: 1964301730294078775
+    second: Mossy Shrine Audio Icon Set_10
+  - first:
+      213: 4344720524463272307
+    second: Mossy Shrine Audio Icon Set_11
+  - first:
+      213: -1392518216311067576
+    second: Mossy Shrine Audio Icon Set_12
+  - first:
+      213: 7480254631617460590
+    second: Mossy Shrine Audio Icon Set_13
+  - first:
+      213: -2189216049548590083
+    second: Mossy Shrine Audio Icon Set_14
+  - first:
+      213: -5929658681383050826
+    second: Mossy Shrine Audio Icon Set_15
+  - first:
+      213: 5713685488736984796
+    second: Mossy Shrine Audio Icon Set_16
+  - first:
+      213: 6423735951244805569
+    second: Mossy Shrine Audio Icon Set_17
+  - first:
+      213: 1396488259506902052
+    second: Mossy Shrine Audio Icon Set_18
+  - first:
+      213: 7482538084688613612
+    second: Mossy Shrine Audio Icon Set_19
+  - first:
+      213: -2987833366170609605
+    second: Mossy Shrine Audio Icon Set_20
+  - first:
+      213: 8201962976129678476
+    second: Mossy Shrine Audio Icon Set_21
+  - first:
+      213: -6062713466106642549
+    second: Mossy Shrine Audio Icon Set_22
+  - first:
+      213: -7718535356541829255
+    second: Mossy Shrine Audio Icon Set_23
+  - first:
+      213: 5459525802799839857
+    second: Mossy Shrine Audio Icon Set_24
+  - first:
+      213: -1882215252763071937
+    second: Mossy Shrine Audio Icon Set_25
+  - first:
+      213: -8920719591606390411
+    second: Mossy Shrine Audio Icon Set_26
+  - first:
+      213: 3255576898088728378
+    second: Mossy Shrine Audio Icon Set_27
+  - first:
+      213: 2026785351690428663
+    second: Mossy Shrine Audio Icon Set_28
+  - first:
+      213: -2724487135873785481
+    second: Mossy Shrine Audio Icon Set_29
+  - first:
+      213: -1452874611561607554
+    second: Mossy Shrine Audio Icon Set_30
+  - first:
+      213: -2621631928652561420
+    second: Mossy Shrine Audio Icon Set_31
+  - first:
+      213: -45527196680211199
+    second: Mossy Shrine Audio Icon Set_32
+  - first:
+      213: -9096767415590686334
+    second: Mossy Shrine Audio Icon Set_33
+  - first:
+      213: 664002171318144374
+    second: Mossy Shrine Audio Icon Set_34
+  - first:
+      213: 417831444529505706
+    second: Mossy Shrine Audio Icon Set_35
+  - first:
+      213: 6362672743771664586
+    second: Mossy Shrine Audio Icon Set_36
+  - first:
+      213: -5445831154162638147
+    second: Mossy Shrine Audio Icon Set_37
+  - first:
+      213: -264995118845554726
+    second: Mossy Shrine Audio Icon Set_38
+  - first:
+      213: -6660594030709753431
+    second: Mossy Shrine Audio Icon Set_39
+  - first:
+      213: 1329776440178346706
+    second: Mossy Shrine Audio Icon Set_40
+  - first:
+      213: -8206681767399040997
+    second: Mossy Shrine Audio Icon Set_41
+  - first:
+      213: 5581686290152414178
+    second: Mossy Shrine Audio Icon Set_42
+  - first:
+      213: -4245482387245613472
+    second: Mossy Shrine Audio Icon Set_43
+  - first:
+      213: -7387591199921544359
+    second: Mossy Shrine Audio Icon Set_44
+  - first:
+      213: 3280532196959717422
+    second: Mossy Shrine Audio Icon Set_45
+  - first:
+      213: 3962856783223756781
+    second: Mossy Shrine Audio Icon Set_46
+  - first:
+      213: -3330167331725750862
+    second: Mossy Shrine Audio Icon Set_47
+  - first:
+      213: -5573992704338034513
+    second: Mossy Shrine Audio Icon Set_48
+  - first:
+      213: -108187671483204961
+    second: Mossy Shrine Audio Icon Set_49
+  - first:
+      213: 4857674990872228475
+    second: Mossy Shrine Audio Icon Set_50
+  - first:
+      213: -7284857859466473764
+    second: Mossy Shrine Audio Icon Set_51
+  - first:
+      213: 7789350482920979487
+    second: Mossy Shrine Audio Icon Set_52
+  - first:
+      213: 4278245381488927322
+    second: Mossy Shrine Audio Icon Set_53
+  - first:
+      213: 1993178453993097936
+    second: Mossy Shrine Audio Icon Set_54
+  - first:
+      213: 3727543613367381496
+    second: Mossy Shrine Audio Icon Set_55
+  - first:
+      213: 8583521638897650341
+    second: Mossy Shrine Audio Icon Set_56
+  - first:
+      213: 2087133171069338493
+    second: Mossy Shrine Audio Icon Set_57
+  - first:
+      213: -7956305191098242188
+    second: Mossy Shrine Audio Icon Set_58
+  - first:
+      213: -1482848289144421280
+    second: Mossy Shrine Audio Icon Set_59
+  - first:
+      213: -7166349498194505828
+    second: Mossy Shrine Audio Icon Set_60
+  - first:
+      213: 8425273366591907739
+    second: Mossy Shrine Audio Icon Set_61
+  - first:
+      213: -6958356946657624681
+    second: Mossy Shrine Audio Icon Set_62
+  - first:
+      213: -8155767830786147179
+    second: Mossy Shrine Audio Icon Set_63
+  - first:
+      213: -8199172701448421693
+    second: Mossy Shrine Audio Icon Set_64
+  - first:
+      213: 2437186186899316209
+    second: Mossy Shrine Audio Icon Set_65
+  - first:
+      213: 5172580362300813457
+    second: Mossy Shrine Audio Icon Set_66
+  - first:
+      213: 7101741666543436868
+    second: Mossy Shrine Audio Icon Set_67
+  - first:
+      213: -5512138830309546297
+    second: Mossy Shrine Audio Icon Set_68
+  - first:
+      213: -8951341373851114582
+    second: Mossy Shrine Audio Icon Set_69
+  - first:
+      213: -2524899158045663251
+    second: Mossy Shrine Audio Icon Set_70
+  - first:
+      213: -479577492820075958
+    second: Mossy Shrine Audio Icon Set_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mossy Shrine Audio Icon Set_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 530
+        width: 524
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabc0bca37a35adc0800000000000000
+      internalID: -3628429656284148817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Shrine Audio Icon Set_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 531
+        width: 524
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2686c8e6427cef45a0713d63b171e6a
+      internalID: 7244965636442495396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Shrine Audio Icon Set_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 68
+        width: 524
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dfa832698198a4b8387d683d0b4232
+      internalID: 3171778337485696297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mossy Shrine Audio Icon Set_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 69
+        width: 524
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175bca1c2ae480439f2482e7aa1b321
+      internalID: 5385860820501357660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7a37b8801e5891a4aa2e27047e8f9eee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":768.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Mossy Shrine Audio Icon Set_0: -3628429656284148817
+      Mossy Shrine Audio Icon Set_1: 7244965636442495396
+      Mossy Shrine Audio Icon Set_2: 3171778337485696297
+      Mossy Shrine Audio Icon Set_3: 5385860820501357660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

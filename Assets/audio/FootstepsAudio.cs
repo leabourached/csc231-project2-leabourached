@@ -28,11 +28,16 @@ public class FootstepAudio : MonoBehaviour
         if (footsteps.clip == null)
             return;
 
+        bool muted =
+            AudioManager.Instance != null &&
+            AudioManager.Instance.SFXMuted;
+
         bool isRunning =
             anim.GetCurrentAnimatorStateInfo(0)
-                .IsName("Base Layer.fern_run")
-            && anim.GetBool("IsGrounded")
-            && Time.timeScale > 0f;
+                .IsName("Base Layer.fern_run") &&
+            anim.GetBool("IsGrounded") &&
+            Time.timeScale > 0f &&
+            !muted;
 
         if (!isRunning)
         {
@@ -50,8 +55,12 @@ public class FootstepAudio : MonoBehaviour
             footsteps.time >= stopTime)
         {
             footsteps.time = Mathf.Clamp(
-                startTime, 0f,
-                Mathf.Max(0f, footsteps.clip.length - 0.01f)
+                startTime,
+                0f,
+                Mathf.Max(
+                    0f,
+                    footsteps.clip.length - 0.01f
+                )
             );
 
             footsteps.Play();

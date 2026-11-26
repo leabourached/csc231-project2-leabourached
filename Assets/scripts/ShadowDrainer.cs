@@ -127,6 +127,9 @@ public class ShadowDrainer : MonoBehaviour
         foreach (Collider2D col in colliders)
             col.enabled = true;
 
+        // Play monster sound once when emerging.
+        AudioManager.Instance?.PlayMonster2();
+
         Debug.Log("Shadow drainer emerging!");
 
         if (PlayAnimation("drainer_emerge"))

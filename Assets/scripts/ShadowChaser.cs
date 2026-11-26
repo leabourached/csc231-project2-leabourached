@@ -204,6 +204,9 @@ public class ShadowChaser : MonoBehaviour
     {
         state = State.Pass;
 
+        // Play monster sound once per swoop attack.
+        AudioManager.Instance?.PlayMonster1();
+
         passDirection = difference.normalized;
 
         if (passDirection.sqrMagnitude < 0.01f)

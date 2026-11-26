@@ -48,6 +48,7 @@ public class PlayerHealth : MonoBehaviour
         controller = GetComponent<PlayerController>();
 
         sprites = GetComponentsInChildren<SpriteRenderer>(true);
+
         originalOpacity = new float[sprites.Length];
 
         for (int i = 0; i < sprites.Length; i++)
@@ -63,8 +64,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isInvincible && !isDead)
         {
-            float opacity =
-                flickerVisible ? 1f : flickerOpacity;
+            float opacity = flickerVisible
+                ? 1f
+                : flickerOpacity;
 
             SetOpacity(opacity);
         }
@@ -77,8 +79,10 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth = maxHealth;
 
-        Debug.Log("Fern healed: " +
-            currentHealth + "/" + maxHealth);
+        Debug.Log(
+            "Fern healed: " +
+            currentHealth + "/" + maxHealth
+        );
     }
 
     public void TakeDamage(int damage)
@@ -87,7 +91,8 @@ public class PlayerHealth : MonoBehaviour
             return;
 
         currentHealth = Mathf.Max(
-            0, currentHealth - damage);
+            0, currentHealth - damage
+        );
 
         Debug.Log("Fern Health: " + currentHealth);
 
@@ -99,6 +104,9 @@ public class PlayerHealth : MonoBehaviour
             Die();
             return;
         }
+
+        // Play hurt sound for nonfatal damage.
+        AudioManager.Instance?.PlayHurt();
 
         anim.SetTrigger("Hurt");
 
@@ -181,7 +189,11 @@ public class PlayerHealth : MonoBehaviour
         StopAllCoroutines();
 
         flickerVisible = true;
+
         RestoreOpacity();
+
+        // Play death sound once, regardless of death cause.
+        AudioManager.Instance?.PlayDeath();
 
         if (controller != null)
         {
@@ -207,7 +219,8 @@ public class PlayerHealth : MonoBehaviour
     private IEnumerator DeathSequence()
     {
         int deathState = Animator.StringToHash(
-            "Base Layer.fern_death");
+            "Base Layer.fern_death"
+        );
 
         if (anim.HasState(0, deathState))
         {
@@ -250,7 +263,8 @@ public class PlayerHealth : MonoBehaviour
         if (deathPanel == null)
         {
             Debug.LogError(
-                "DeathPanel is not assigned in PlayerHealth!");
+                "DeathPanel is not assigned in PlayerHealth!"
+            );
 
             return;
         }
