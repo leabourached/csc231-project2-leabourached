@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
     private bool isStaffAttack;
     private bool staffHitUsed;
     private bool grounded;
+    private bool groundAudioInitialized;
+    private bool wasGroundedForAudio;
 
     private bool attackEndRequested;
     private int attackStateHash;
@@ -115,6 +117,15 @@ public class PlayerController : MonoBehaviour
         grounded = IsGrounded() &&
             body.linearVelocity.y <= 0.05f;
 
+        // Play landing audio only when returning to the ground.
+        if (groundAudioInitialized && grounded && !wasGroundedForAudio)
+        {
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayLanding();
+        }
+
+        groundAudioInitialized = true;
+
         if (grounded)
         {
             jumpsUsed = 0;
@@ -179,6 +190,7 @@ public class PlayerController : MonoBehaviour
         );
 
         anim.SetBool("IsGrounded", grounded);
+        wasGroundedForAudio = grounded;
     }
 
     private void PerformJump()
@@ -193,6 +205,9 @@ public class PlayerController : MonoBehaviour
             body.linearVelocity.x,
             force
         );
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayJump();
 
         jumpsUsed++;
         grounded = false;
