@@ -1,6 +1,9 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameUI : MonoBehaviour
 {
@@ -24,6 +27,10 @@ public class GameUI : MonoBehaviour
     [Header("Victory UI")]
     [SerializeField] private GameObject levelCompletePanel;
 
+    [Header("Pause Menu")]
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private string introSceneName = "IntroScreen";
+
     [Header("Message Settings")]
     [SerializeField] private float detectionDistance = 3f;
     [SerializeField] private float messageHeight = 2.5f;
@@ -32,23 +39,31 @@ public class GameUI : MonoBehaviour
 
     private ShrineCheckpoint[] shrines;
     private bool[] previousShrineStates;
-
     private ShrineCheckpoint lastUnlockedShrine;
     private float unlockedTimer;
-
     private bool allShrinesRestored;
+
+    private PlayerController playerController;
+    private bool isPaused;
 
     private void Start()
     {
+        Time.timeScale = 1f;
+
         if (playerHealth == null)
             playerHealth = FindFirstObjectByType<PlayerHealth>();
 
         if (gameCamera == null)
             gameCamera = Camera.main;
 
+        if (playerHealth != null)
+            playerController = playerHealth.GetComponent<PlayerController>();
+
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
+
         shrines = FindObjectsByType<ShrineCheckpoint>(
-            FindObjectsSortMode.None
-        );
+            FindObjectsSortMode.None);
 
         previousShrineStates = new bool[shrines.Length];
 
@@ -73,6 +88,97 @@ public class GameUI : MonoBehaviour
         UpdateHUD();
     }
 
+    private void Update()
+    {
+        if (Keyboard.current == null)
+            return;
+
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            if (isPaused)
+                ResumeGame();
+            else
+                PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        if (isPaused || pausePanel == null)
+            return;
+
+        if (playerHealth != null && playerHealth.IsDead)
+            return;
+
+        if (levelCompletePanel != null &&
+            levelCompletePanel.activeInHierarchy)
+            return;
+
+        if (Time.timeScale == 0f)
+            return;
+
+        isPaused = true;
+
+        if (playerController != null)
+            playerController.enabled = false;
+
+        pausePanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame()
+    {
+        if (!isPaused)
+            return;
+
+        isPaused = false;
+
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
+
+        Time.timeScale = 1f;
+
+        StartCoroutine(EnableControlsNextFrame());
+    }
+
+    private IEnumerator EnableControlsNextFrame()
+    {
+        yield return null;
+
+        if (!isPaused &&
+            playerController != null &&
+            playerHealth != null &&
+            !playerHealth.IsDead &&
+            (levelCompletePanel == null ||
+             !levelCompletePanel.activeInHierarchy))
+        {
+            playerController.enabled = true;
+        }
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f;
+        ShrineCheckpoint.ResetProgress();
+
+        SceneManager.LoadScene(
+            SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void MainMenu()
+    {
+        Time.timeScale = 1f;
+        ShrineCheckpoint.ResetProgress();
+
+        SceneManager.LoadScene(introSceneName);
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Game closed.");
+        Application.Quit();
+    }
+
     private void LateUpdate()
     {
         if (levelCompletePanel != null &&
@@ -81,6 +187,9 @@ public class GameUI : MonoBehaviour
             HideGameplayUI();
             return;
         }
+
+        if (isPaused)
+            return;
 
         UpdateHUD();
 
@@ -116,8 +225,7 @@ public class GameUI : MonoBehaviour
             healthSprites.Length == 4)
         {
             int health = Mathf.Clamp(
-                playerHealth.CurrentHealth, 0, 3
-            );
+                playerHealth.CurrentHealth, 0, 3);
 
             healthImage.sprite = healthSprites[health];
         }
@@ -169,7 +277,6 @@ public class GameUI : MonoBehaviour
     {
         ShrineCheckpoint nearestShrine = null;
         float nearestDistance = detectionDistance;
-
         bool playerAlive = !playerHealth.IsDead;
 
         if (playerAlive)
@@ -181,8 +288,7 @@ public class GameUI : MonoBehaviour
 
                 float distance = Vector2.Distance(
                     playerHealth.transform.position,
-                    shrine.transform.position
-                );
+                    shrine.transform.position);
 
                 if (distance <= nearestDistance)
                 {
@@ -198,12 +304,8 @@ public class GameUI : MonoBehaviour
             Pyrka.Count < 3;
 
         if (showRequired)
-        {
             PositionAboveShrine(
-                shrineRequiredMessage,
-                nearestShrine
-            );
-        }
+                shrineRequiredMessage, nearestShrine);
 
         FadeMessage(shrineRequiredMessage, showRequired);
 
@@ -215,25 +317,17 @@ public class GameUI : MonoBehaviour
             lastUnlockedShrine != null;
 
         if (showUnlocked)
-        {
             PositionAboveShrine(
-                shrineUnlockedMessage,
-                lastUnlockedShrine
-            );
-        }
+                shrineUnlockedMessage, lastUnlockedShrine);
 
         FadeMessage(shrineUnlockedMessage, showUnlocked);
 
-        // Stays visible until the level is completed.
         FadeMessage(
-            allShrinesRestoredMessage,
-            allShrinesRestored
-        );
+            allShrinesRestoredMessage, allShrinesRestored);
     }
 
     private void PositionAboveShrine(
-        Image message,
-        ShrineCheckpoint shrine)
+        Image message, ShrineCheckpoint shrine)
     {
         if (message == null || gameCamera == null)
             return;
@@ -274,8 +368,7 @@ public class GameUI : MonoBehaviour
         color.a = Mathf.MoveTowards(
             color.a,
             show ? 1f : 0f,
-            Time.deltaTime / Mathf.Max(0.01f, fadeDuration)
-        );
+            Time.deltaTime / Mathf.Max(0.01f, fadeDuration));
 
         message.color = color;
 

@@ -19,10 +19,14 @@ public class PlayerHealth : MonoBehaviour
     [Header("Respawn")]
     [SerializeField] private float respawnDelay = 1.2f;
 
+    [Header("Death UI")]
+    [SerializeField] private GameObject deathPanel;
+
     private int currentHealth;
     private bool isInvincible;
     private bool isDead;
     private bool flickerVisible = true;
+    private bool waitingForRevive;
 
     private Animator anim;
     private Rigidbody2D body;
@@ -43,24 +47,24 @@ public class PlayerHealth : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         controller = GetComponent<PlayerController>();
 
-        sprites =
-            GetComponentsInChildren<SpriteRenderer>(true);
-
+        sprites = GetComponentsInChildren<SpriteRenderer>(true);
         originalOpacity = new float[sprites.Length];
 
         for (int i = 0; i < sprites.Length; i++)
         {
             originalOpacity[i] = sprites[i].color.a;
         }
+
+        if (deathPanel != null)
+            deathPanel.SetActive(false);
     }
 
     private void LateUpdate()
     {
         if (isInvincible && !isDead)
         {
-            float opacity = flickerVisible
-                ? 1f
-                : flickerOpacity;
+            float opacity =
+                flickerVisible ? 1f : flickerOpacity;
 
             SetOpacity(opacity);
         }
@@ -73,9 +77,8 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth = maxHealth;
 
-        Debug.Log(
-            "Fern healed: " + currentHealth + "/" + maxHealth
-        );
+        Debug.Log("Fern healed: " +
+            currentHealth + "/" + maxHealth);
     }
 
     public void TakeDamage(int damage)
@@ -84,8 +87,7 @@ public class PlayerHealth : MonoBehaviour
             return;
 
         currentHealth = Mathf.Max(
-            0, currentHealth - damage
-        );
+            0, currentHealth - damage);
 
         Debug.Log("Fern Health: " + currentHealth);
 
@@ -156,8 +158,7 @@ public class PlayerHealth : MonoBehaviour
 
             Color color = sprites[i].color;
 
-            color.a =
-                originalOpacity[i] * multiplier;
+            color.a = originalOpacity[i] * multiplier;
 
             sprites[i].color = color;
         }
@@ -200,14 +201,13 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("Fern has died!");
 
-        StartCoroutine(DeathAndRespawn());
+        StartCoroutine(DeathSequence());
     }
 
-    private IEnumerator DeathAndRespawn()
+    private IEnumerator DeathSequence()
     {
         int deathState = Animator.StringToHash(
-            "Base Layer.fern_death"
-        );
+            "Base Layer.fern_death");
 
         if (anim.HasState(0, deathState))
         {
@@ -227,8 +227,7 @@ public class PlayerHealth : MonoBehaviour
                 AnimatorStateInfo state =
                     anim.GetCurrentAnimatorStateInfo(0);
 
-                if (!state.IsName(
-                    "Base Layer.fern_death"))
+                if (!state.IsName("Base Layer.fern_death"))
                     break;
 
                 if (state.normalizedTime >= 0.95f)
@@ -242,6 +241,38 @@ public class PlayerHealth : MonoBehaviour
         }
 
         yield return new WaitForSeconds(respawnDelay);
+
+        ShowDeathPanel();
+    }
+
+    private void ShowDeathPanel()
+    {
+        if (deathPanel == null)
+        {
+            Debug.LogError(
+                "DeathPanel is not assigned in PlayerHealth!");
+
+            return;
+        }
+
+        waitingForRevive = true;
+
+        deathPanel.SetActive(true);
+
+        Time.timeScale = 0f;
+    }
+
+    public void Revive()
+    {
+        if (!isDead || !waitingForRevive)
+            return;
+
+        waitingForRevive = false;
+
+        if (deathPanel != null)
+            deathPanel.SetActive(false);
+
+        Time.timeScale = 1f;
 
         ShrineCheckpoint.Respawn();
     }
