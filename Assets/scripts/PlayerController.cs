@@ -97,11 +97,13 @@ public class PlayerController : MonoBehaviour
                 transform.localScale = scale;
             }
 
-            if (Keyboard.current.jKey.wasPressedThisFrame)
+            if (Mouse.current != null &&
+                Mouse.current.leftButton.wasPressedThisFrame)
             {
                 StartAttack(true);
             }
-            else if (Keyboard.current.kKey.wasPressedThisFrame)
+            else if (Mouse.current != null &&
+                     Mouse.current.rightButton.wasPressedThisFrame)
             {
                 StartAttack(false);
             }

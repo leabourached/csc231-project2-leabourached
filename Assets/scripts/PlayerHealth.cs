@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.InputSystem;
 using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
@@ -52,16 +51,6 @@ public class PlayerHealth : MonoBehaviour
         for (int i = 0; i < sprites.Length; i++)
         {
             originalOpacity[i] = sprites[i].color.a;
-        }
-    }
-
-    private void Update()
-    {
-        // Temporary testing button.
-        if (Keyboard.current != null &&
-            Keyboard.current.hKey.wasPressedThisFrame)
-        {
-            TakeDamage(1);
         }
     }
 
