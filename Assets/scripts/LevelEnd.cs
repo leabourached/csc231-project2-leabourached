@@ -71,6 +71,25 @@ public class LevelEnd : MonoBehaviour
 
         levelCompleted = true;
 
+        // Disable Fern's controls completely.
+        PlayerController controller =
+            player.GetComponent<PlayerController>();
+
+        if (controller != null)
+        {
+            controller.CancelAttack();
+            controller.enabled = false;
+        }
+
+        // Stop Fern's remaining movement.
+        Rigidbody2D body =
+            player.GetComponent<Rigidbody2D>();
+
+        if (body != null)
+        {
+            body.linearVelocity = Vector2.zero;
+        }
+
         if (requirementMessage != null)
             requirementMessage.gameObject.SetActive(false);
 

@@ -12,30 +12,31 @@ public class GameUI : MonoBehaviour
     [SerializeField] private Image healthImage;
     [SerializeField] private Sprite[] healthSprites;
 
-    [Header("Pyrka UI")]
-    [SerializeField] private Image pyrkaImage;
-    [SerializeField] private Sprite[] pyrkaSprites;
+    [Header("Shrine Counter UI")]
+    [SerializeField] private Image shrineCounterImage;
+    [SerializeField] private Sprite[] shrineCounterSprites;
 
     [Header("Shrine Messages")]
     [SerializeField] private Image shrineRequiredMessage;
     [SerializeField] private Image shrineUnlockedMessage;
     [SerializeField] private Image allShrinesRestoredMessage;
 
+    [Header("Victory UI")]
+    [SerializeField] private GameObject levelCompletePanel;
+
     [Header("Message Settings")]
     [SerializeField] private float detectionDistance = 3f;
     [SerializeField] private float messageHeight = 2.5f;
     [SerializeField] private float fadeDuration = 0.4f;
     [SerializeField] private float unlockedMessageDuration = 3f;
-    [SerializeField] private float allRestoredDuration = 5f;
 
     private ShrineCheckpoint[] shrines;
     private bool[] previousShrineStates;
 
     private ShrineCheckpoint lastUnlockedShrine;
     private float unlockedTimer;
-    private float allRestoredTimer;
 
-    private bool allRestoredAnnounced;
+    private bool allShrinesRestored;
 
     private void Start()
     {
@@ -61,7 +62,7 @@ public class GameUI : MonoBehaviour
                 unlockedCount++;
         }
 
-        allRestoredAnnounced =
+        allShrinesRestored =
             shrines.Length > 0 &&
             unlockedCount == shrines.Length;
 
@@ -74,6 +75,13 @@ public class GameUI : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (levelCompletePanel != null &&
+            levelCompletePanel.activeInHierarchy)
+        {
+            HideGameplayUI();
+            return;
+        }
+
         UpdateHUD();
 
         if (playerHealth == null)
@@ -81,6 +89,24 @@ public class GameUI : MonoBehaviour
 
         CheckShrineProgress();
         UpdateShrineMessages();
+    }
+
+    private void HideGameplayUI()
+    {
+        if (healthImage != null)
+            healthImage.gameObject.SetActive(false);
+
+        if (shrineCounterImage != null)
+            shrineCounterImage.gameObject.SetActive(false);
+
+        if (shrineRequiredMessage != null)
+            shrineRequiredMessage.gameObject.SetActive(false);
+
+        if (shrineUnlockedMessage != null)
+            shrineUnlockedMessage.gameObject.SetActive(false);
+
+        if (allShrinesRestoredMessage != null)
+            allShrinesRestoredMessage.gameObject.SetActive(false);
     }
 
     private void UpdateHUD()
@@ -96,12 +122,21 @@ public class GameUI : MonoBehaviour
             healthImage.sprite = healthSprites[health];
         }
 
-        if (pyrkaImage != null &&
-            pyrkaSprites.Length == 4)
+        if (shrineCounterImage != null &&
+            shrineCounterSprites.Length == 5)
         {
-            int count = Mathf.Clamp(Pyrka.Count, 0, 3);
+            int unlockedCount = 0;
 
-            pyrkaImage.sprite = pyrkaSprites[count];
+            foreach (ShrineCheckpoint shrine in shrines)
+            {
+                if (shrine.IsUnlocked)
+                    unlockedCount++;
+            }
+
+            int count = Mathf.Clamp(unlockedCount, 0, 4);
+
+            shrineCounterImage.sprite =
+                shrineCounterSprites[count];
         }
     }
 
@@ -125,13 +160,9 @@ public class GameUI : MonoBehaviour
             previousShrineStates[i] = unlocked;
         }
 
-        if (!allRestoredAnnounced &&
+        allShrinesRestored =
             shrines.Length > 0 &&
-            unlockedCount == shrines.Length)
-        {
-            allRestoredAnnounced = true;
-            allRestoredTimer = allRestoredDuration;
-        }
+            unlockedCount == shrines.Length;
     }
 
     private void UpdateShrineMessages()
@@ -193,11 +224,10 @@ public class GameUI : MonoBehaviour
 
         FadeMessage(shrineUnlockedMessage, showUnlocked);
 
-        allRestoredTimer -= Time.deltaTime;
-
+        // Stays visible until the level is completed.
         FadeMessage(
             allShrinesRestoredMessage,
-            playerAlive && allRestoredTimer > 0f
+            allShrinesRestored
         );
     }
 

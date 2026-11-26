@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 441397def8da3534198d5e279f7ba196
+guid: bc3b3530b8e24d743a94a960bc340d10
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -993554641153918805
-    second: 01_Title_0
+      213: 8805375468373584336
+    second: Fern & the Fading Flame Menu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01_Title_0
+      name: Fern & the Fading Flame Menu_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba87415615f2632f0800000000000000
-      internalID: -993554641153918805
+      spriteID: 0d9a85ae55af23a70800000000000000
+      internalID: 8805375468373584336
       vertices: []
       indices: 
       edges: []
@@ -140,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      01_Title_0: -993554641153918805
+      Fern & the Fading Flame Menu_0: 8805375468373584336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

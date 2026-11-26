@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: c43ed94ef7df3b34a9a577fdcec6be49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2402888573521410977
+    second: Five-Row Glowing Shrine Sprite Sheet_0
+  - first:
+      213: 8412528915675036133
+    second: Five-Row Glowing Shrine Sprite Sheet_1
+  - first:
+      213: 1549828434772482149
+    second: Five-Row Glowing Shrine Sprite Sheet_2
+  - first:
+      213: -1825873414379369445
+    second: Five-Row Glowing Shrine Sprite Sheet_3
+  - first:
+      213: 882147006241172494
+    second: Five-Row Glowing Shrine Sprite Sheet_4
+  - first:
+      213: -3907171882889168583
+    second: Five-Row Glowing Shrine Sprite Sheet_5
+  - first:
+      213: -6303433295122195238
+    second: Five-Row Glowing Shrine Sprite Sheet_6
+  - first:
+      213: -3584310467513072938
+    second: Five-Row Glowing Shrine Sprite Sheet_7
+  - first:
+      213: 2552750231533208230
+    second: Five-Row Glowing Shrine Sprite Sheet_8
+  - first:
+      213: -5726538659705327962
+    second: Five-Row Glowing Shrine Sprite Sheet_9
+  - first:
+      213: -1491560186225615186
+    second: Five-Row Glowing Shrine Sprite Sheet_10
+  - first:
+      213: -6838152451302289271
+    second: Five-Row Glowing Shrine Sprite Sheet_11
+  - first:
+      213: 1298202538561377716
+    second: Five-Row Glowing Shrine Sprite Sheet_12
+  - first:
+      213: 2223372651925294041
+    second: Five-Row Glowing Shrine Sprite Sheet_13
+  - first:
+      213: -2127904914778132690
+    second: Five-Row Glowing Shrine Sprite Sheet_14
+  - first:
+      213: 5136368888850200675
+    second: Five-Row Glowing Shrine Sprite Sheet_15
+  - first:
+      213: -8944883839459027618
+    second: Five-Row Glowing Shrine Sprite Sheet_16
+  - first:
+      213: -741073497343086852
+    second: Five-Row Glowing Shrine Sprite Sheet_17
+  - first:
+      213: 8069298621250694707
+    second: Five-Row Glowing Shrine Sprite Sheet_18
+  - first:
+      213: 8487453658663915242
+    second: Five-Row Glowing Shrine Sprite Sheet_19
+  - first:
+      213: -4635272027759356674
+    second: Five-Row Glowing Shrine Sprite Sheet_20
+  - first:
+      213: 8184199852019480544
+    second: Five-Row Glowing Shrine Sprite Sheet_21
+  - first:
+      213: 2405598632225312682
+    second: Five-Row Glowing Shrine Sprite Sheet_22
+  - first:
+      213: 55265538099646242
+    second: Five-Row Glowing Shrine Sprite Sheet_23
+  - first:
+      213: 3911299211766878449
+    second: Five-Row Glowing Shrine Sprite Sheet_24
+  - first:
+      213: 1048760426247589154
+    second: Five-Row Glowing Shrine Sprite Sheet_25
+  - first:
+      213: -6034526781203224238
+    second: Five-Row Glowing Shrine Sprite Sheet_26
+  - first:
+      213: -1814116419181319299
+    second: Five-Row Glowing Shrine Sprite Sheet_27
+  - first:
+      213: 7275863228623124517
+    second: Five-Row Glowing Shrine Sprite Sheet_28
+  - first:
+      213: -6805967959830555442
+    second: Five-Row Glowing Shrine Sprite Sheet_29
+  - first:
+      213: 5954962242980955631
+    second: Five-Row Glowing Shrine Sprite Sheet_30
+  - first:
+      213: -5187197647951859019
+    second: Five-Row Glowing Shrine Sprite Sheet_31
+  - first:
+      213: -8661126763223893364
+    second: Five-Row Glowing Shrine Sprite Sheet_32
+  - first:
+      213: -7826889546735464539
+    second: Five-Row Glowing Shrine Sprite Sheet_33
+  - first:
+      213: 8881425000092817318
+    second: Five-Row Glowing Shrine Sprite Sheet_34
+  - first:
+      213: -7256021709573028985
+    second: Five-Row Glowing Shrine Sprite Sheet_35
+  - first:
+      213: -6112628598862795641
+    second: Five-Row Glowing Shrine Sprite Sheet_36
+  - first:
+      213: 313356769161964074
+    second: Five-Row Glowing Shrine Sprite Sheet_37
+  - first:
+      213: -106790424038293244
+    second: Five-Row Glowing Shrine Sprite Sheet_38
+  - first:
+      213: 2324150324643173260
+    second: Five-Row Glowing Shrine Sprite Sheet_39
+  - first:
+      213: -1078231472684369693
+    second: Five-Row Glowing Shrine Sprite Sheet_40
+  - first:
+      213: -3286146236813559560
+    second: Five-Row Glowing Shrine Sprite Sheet_41
+  - first:
+      213: -8589258904127548584
+    second: Five-Row Glowing Shrine Sprite Sheet_42
+  - first:
+      213: 9184350886963854344
+    second: Five-Row Glowing Shrine Sprite Sheet_43
+  - first:
+      213: 8466983201806617436
+    second: Five-Row Glowing Shrine Sprite Sheet_44
+  - first:
+      213: 8301149941500523863
+    second: Five-Row Glowing Shrine Sprite Sheet_45
+  - first:
+      213: 1390173453189225933
+    second: Five-Row Glowing Shrine Sprite Sheet_46
+  - first:
+      213: -751109611653437796
+    second: Five-Row Glowing Shrine Sprite Sheet_47
+  - first:
+      213: 1240175892414219187
+    second: Five-Row Glowing Shrine Sprite Sheet_48
+  - first:
+      213: 4519407618759369864
+    second: Five-Row Glowing Shrine Sprite Sheet_49
+  - first:
+      213: 4687744443967436006
+    second: Five-Row Glowing Shrine Sprite Sheet_50
+  - first:
+      213: -7091941506162375555
+    second: Five-Row Glowing Shrine Sprite Sheet_51
+  - first:
+      213: -412828917141337028
+    second: Five-Row Glowing Shrine Sprite Sheet_52
+  - first:
+      213: 2502845381837309308
+    second: Five-Row Glowing Shrine Sprite Sheet_53
+  - first:
+      213: -2751057695065907044
+    second: Five-Row Glowing Shrine Sprite Sheet_54
+  - first:
+      213: 3311135115749379958
+    second: Five-Row Glowing Shrine Sprite Sheet_55
+  - first:
+      213: -1825964033794048749
+    second: Five-Row Glowing Shrine Sprite Sheet_56
+  - first:
+      213: 2811888832385853111
+    second: Five-Row Glowing Shrine Sprite Sheet_57
+  - first:
+      213: -5164353908017433187
+    second: Five-Row Glowing Shrine Sprite Sheet_58
+  - first:
+      213: 6291326339600672325
+    second: Five-Row Glowing Shrine Sprite Sheet_59
+  - first:
+      213: -2687786443254308245
+    second: Five-Row Glowing Shrine Sprite Sheet_60
+  - first:
+      213: 4289047767722563440
+    second: Five-Row Glowing Shrine Sprite Sheet_61
+  - first:
+      213: -8961079771462332960
+    second: Five-Row Glowing Shrine Sprite Sheet_62
+  - first:
+      213: -4755059705574438576
+    second: Five-Row Glowing Shrine Sprite Sheet_63
+  - first:
+      213: -1695771110320676211
+    second: Five-Row Glowing Shrine Sprite Sheet_64
+  - first:
+      213: 7311902866683623474
+    second: Five-Row Glowing Shrine Sprite Sheet_65
+  - first:
+      213: 1095618707359630699
+    second: Five-Row Glowing Shrine Sprite Sheet_66
+  - first:
+      213: -373928633616253325
+    second: Five-Row Glowing Shrine Sprite Sheet_67
+  - first:
+      213: -4697749006492283740
+    second: Five-Row Glowing Shrine Sprite Sheet_68
+  - first:
+      213: -7049725246156085000
+    second: Five-Row Glowing Shrine Sprite Sheet_69
+  - first:
+      213: 2001436278508625885
+    second: Five-Row Glowing Shrine Sprite Sheet_70
+  - first:
+      213: 3561581076402576437
+    second: Five-Row Glowing Shrine Sprite Sheet_71
+  - first:
+      213: 2354598907194146662
+    second: Five-Row Glowing Shrine Sprite Sheet_72
+  - first:
+      213: -5497142476272425441
+    second: Five-Row Glowing Shrine Sprite Sheet_73
+  - first:
+      213: -3252950807944712675
+    second: Five-Row Glowing Shrine Sprite Sheet_74
+  - first:
+      213: -4869598803348407366
+    second: Five-Row Glowing Shrine Sprite Sheet_75
+  - first:
+      213: 8471442259334101683
+    second: Five-Row Glowing Shrine Sprite Sheet_76
+  - first:
+      213: -4890382981238936300
+    second: Five-Row Glowing Shrine Sprite Sheet_77
+  - first:
+      213: 3904746901417027618
+    second: Five-Row Glowing Shrine Sprite Sheet_78
+  - first:
+      213: -1117632826046171676
+    second: Five-Row Glowing Shrine Sprite Sheet_79
+  - first:
+      213: -6730223553643536813
+    second: Five-Row Glowing Shrine Sprite Sheet_80
+  - first:
+      213: 8736329237350967264
+    second: Five-Row Glowing Shrine Sprite Sheet_81
+  - first:
+      213: -7262442631773181745
+    second: Five-Row Glowing Shrine Sprite Sheet_82
+  - first:
+      213: -8977266482371644007
+    second: Five-Row Glowing Shrine Sprite Sheet_83
+  - first:
+      213: -9034284379525476520
+    second: Five-Row Glowing Shrine Sprite Sheet_84
+  - first:
+      213: -1418208944888306537
+    second: Five-Row Glowing Shrine Sprite Sheet_85
+  - first:
+      213: 4582282596588440377
+    second: Five-Row Glowing Shrine Sprite Sheet_86
+  - first:
+      213: -3971858507361857757
+    second: Five-Row Glowing Shrine Sprite Sheet_87
+  - first:
+      213: -8701199186360209938
+    second: Five-Row Glowing Shrine Sprite Sheet_88
+  - first:
+      213: -5943188874577400260
+    second: Five-Row Glowing Shrine Sprite Sheet_89
+  - first:
+      213: -804369246898130805
+    second: Five-Row Glowing Shrine Sprite Sheet_90
+  - first:
+      213: 1925827453852309680
+    second: Five-Row Glowing Shrine Sprite Sheet_91
+  - first:
+      213: 6932959233191540447
+    second: Five-Row Glowing Shrine Sprite Sheet_92
+  - first:
+      213: 5380227068556493438
+    second: Five-Row Glowing Shrine Sprite Sheet_93
+  - first:
+      213: -2811536927889434267
+    second: Five-Row Glowing Shrine Sprite Sheet_94
+  - first:
+      213: 6991262387262502388
+    second: Five-Row Glowing Shrine Sprite Sheet_95
+  - first:
+      213: -2030311716727323343
+    second: Five-Row Glowing Shrine Sprite Sheet_96
+  - first:
+      213: -5725597182049647080
+    second: Five-Row Glowing Shrine Sprite Sheet_97
+  - first:
+      213: -8767022051006336692
+    second: Five-Row Glowing Shrine Sprite Sheet_98
+  - first:
+      213: -5085261063211545268
+    second: Five-Row Glowing Shrine Sprite Sheet_99
+  - first:
+      213: 9174722894613410483
+    second: Five-Row Glowing Shrine Sprite Sheet_100
+  - first:
+      213: 960417329664887606
+    second: Five-Row Glowing Shrine Sprite Sheet_101
+  - first:
+      213: 4174133717043342641
+    second: Five-Row Glowing Shrine Sprite Sheet_102
+  - first:
+      213: -157989885709904079
+    second: Five-Row Glowing Shrine Sprite Sheet_103
+  - first:
+      213: 8869005530054906702
+    second: Five-Row Glowing Shrine Sprite Sheet_104
+  - first:
+      213: -450081001731350266
+    second: Five-Row Glowing Shrine Sprite Sheet_105
+  - first:
+      213: -4936713560074042422
+    second: Five-Row Glowing Shrine Sprite Sheet_106
+  - first:
+      213: -7917171889220964947
+    second: Five-Row Glowing Shrine Sprite Sheet_107
+  - first:
+      213: 691406388349396829
+    second: Five-Row Glowing Shrine Sprite Sheet_108
+  - first:
+      213: -4296574742822435058
+    second: Five-Row Glowing Shrine Sprite Sheet_109
+  - first:
+      213: 340964141917761930
+    second: Five-Row Glowing Shrine Sprite Sheet_110
+  - first:
+      213: -5888170309626886630
+    second: Five-Row Glowing Shrine Sprite Sheet_111
+  - first:
+      213: -1039168758112432454
+    second: Five-Row Glowing Shrine Sprite Sheet_112
+  - first:
+      213: 9011281361593564891
+    second: Five-Row Glowing Shrine Sprite Sheet_113
+  - first:
+      213: -1441927816990630069
+    second: Five-Row Glowing Shrine Sprite Sheet_114
+  - first:
+      213: 7085425221027424860
+    second: Five-Row Glowing Shrine Sprite Sheet_115
+  - first:
+      213: -5644839209472196709
+    second: Five-Row Glowing Shrine Sprite Sheet_116
+  - first:
+      213: 3260304448404370919
+    second: Five-Row Glowing Shrine Sprite Sheet_117
+  - first:
+      213: 4298198906116513645
+    second: Five-Row Glowing Shrine Sprite Sheet_118
+  - first:
+      213: -407088088442836716
+    second: Five-Row Glowing Shrine Sprite Sheet_119
+  - first:
+      213: 8715720452370693725
+    second: Five-Row Glowing Shrine Sprite Sheet_120
+  - first:
+      213: 4313235853535257086
+    second: Five-Row Glowing Shrine Sprite Sheet_121
+  - first:
+      213: -2466053589531500907
+    second: Five-Row Glowing Shrine Sprite Sheet_122
+  - first:
+      213: -2456836251788556575
+    second: Five-Row Glowing Shrine Sprite Sheet_123
+  - first:
+      213: -1394962836254829576
+    second: Five-Row Glowing Shrine Sprite Sheet_124
+  - first:
+      213: 4786051696884180630
+    second: Five-Row Glowing Shrine Sprite Sheet_125
+  - first:
+      213: 6252564717348234787
+    second: Five-Row Glowing Shrine Sprite Sheet_126
+  - first:
+      213: 965437924483442893
+    second: Five-Row Glowing Shrine Sprite Sheet_127
+  - first:
+      213: -8945343382254782096
+    second: Five-Row Glowing Shrine Sprite Sheet_128
+  - first:
+      213: -4206206225363759564
+    second: Five-Row Glowing Shrine Sprite Sheet_129
+  - first:
+      213: -8618645070319945087
+    second: Five-Row Glowing Shrine Sprite Sheet_130
+  - first:
+      213: -7148113672026483216
+    second: Five-Row Glowing Shrine Sprite Sheet_131
+  - first:
+      213: -8220808947639443673
+    second: Five-Row Glowing Shrine Sprite Sheet_132
+  - first:
+      213: 1581293527907274589
+    second: Five-Row Glowing Shrine Sprite Sheet_133
+  - first:
+      213: 2894019609166830607
+    second: Five-Row Glowing Shrine Sprite Sheet_134
+  - first:
+      213: 2146178461405518097
+    second: Five-Row Glowing Shrine Sprite Sheet_135
+  - first:
+      213: 3450906654841976511
+    second: Five-Row Glowing Shrine Sprite Sheet_136
+  - first:
+      213: 3812833932486579152
+    second: Five-Row Glowing Shrine Sprite Sheet_137
+  - first:
+      213: 4942156464562000650
+    second: Five-Row Glowing Shrine Sprite Sheet_138
+  - first:
+      213: -5654333642558784272
+    second: Five-Row Glowing Shrine Sprite Sheet_139
+  - first:
+      213: -3348527318589569321
+    second: Five-Row Glowing Shrine Sprite Sheet_140
+  - first:
+      213: 3418137154625268530
+    second: Five-Row Glowing Shrine Sprite Sheet_141
+  - first:
+      213: -4721567884756753139
+    second: Five-Row Glowing Shrine Sprite Sheet_142
+  - first:
+      213: 6133388193294725798
+    second: Five-Row Glowing Shrine Sprite Sheet_143
+  - first:
+      213: 1747806511514845266
+    second: Five-Row Glowing Shrine Sprite Sheet_144
+  - first:
+      213: -1212806593116871850
+    second: Five-Row Glowing Shrine Sprite Sheet_145
+  - first:
+      213: 8239078079231901573
+    second: Five-Row Glowing Shrine Sprite Sheet_146
+  - first:
+      213: -7433490900598289700
+    second: Five-Row Glowing Shrine Sprite Sheet_147
+  - first:
+      213: -1442127601333187217
+    second: Five-Row Glowing Shrine Sprite Sheet_148
+  - first:
+      213: -7354834264147999200
+    second: Five-Row Glowing Shrine Sprite Sheet_149
+  - first:
+      213: -12403112098389216
+    second: Five-Row Glowing Shrine Sprite Sheet_150
+  - first:
+      213: -6419608486304744118
+    second: Five-Row Glowing Shrine Sprite Sheet_151
+  - first:
+      213: -4160688508841994859
+    second: Five-Row Glowing Shrine Sprite Sheet_152
+  - first:
+      213: 6502398083156866331
+    second: Five-Row Glowing Shrine Sprite Sheet_153
+  - first:
+      213: -3730644720330000449
+    second: Five-Row Glowing Shrine Sprite Sheet_154
+  - first:
+      213: 7775936540444429911
+    second: Five-Row Glowing Shrine Sprite Sheet_155
+  - first:
+      213: 5808025490838629093
+    second: Five-Row Glowing Shrine Sprite Sheet_156
+  - first:
+      213: 6746847291128241995
+    second: Five-Row Glowing Shrine Sprite Sheet_157
+  - first:
+      213: -4653667646852266848
+    second: Five-Row Glowing Shrine Sprite Sheet_158
+  - first:
+      213: 3002152625737204073
+    second: Five-Row Glowing Shrine Sprite Sheet_159
+  - first:
+      213: -6281032975884879089
+    second: Five-Row Glowing Shrine Sprite Sheet_160
+  - first:
+      213: 2136171553398888869
+    second: Five-Row Glowing Shrine Sprite Sheet_161
+  - first:
+      213: 5204538837351869841
+    second: Five-Row Glowing Shrine Sprite Sheet_162
+  - first:
+      213: 6257764160489251079
+    second: Five-Row Glowing Shrine Sprite Sheet_163
+  - first:
+      213: 4306309047427763061
+    second: Five-Row Glowing Shrine Sprite Sheet_164
+  - first:
+      213: 3742414864961051804
+    second: Five-Row Glowing Shrine Sprite Sheet_165
+  - first:
+      213: 2556507694725275038
+    second: Five-Row Glowing Shrine Sprite Sheet_166
+  - first:
+      213: -482310862139235656
+    second: Five-Row Glowing Shrine Sprite Sheet_167
+  - first:
+      213: -8544874059745375838
+    second: Five-Row Glowing Shrine Sprite Sheet_168
+  - first:
+      213: 3400922365651322861
+    second: Five-Row Glowing Shrine Sprite Sheet_169
+  - first:
+      213: -923796663318011841
+    second: Five-Row Glowing Shrine Sprite Sheet_170
+  - first:
+      213: -5584869462790484639
+    second: Five-Row Glowing Shrine Sprite Sheet_171
+  - first:
+      213: 6118758882135299292
+    second: Five-Row Glowing Shrine Sprite Sheet_172
+  - first:
+      213: 4982152408850424369
+    second: Five-Row Glowing Shrine Sprite Sheet_173
+  - first:
+      213: -353221351410088035
+    second: Five-Row Glowing Shrine Sprite Sheet_174
+  - first:
+      213: 636350658196418022
+    second: Five-Row Glowing Shrine Sprite Sheet_175
+  - first:
+      213: -9160426364758448618
+    second: Five-Row Glowing Shrine Sprite Sheet_176
+  - first:
+      213: 8591475260929517367
+    second: Five-Row Glowing Shrine Sprite Sheet_177
+  - first:
+      213: 7081679771802437116
+    second: Five-Row Glowing Shrine Sprite Sheet_178
+  - first:
+      213: 1681381963458529481
+    second: Five-Row Glowing Shrine Sprite Sheet_179
+  - first:
+      213: 7070708321117315330
+    second: Five-Row Glowing Shrine Sprite Sheet_180
+  - first:
+      213: -2976903603658495102
+    second: Five-Row Glowing Shrine Sprite Sheet_181
+  - first:
+      213: 5828383535535625205
+    second: Five-Row Glowing Shrine Sprite Sheet_182
+  - first:
+      213: -1433083329077807428
+    second: Five-Row Glowing Shrine Sprite Sheet_183
+  - first:
+      213: -7849981824628574415
+    second: Five-Row Glowing Shrine Sprite Sheet_184
+  - first:
+      213: 1137877866447492194
+    second: Five-Row Glowing Shrine Sprite Sheet_185
+  - first:
+      213: 1606159688758323193
+    second: Five-Row Glowing Shrine Sprite Sheet_186
+  - first:
+      213: -6021931585159045256
+    second: Five-Row Glowing Shrine Sprite Sheet_187
+  - first:
+      213: -556554835795742956
+    second: Five-Row Glowing Shrine Sprite Sheet_188
+  - first:
+      213: 8267913177944505754
+    second: Five-Row Glowing Shrine Sprite Sheet_189
+  - first:
+      213: 4697983069738018056
+    second: Five-Row Glowing Shrine Sprite Sheet_190
+  - first:
+      213: 8164298086520612967
+    second: Five-Row Glowing Shrine Sprite Sheet_191
+  - first:
+      213: -2452475540937816311
+    second: Five-Row Glowing Shrine Sprite Sheet_192
+  - first:
+      213: -5824247458374218935
+    second: Five-Row Glowing Shrine Sprite Sheet_193
+  - first:
+      213: -2220027979525878106
+    second: Five-Row Glowing Shrine Sprite Sheet_194
+  - first:
+      213: 6233405782386142839
+    second: Five-Row Glowing Shrine Sprite Sheet_195
+  - first:
+      213: -5205053524930839432
+    second: Five-Row Glowing Shrine Sprite Sheet_196
+  - first:
+      213: -3049695503430824027
+    second: Five-Row Glowing Shrine Sprite Sheet_197
+  - first:
+      213: 832249103967636388
+    second: Five-Row Glowing Shrine Sprite Sheet_198
+  - first:
+      213: -884654623568501431
+    second: Five-Row Glowing Shrine Sprite Sheet_199
+  - first:
+      213: -1239800694365167656
+    second: Five-Row Glowing Shrine Sprite Sheet_200
+  - first:
+      213: 1330909844805611741
+    second: Five-Row Glowing Shrine Sprite Sheet_201
+  - first:
+      213: 4038054083110925565
+    second: Five-Row Glowing Shrine Sprite Sheet_202
+  - first:
+      213: 464898567288458422
+    second: Five-Row Glowing Shrine Sprite Sheet_203
+  - first:
+      213: -6338263211856028415
+    second: Five-Row Glowing Shrine Sprite Sheet_204
+  - first:
+      213: 4724005841150769929
+    second: Five-Row Glowing Shrine Sprite Sheet_205
+  - first:
+      213: -5289938310344144043
+    second: Five-Row Glowing Shrine Sprite Sheet_206
+  - first:
+      213: -767374428084911120
+    second: Five-Row Glowing Shrine Sprite Sheet_207
+  - first:
+      213: -4947836138092386228
+    second: Five-Row Glowing Shrine Sprite Sheet_208
+  - first:
+      213: 7186173472033889172
+    second: Five-Row Glowing Shrine Sprite Sheet_209
+  - first:
+      213: -2730192897215451057
+    second: Five-Row Glowing Shrine Sprite Sheet_210
+  - first:
+      213: -9118223785935834455
+    second: Five-Row Glowing Shrine Sprite Sheet_211
+  - first:
+      213: 8572544619362586435
+    second: Five-Row Glowing Shrine Sprite Sheet_212
+  - first:
+      213: 64777845694103630
+    second: Five-Row Glowing Shrine Sprite Sheet_213
+  - first:
+      213: 5558748138107054727
+    second: Five-Row Glowing Shrine Sprite Sheet_214
+  - first:
+      213: 9178077521854065048
+    second: Five-Row Glowing Shrine Sprite Sheet_215
+  - first:
+      213: -2008943901480695948
+    second: Five-Row Glowing Shrine Sprite Sheet_216
+  - first:
+      213: -1245722482715749991
+    second: Five-Row Glowing Shrine Sprite Sheet_217
+  - first:
+      213: 1461694961392639050
+    second: Five-Row Glowing Shrine Sprite Sheet_218
+  - first:
+      213: -6455500201574535814
+    second: Five-Row Glowing Shrine Sprite Sheet_219
+  - first:
+      213: 6698131238399774520
+    second: Five-Row Glowing Shrine Sprite Sheet_220
+  - first:
+      213: -2432751600569079507
+    second: Five-Row Glowing Shrine Sprite Sheet_221
+  - first:
+      213: 3929841278298436253
+    second: Five-Row Glowing Shrine Sprite Sheet_222
+  - first:
+      213: -7437806596711671766
+    second: Five-Row Glowing Shrine Sprite Sheet_223
+  - first:
+      213: 420779149441515969
+    second: Five-Row Glowing Shrine Sprite Sheet_224
+  - first:
+      213: -8654413193994605720
+    second: Five-Row Glowing Shrine Sprite Sheet_225
+  - first:
+      213: 4696856306062973997
+    second: Five-Row Glowing Shrine Sprite Sheet_226
+  - first:
+      213: -3558084681968443387
+    second: Five-Row Glowing Shrine Sprite Sheet_227
+  - first:
+      213: 2728284255954745148
+    second: Five-Row Glowing Shrine Sprite Sheet_228
+  - first:
+      213: 7114286827717232881
+    second: Five-Row Glowing Shrine Sprite Sheet_229
+  - first:
+      213: -5690411560769414956
+    second: Five-Row Glowing Shrine Sprite Sheet_230
+  - first:
+      213: 6781490532416489468
+    second: Five-Row Glowing Shrine Sprite Sheet_231
+  - first:
+      213: -1690813580546697628
+    second: Five-Row Glowing Shrine Sprite Sheet_232
+  - first:
+      213: -6807388792183379509
+    second: Five-Row Glowing Shrine Sprite Sheet_233
+  - first:
+      213: -337863993577438510
+    second: Five-Row Glowing Shrine Sprite Sheet_234
+  - first:
+      213: -8166696942509024137
+    second: Five-Row Glowing Shrine Sprite Sheet_235
+  - first:
+      213: 204681999929608695
+    second: Five-Row Glowing Shrine Sprite Sheet_236
+  - first:
+      213: -7528100441491017786
+    second: Five-Row Glowing Shrine Sprite Sheet_237
+  - first:
+      213: -8176385755416417078
+    second: Five-Row Glowing Shrine Sprite Sheet_238
+  - first:
+      213: -4293680606736290943
+    second: Five-Row Glowing Shrine Sprite Sheet_239
+  - first:
+      213: -6059684351076693178
+    second: Five-Row Glowing Shrine Sprite Sheet_240
+  - first:
+      213: 4829342802543607369
+    second: Five-Row Glowing Shrine Sprite Sheet_241
+  - first:
+      213: 8014309180536718118
+    second: Five-Row Glowing Shrine Sprite Sheet_242
+  - first:
+      213: 3909009374361963883
+    second: Five-Row Glowing Shrine Sprite Sheet_243
+  - first:
+      213: -7777394296965918349
+    second: Five-Row Glowing Shrine Sprite Sheet_244
+  - first:
+      213: -3060973080031670472
+    second: Five-Row Glowing Shrine Sprite Sheet_245
+  - first:
+      213: -7965077392530040399
+    second: Five-Row Glowing Shrine Sprite Sheet_246
+  - first:
+      213: 8824931130280142906
+    second: Five-Row Glowing Shrine Sprite Sheet_247
+  - first:
+      213: 481373816608664655
+    second: Five-Row Glowing Shrine Sprite Sheet_248
+  - first:
+      213: 5546603728235534857
+    second: Five-Row Glowing Shrine Sprite Sheet_249
+  - first:
+      213: -1046653620546903800
+    second: Five-Row Glowing Shrine Sprite Sheet_250
+  - first:
+      213: 5656427218244780151
+    second: Five-Row Glowing Shrine Sprite Sheet_251
+  - first:
+      213: -7019544215390656857
+    second: Five-Row Glowing Shrine Sprite Sheet_252
+  - first:
+      213: 2967947066781285514
+    second: Five-Row Glowing Shrine Sprite Sheet_253
+  - first:
+      213: -6510656856868229420
+    second: Five-Row Glowing Shrine Sprite Sheet_254
+  - first:
+      213: -432584715448285801
+    second: Five-Row Glowing Shrine Sprite Sheet_255
+  - first:
+      213: -4434547423896966184
+    second: Five-Row Glowing Shrine Sprite Sheet_256
+  - first:
+      213: -4543263515261274151
+    second: Five-Row Glowing Shrine Sprite Sheet_257
+  - first:
+      213: -3190158048884069515
+    second: Five-Row Glowing Shrine Sprite Sheet_258
+  - first:
+      213: 495853207276723678
+    second: Five-Row Glowing Shrine Sprite Sheet_259
+  - first:
+      213: 6928787448244587439
+    second: Five-Row Glowing Shrine Sprite Sheet_260
+  - first:
+      213: -6156337175639388302
+    second: Five-Row Glowing Shrine Sprite Sheet_261
+  - first:
+      213: -9040896731382009323
+    second: Five-Row Glowing Shrine Sprite Sheet_262
+  - first:
+      213: 7004966789208219249
+    second: Five-Row Glowing Shrine Sprite Sheet_263
+  - first:
+      213: 3916543809989588032
+    second: Five-Row Glowing Shrine Sprite Sheet_264
+  - first:
+      213: 2951488303011303927
+    second: Five-Row Glowing Shrine Sprite Sheet_265
+  - first:
+      213: 5824896727245253918
+    second: Five-Row Glowing Shrine Sprite Sheet_266
+  - first:
+      213: -5031545102579332247
+    second: Five-Row Glowing Shrine Sprite Sheet_267
+  - first:
+      213: -3301091894472105299
+    second: Five-Row Glowing Shrine Sprite Sheet_268
+  - first:
+      213: 6151067619723445058
+    second: Five-Row Glowing Shrine Sprite Sheet_269
+  - first:
+      213: -7705142362697107062
+    second: Five-Row Glowing Shrine Sprite Sheet_270
+  - first:
+      213: 5949056737445767846
+    second: Five-Row Glowing Shrine Sprite Sheet_271
+  - first:
+      213: -1068961618290030839
+    second: Five-Row Glowing Shrine Sprite Sheet_272
+  - first:
+      213: 8392708139154308090
+    second: Five-Row Glowing Shrine Sprite Sheet_273
+  - first:
+      213: -7661172942162207147
+    second: Five-Row Glowing Shrine Sprite Sheet_274
+  - first:
+      213: 1286454017634486120
+    second: Five-Row Glowing Shrine Sprite Sheet_275
+  - first:
+      213: -4343976329696651060
+    second: Five-Row Glowing Shrine Sprite Sheet_276
+  - first:
+      213: 8826821958572575957
+    second: Five-Row Glowing Shrine Sprite Sheet_277
+  - first:
+      213: -7985545899385575990
+    second: Five-Row Glowing Shrine Sprite Sheet_278
+  - first:
+      213: 7611441659280860526
+    second: Five-Row Glowing Shrine Sprite Sheet_279
+  - first:
+      213: -8520962984780607768
+    second: Five-Row Glowing Shrine Sprite Sheet_280
+  - first:
+      213: 5759552839924634936
+    second: Five-Row Glowing Shrine Sprite Sheet_281
+  - first:
+      213: 7200231840038832585
+    second: Five-Row Glowing Shrine Sprite Sheet_282
+  - first:
+      213: -8834788973899249342
+    second: Five-Row Glowing Shrine Sprite Sheet_283
+  - first:
+      213: 4692458264280954453
+    second: Five-Row Glowing Shrine Sprite Sheet_284
+  - first:
+      213: -5805659014027650366
+    second: Five-Row Glowing Shrine Sprite Sheet_285
+  - first:
+      213: 837078668815079294
+    second: Five-Row Glowing Shrine Sprite Sheet_286
+  - first:
+      213: 4484911370430269207
+    second: Five-Row Glowing Shrine Sprite Sheet_287
+  - first:
+      213: 3984704165626201533
+    second: Five-Row Glowing Shrine Sprite Sheet_288
+  - first:
+      213: -8944721713089067551
+    second: Five-Row Glowing Shrine Sprite Sheet_289
+  - first:
+      213: -8991219604817180267
+    second: Five-Row Glowing Shrine Sprite Sheet_290
+  - first:
+      213: 7181130173968654196
+    second: Five-Row Glowing Shrine Sprite Sheet_291
+  - first:
+      213: -5303268565180782568
+    second: Five-Row Glowing Shrine Sprite Sheet_292
+  - first:
+      213: -2099165035569847280
+    second: Five-Row Glowing Shrine Sprite Sheet_293
+  - first:
+      213: -7848823887179851750
+    second: Five-Row Glowing Shrine Sprite Sheet_294
+  - first:
+      213: -7364007116907110165
+    second: Five-Row Glowing Shrine Sprite Sheet_295
+  - first:
+      213: 357757194562969252
+    second: Five-Row Glowing Shrine Sprite Sheet_296
+  - first:
+      213: 6896175575677756681
+    second: Five-Row Glowing Shrine Sprite Sheet_297
+  - first:
+      213: 2425842096095983895
+    second: Five-Row Glowing Shrine Sprite Sheet_298
+  - first:
+      213: -2647173717033777942
+    second: Five-Row Glowing Shrine Sprite Sheet_299
+  - first:
+      213: -7602107169605069348
+    second: Five-Row Glowing Shrine Sprite Sheet_300
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Five-Row Glowing Shrine Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 737
+        width: 805
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abb6933d66c85120800000000000000
+      internalID: 2402888573521410977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Row Glowing Shrine Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 550
+        width: 799
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21db57efcbee3846ae7024c005f0d1b
+      internalID: 8412528915675036133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Row Glowing Shrine Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 351
+        width: 801
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360eb8eaba4dcfa4591fea24804732ad
+      internalID: 1549828434772482149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Row Glowing Shrine Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 171
+        width: 802
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc819f032f453504ba09936b68f7db6f
+      internalID: -1825873414379369445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Row Glowing Shrine Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 799
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9642d85845a4b974e9c9d5a3bba9d8dd
+      internalID: 882147006241172494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: edc6e9a6781713e4ab6f5177287c1fc6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1672.0,"y":941.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Five-Row Glowing Shrine Sprite Sheet_0: 2402888573521410977
+      Five-Row Glowing Shrine Sprite Sheet_1: 8412528915675036133
+      Five-Row Glowing Shrine Sprite Sheet_2: 1549828434772482149
+      Five-Row Glowing Shrine Sprite Sheet_3: -1825873414379369445
+      Five-Row Glowing Shrine Sprite Sheet_4: 882147006241172494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
