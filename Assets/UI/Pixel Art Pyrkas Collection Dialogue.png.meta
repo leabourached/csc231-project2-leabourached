@@ -1,0 +1,2732 @@
+fileFormatVersion: 2
+guid: d7eac6dc93eafe148836231b083b580a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6482659986538574908
+    second: Pixel Art Pyrkas Collection Dialogue_0
+  - first:
+      213: 4478558783408815793
+    second: Pixel Art Pyrkas Collection Dialogue_1
+  - first:
+      213: 7505231074547268619
+    second: Pixel Art Pyrkas Collection Dialogue_2
+  - first:
+      213: 2967506224987799826
+    second: Pixel Art Pyrkas Collection Dialogue_3
+  - first:
+      213: -798166742644242473
+    second: Pixel Art Pyrkas Collection Dialogue_4
+  - first:
+      213: 7745906897239616881
+    second: Pixel Art Pyrkas Collection Dialogue_5
+  - first:
+      213: 8414980025532254552
+    second: Pixel Art Pyrkas Collection Dialogue_6
+  - first:
+      213: 2142589905767343443
+    second: Pixel Art Pyrkas Collection Dialogue_7
+  - first:
+      213: -2105966447489004531
+    second: Pixel Art Pyrkas Collection Dialogue_8
+  - first:
+      213: 5021873269730678453
+    second: Pixel Art Pyrkas Collection Dialogue_9
+  - first:
+      213: -8628955920399136020
+    second: Pixel Art Pyrkas Collection Dialogue_10
+  - first:
+      213: -2164893241560557173
+    second: Pixel Art Pyrkas Collection Dialogue_11
+  - first:
+      213: -8309926459127568215
+    second: Pixel Art Pyrkas Collection Dialogue_12
+  - first:
+      213: -2134720875350112919
+    second: Pixel Art Pyrkas Collection Dialogue_13
+  - first:
+      213: -281082035481232005
+    second: Pixel Art Pyrkas Collection Dialogue_14
+  - first:
+      213: -7324347318612393320
+    second: Pixel Art Pyrkas Collection Dialogue_15
+  - first:
+      213: 4148755578500612754
+    second: Pixel Art Pyrkas Collection Dialogue_16
+  - first:
+      213: 7615227904459475117
+    second: Pixel Art Pyrkas Collection Dialogue_17
+  - first:
+      213: 5375133995619127513
+    second: Pixel Art Pyrkas Collection Dialogue_18
+  - first:
+      213: -8010630518894829242
+    second: Pixel Art Pyrkas Collection Dialogue_19
+  - first:
+      213: 2560040168667928154
+    second: Pixel Art Pyrkas Collection Dialogue_20
+  - first:
+      213: -1975354470318627206
+    second: Pixel Art Pyrkas Collection Dialogue_21
+  - first:
+      213: -5292770432449752734
+    second: Pixel Art Pyrkas Collection Dialogue_22
+  - first:
+      213: -1970144277209443846
+    second: Pixel Art Pyrkas Collection Dialogue_23
+  - first:
+      213: 6459540791894568578
+    second: Pixel Art Pyrkas Collection Dialogue_24
+  - first:
+      213: -7189724012772078083
+    second: Pixel Art Pyrkas Collection Dialogue_25
+  - first:
+      213: -8269052145777262416
+    second: Pixel Art Pyrkas Collection Dialogue_26
+  - first:
+      213: 701309211215012822
+    second: Pixel Art Pyrkas Collection Dialogue_27
+  - first:
+      213: -205831620303916171
+    second: Pixel Art Pyrkas Collection Dialogue_28
+  - first:
+      213: -111533946369487330
+    second: Pixel Art Pyrkas Collection Dialogue_29
+  - first:
+      213: -1214861600400777754
+    second: Pixel Art Pyrkas Collection Dialogue_30
+  - first:
+      213: -2695965034479662635
+    second: Pixel Art Pyrkas Collection Dialogue_31
+  - first:
+      213: 4544255422896380777
+    second: Pixel Art Pyrkas Collection Dialogue_32
+  - first:
+      213: -1197495330121399979
+    second: Pixel Art Pyrkas Collection Dialogue_33
+  - first:
+      213: 1300163125721975850
+    second: Pixel Art Pyrkas Collection Dialogue_34
+  - first:
+      213: -689822120261014157
+    second: Pixel Art Pyrkas Collection Dialogue_35
+  - first:
+      213: -5108684464289784054
+    second: Pixel Art Pyrkas Collection Dialogue_36
+  - first:
+      213: 50757920570783146
+    second: Pixel Art Pyrkas Collection Dialogue_37
+  - first:
+      213: 6273826035085407241
+    second: Pixel Art Pyrkas Collection Dialogue_38
+  - first:
+      213: 5816960671658443256
+    second: Pixel Art Pyrkas Collection Dialogue_39
+  - first:
+      213: 2839462468151262986
+    second: Pixel Art Pyrkas Collection Dialogue_40
+  - first:
+      213: 6444424277322297827
+    second: Pixel Art Pyrkas Collection Dialogue_41
+  - first:
+      213: -2541886496017429643
+    second: Pixel Art Pyrkas Collection Dialogue_42
+  - first:
+      213: 8523032164619402913
+    second: Pixel Art Pyrkas Collection Dialogue_43
+  - first:
+      213: 222232874442308986
+    second: Pixel Art Pyrkas Collection Dialogue_44
+  - first:
+      213: 4749265872352236984
+    second: Pixel Art Pyrkas Collection Dialogue_45
+  - first:
+      213: -1379965783006810554
+    second: Pixel Art Pyrkas Collection Dialogue_46
+  - first:
+      213: 491417226142894049
+    second: Pixel Art Pyrkas Collection Dialogue_47
+  - first:
+      213: 1894847132509287132
+    second: Pixel Art Pyrkas Collection Dialogue_48
+  - first:
+      213: -889657158936470844
+    second: Pixel Art Pyrkas Collection Dialogue_49
+  - first:
+      213: -7911717860466530505
+    second: Pixel Art Pyrkas Collection Dialogue_50
+  - first:
+      213: -1436571086102539735
+    second: Pixel Art Pyrkas Collection Dialogue_51
+  - first:
+      213: -4076059366476994943
+    second: Pixel Art Pyrkas Collection Dialogue_52
+  - first:
+      213: 1321477670827943211
+    second: Pixel Art Pyrkas Collection Dialogue_53
+  - first:
+      213: 1995005018340584453
+    second: Pixel Art Pyrkas Collection Dialogue_54
+  - first:
+      213: -8030406838326247189
+    second: Pixel Art Pyrkas Collection Dialogue_55
+  - first:
+      213: -2151887771270443765
+    second: Pixel Art Pyrkas Collection Dialogue_56
+  - first:
+      213: -5769311445545945391
+    second: Pixel Art Pyrkas Collection Dialogue_57
+  - first:
+      213: 4051959878868644789
+    second: Pixel Art Pyrkas Collection Dialogue_58
+  - first:
+      213: 1267976125888646565
+    second: Pixel Art Pyrkas Collection Dialogue_59
+  - first:
+      213: -4045030319339624024
+    second: Pixel Art Pyrkas Collection Dialogue_60
+  - first:
+      213: -6842523847935765640
+    second: Pixel Art Pyrkas Collection Dialogue_61
+  - first:
+      213: -5388162230595306962
+    second: Pixel Art Pyrkas Collection Dialogue_62
+  - first:
+      213: -1794350002776405820
+    second: Pixel Art Pyrkas Collection Dialogue_63
+  - first:
+      213: 7377500099113958264
+    second: Pixel Art Pyrkas Collection Dialogue_64
+  - first:
+      213: 7632092343013812020
+    second: Pixel Art Pyrkas Collection Dialogue_65
+  - first:
+      213: 5142856849713359829
+    second: Pixel Art Pyrkas Collection Dialogue_66
+  - first:
+      213: -1665411625929186335
+    second: Pixel Art Pyrkas Collection Dialogue_67
+  - first:
+      213: 4165953924648704530
+    second: Pixel Art Pyrkas Collection Dialogue_68
+  - first:
+      213: -3605216666896636542
+    second: Pixel Art Pyrkas Collection Dialogue_69
+  - first:
+      213: 8646395053309988593
+    second: Pixel Art Pyrkas Collection Dialogue_70
+  - first:
+      213: -7624993721195637962
+    second: Pixel Art Pyrkas Collection Dialogue_71
+  - first:
+      213: -7787140234359601048
+    second: Pixel Art Pyrkas Collection Dialogue_72
+  - first:
+      213: -2193938125265822750
+    second: Pixel Art Pyrkas Collection Dialogue_73
+  - first:
+      213: -3135405310569461698
+    second: Pixel Art Pyrkas Collection Dialogue_74
+  - first:
+      213: 2714087688221101652
+    second: Pixel Art Pyrkas Collection Dialogue_75
+  - first:
+      213: -8647749192650160290
+    second: Pixel Art Pyrkas Collection Dialogue_76
+  - first:
+      213: -4026985985685409137
+    second: Pixel Art Pyrkas Collection Dialogue_77
+  - first:
+      213: 5970140075540412049
+    second: Pixel Art Pyrkas Collection Dialogue_78
+  - first:
+      213: 612237350435952521
+    second: Pixel Art Pyrkas Collection Dialogue_79
+  - first:
+      213: -6116892854648119213
+    second: Pixel Art Pyrkas Collection Dialogue_80
+  - first:
+      213: -8093062518536907015
+    second: Pixel Art Pyrkas Collection Dialogue_81
+  - first:
+      213: -1264302412318285340
+    second: Pixel Art Pyrkas Collection Dialogue_82
+  - first:
+      213: -533297309564156493
+    second: Pixel Art Pyrkas Collection Dialogue_83
+  - first:
+      213: 5115437184094412244
+    second: Pixel Art Pyrkas Collection Dialogue_84
+  - first:
+      213: -4565928175929100750
+    second: Pixel Art Pyrkas Collection Dialogue_85
+  - first:
+      213: -739000485049300336
+    second: Pixel Art Pyrkas Collection Dialogue_86
+  - first:
+      213: -2334208858167291794
+    second: Pixel Art Pyrkas Collection Dialogue_87
+  - first:
+      213: 7813301664618434861
+    second: Pixel Art Pyrkas Collection Dialogue_88
+  - first:
+      213: 7154837125373532790
+    second: Pixel Art Pyrkas Collection Dialogue_89
+  - first:
+      213: 1326298216762604195
+    second: Pixel Art Pyrkas Collection Dialogue_90
+  - first:
+      213: -6951931602235803732
+    second: Pixel Art Pyrkas Collection Dialogue_91
+  - first:
+      213: 3743828453034511797
+    second: Pixel Art Pyrkas Collection Dialogue_92
+  - first:
+      213: -3546293115513942272
+    second: Pixel Art Pyrkas Collection Dialogue_93
+  - first:
+      213: -7856817858654023329
+    second: Pixel Art Pyrkas Collection Dialogue_94
+  - first:
+      213: 6179469045417901700
+    second: Pixel Art Pyrkas Collection Dialogue_95
+  - first:
+      213: 2278676711460021478
+    second: Pixel Art Pyrkas Collection Dialogue_96
+  - first:
+      213: 3410854753142782745
+    second: Pixel Art Pyrkas Collection Dialogue_97
+  - first:
+      213: 8625355233515225907
+    second: Pixel Art Pyrkas Collection Dialogue_98
+  - first:
+      213: -6781897380830609741
+    second: Pixel Art Pyrkas Collection Dialogue_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2135
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbcabeb617f806a0800000000000000
+      internalID: -6482659986538574908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beb9ce2c79072e30800000000000000
+      internalID: 4478558783408815793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 636
+        width: 168
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cfc9bd5efe72860800000000000000
+      internalID: 7505231074547268619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 699
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21188296033be2920800000000000000
+      internalID: 2967506224987799826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 691
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c82193975ce4f0800000000000000
+      internalID: -798166742644242473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_5
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 642
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d2731984dfe7b60800000000000000
+      internalID: 7745906897239616881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_6
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 699
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598bddafb308c470800000000000000
+      internalID: 8414980025532254552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_7
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 682
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355a998da220cbd10800000000000000
+      internalID: 2142589905767343443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_8
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 697
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cc6848caa16c2e0800000000000000
+      internalID: -2105966447489004531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_9
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 699
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6935db12741b540800000000000000
+      internalID: 5021873269730678453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 683
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0b1efe4acf3880800000000000000
+      internalID: -8628955920399136020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 677
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8993202111c4f1e0800000000000000
+      internalID: -2164893241560557173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_12
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 685
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8e41ec9e53dac80800000000000000
+      internalID: -8309926459127568215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_13
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 677
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96545229ca2ff52e0800000000000000
+      internalID: -2134720875350112919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_14
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 675
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7db562c065691cf0800000000000000
+      internalID: -281082035481232005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_15
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 677
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89206867be0ba5a90800000000000000
+      internalID: -7324347318612393320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_16
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 644
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2920374b737539930800000000000000
+      internalID: 4148755578500612754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 651
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da803f09e69bea960800000000000000
+      internalID: 7615227904459475117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 645
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0110de3ef489a40800000000000000
+      internalID: 5375133995619127513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_19
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 644
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641ee563cf584d090800000000000000
+      internalID: -8010630518894829242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_20
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 630
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56de2048f6178320800000000000000
+      internalID: 2560040168667928154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_21
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 659
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ad2b33912694e0800000000000000
+      internalID: -1975354470318627206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_22
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 659
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2615420855d4c86b0800000000000000
+      internalID: -5292770432449752734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_23
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 646
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af199a8d734a8a4e0800000000000000
+      internalID: -1970144277209443846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_24
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 659
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e65094026e4a950800000000000000
+      internalID: 6459540791894568578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_25
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 655
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdcf996a18f83c90800000000000000
+      internalID: -7189724012772078083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_26
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 655
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0c3cd72ec6e3d80800000000000000
+      internalID: -8269052145777262416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_27
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 659
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32e2c030d8bb900800000000000000
+      internalID: 701309211215012822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_28
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 657
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573fd3c5b3db42df0800000000000000
+      internalID: -205831620303916171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_29
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 570
+        width: 48
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ecf3a7770c37ef0800000000000000
+      internalID: -111533946369487330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_30
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 612
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed59d0afc1f32fe0800000000000000
+      internalID: -1214861600400777754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 178
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d947f0c512069ad0800000000000000
+      internalID: -2695965034479662635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 118
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b916a0b30701f30800000000000000
+      internalID: 4544255422896380777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 67
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551cce38754a16fe0800000000000000
+      internalID: -1197495330121399979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_34
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 118
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c48ba697b1b0210800000000000000
+      internalID: 1300163125721975850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_35
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 94
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37da2abbf624d66f0800000000000000
+      internalID: -689822120261014157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_36
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 77
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f5374fb8e4a19b0800000000000000
+      internalID: -5108684464289784054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_37
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 108
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b8215f0454b000800000000000000
+      internalID: 50757920570783146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_38
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 75
+        width: 92
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904fcdbe98b111750800000000000000
+      internalID: 6273826035085407241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_39
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 120
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f18e9a49eef9b050800000000000000
+      internalID: 5816960671658443256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 59
+        width: 156
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fb537121cc76720800000000000000
+      internalID: 2839462468151262986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_41
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 70
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1f2b77cb13f6950800000000000000
+      internalID: 6444424277322297827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_42
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 93
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc48903b769bcd0800000000000000
+      internalID: -2541886496017429643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_43
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 99
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae3e55c894e74670800000000000000
+      internalID: 8523032164619402913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_44
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 97
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d3c823f97851300800000000000000
+      internalID: 222232874442308986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_45
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 85
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5d071f528c8e140800000000000000
+      internalID: 4749265872352236984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_46
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 95
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e6fa58e6069dce0800000000000000
+      internalID: -1379965783006810554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_47
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 66
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e741c01d5dd1d600800000000000000
+      internalID: 491417226142894049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_48
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 93
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd232ec7d69db4a10800000000000000
+      internalID: 1894847132509287132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 63
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca55bd078d47a3f0800000000000000
+      internalID: -889657158936470844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_50
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 78
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73767c3268ee33290800000000000000
+      internalID: -7911717860466530505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_51
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d24e5536401ce0800000000000000
+      internalID: -1436571086102539735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_52
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 95
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1862cb12a9dee67c0800000000000000
+      internalID: -4076059366476994943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_53
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 91
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b256f4ca0f4d65210800000000000000
+      internalID: 1321477670827943211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_54
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 79
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cef438e7eafab10800000000000000
+      internalID: 1995005018340584453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_55
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 93
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be042b707834e8090800000000000000
+      internalID: -8030406838326247189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_56
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 51
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d0be42975f222e0800000000000000
+      internalID: -2151887771270443765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_57
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d673a1bec94fefa0800000000000000
+      internalID: -5769311445545945391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_58
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 94
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3b918aa047b3830800000000000000
+      internalID: 4051959878868644789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_59
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 101
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adc4478191c89110800000000000000
+      internalID: 1267976125888646565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 79
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9a3162b5a2dd7c0800000000000000
+      internalID: -4045030319339624024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 73
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87356a440d87a01a0800000000000000
+      internalID: -6842523847935765640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ab03dbff66935b0800000000000000
+      internalID: -5388162230595306962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_63
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 63
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c88ac9ed203917e0800000000000000
+      internalID: -1794350002776405820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_64
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 81
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bb812a045226660800000000000000
+      internalID: 7377500099113958264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_65
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 79
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4372156ac83aae960800000000000000
+      internalID: 7632092343013812020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_66
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 61
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db69d98e091f5740800000000000000
+      internalID: 5142856849713359829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_67
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e36faf23f443e8e0800000000000000
+      internalID: -1665411625929186335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_68
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 77
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a9455b50170d930800000000000000
+      internalID: 4165953924648704530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_69
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 53
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285ee4fea82b7fdc0800000000000000
+      internalID: -3605216666896636542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_70
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 55
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe8c3c8d7a2ef770800000000000000
+      internalID: 8646395053309988593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_71
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 62
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633dc890c949e2690800000000000000
+      internalID: -7624993721195637962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_72
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 51
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86808d207358ee390800000000000000
+      internalID: -7787140234359601048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_73
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 45
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb185826e09d81e0800000000000000
+      internalID: -2193938125265822750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_74
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3842ac6b7dcc74d0800000000000000
+      internalID: -3135405310569461698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 29
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e0ea16f506aa520800000000000000
+      internalID: 2714087688221101652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_76
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 33
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e578a615de50df780800000000000000
+      internalID: -8647749192650160290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_77
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 49
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82beb7f4954d18c0800000000000000
+      internalID: -4026985985685409137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_78
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 51
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196f8ed74c23ad250800000000000000
+      internalID: 5970140075540412049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_79
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 45
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98716fe50aa1f7800800000000000000
+      internalID: 612237350435952521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_80
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 49
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350e29d7b5e6c1ba0800000000000000
+      internalID: -6116892854648119213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_81
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6549da48aafaf80800000000000000
+      internalID: -8093062518536907015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_82
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 21
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1691197ab447ee0800000000000000
+      internalID: -1264302412318285340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_83
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 33
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5c1c72ce85998f0800000000000000
+      internalID: -533297309564156493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_84
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 26
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd95c4240fadf640800000000000000
+      internalID: 5115437184094412244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_85
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 29
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2367ccbe38092a0c0800000000000000
+      internalID: -4565928175929100750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_86
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 25
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8bc769fa8eb5f0800000000000000
+      internalID: -739000485049300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_87
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 17
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e605e5129693b9fd0800000000000000
+      internalID: -2334208858167291794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_88
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 17
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21dc82a77c6e6c60800000000000000
+      internalID: 7813301664618434861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_89
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 36
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a9aa325761b4360800000000000000
+      internalID: 7154837125373532790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_90
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 31
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa7e5c7335f76210800000000000000
+      internalID: 1326298216762604195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_91
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 17
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca73ce96a07c58f90800000000000000
+      internalID: -6951931602235803732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_92
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 27
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd4f137420c4f330800000000000000
+      internalID: 3743828453034511797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_93
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 31
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fc064533909cec0800000000000000
+      internalID: -3546293115513942272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_94
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 31
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f515bf5e8c9f6f290800000000000000
+      internalID: -7856817858654023329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_95
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 31
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ef7a84b52e1c550800000000000000
+      internalID: 6179469045417901700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_96
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 35
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4a788656c7f9f10800000000000000
+      internalID: 2278676711460021478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_97
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b3785935ac55f20800000000000000
+      internalID: 3410854753142782745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_98
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 23
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3334b33c2ea63b770800000000000000
+      internalID: 8625355233515225907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Pyrkas Collection Dialogue_99
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 19
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be7070a34cd1e1a0800000000000000
+      internalID: -6781897380830609741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Pyrkas Collection Dialogue_0: -6482659986538574908
+      Pixel Art Pyrkas Collection Dialogue_1: 4478558783408815793
+      Pixel Art Pyrkas Collection Dialogue_10: -8628955920399136020
+      Pixel Art Pyrkas Collection Dialogue_11: -2164893241560557173
+      Pixel Art Pyrkas Collection Dialogue_12: -8309926459127568215
+      Pixel Art Pyrkas Collection Dialogue_13: -2134720875350112919
+      Pixel Art Pyrkas Collection Dialogue_14: -281082035481232005
+      Pixel Art Pyrkas Collection Dialogue_15: -7324347318612393320
+      Pixel Art Pyrkas Collection Dialogue_16: 4148755578500612754
+      Pixel Art Pyrkas Collection Dialogue_17: 7615227904459475117
+      Pixel Art Pyrkas Collection Dialogue_18: 5375133995619127513
+      Pixel Art Pyrkas Collection Dialogue_19: -8010630518894829242
+      Pixel Art Pyrkas Collection Dialogue_2: 7505231074547268619
+      Pixel Art Pyrkas Collection Dialogue_20: 2560040168667928154
+      Pixel Art Pyrkas Collection Dialogue_21: -1975354470318627206
+      Pixel Art Pyrkas Collection Dialogue_22: -5292770432449752734
+      Pixel Art Pyrkas Collection Dialogue_23: -1970144277209443846
+      Pixel Art Pyrkas Collection Dialogue_24: 6459540791894568578
+      Pixel Art Pyrkas Collection Dialogue_25: -7189724012772078083
+      Pixel Art Pyrkas Collection Dialogue_26: -8269052145777262416
+      Pixel Art Pyrkas Collection Dialogue_27: 701309211215012822
+      Pixel Art Pyrkas Collection Dialogue_28: -205831620303916171
+      Pixel Art Pyrkas Collection Dialogue_29: -111533946369487330
+      Pixel Art Pyrkas Collection Dialogue_3: 2967506224987799826
+      Pixel Art Pyrkas Collection Dialogue_30: -1214861600400777754
+      Pixel Art Pyrkas Collection Dialogue_31: -2695965034479662635
+      Pixel Art Pyrkas Collection Dialogue_32: 4544255422896380777
+      Pixel Art Pyrkas Collection Dialogue_33: -1197495330121399979
+      Pixel Art Pyrkas Collection Dialogue_34: 1300163125721975850
+      Pixel Art Pyrkas Collection Dialogue_35: -689822120261014157
+      Pixel Art Pyrkas Collection Dialogue_36: -5108684464289784054
+      Pixel Art Pyrkas Collection Dialogue_37: 50757920570783146
+      Pixel Art Pyrkas Collection Dialogue_38: 6273826035085407241
+      Pixel Art Pyrkas Collection Dialogue_39: 5816960671658443256
+      Pixel Art Pyrkas Collection Dialogue_4: -798166742644242473
+      Pixel Art Pyrkas Collection Dialogue_40: 2839462468151262986
+      Pixel Art Pyrkas Collection Dialogue_41: 6444424277322297827
+      Pixel Art Pyrkas Collection Dialogue_42: -2541886496017429643
+      Pixel Art Pyrkas Collection Dialogue_43: 8523032164619402913
+      Pixel Art Pyrkas Collection Dialogue_44: 222232874442308986
+      Pixel Art Pyrkas Collection Dialogue_45: 4749265872352236984
+      Pixel Art Pyrkas Collection Dialogue_46: -1379965783006810554
+      Pixel Art Pyrkas Collection Dialogue_47: 491417226142894049
+      Pixel Art Pyrkas Collection Dialogue_48: 1894847132509287132
+      Pixel Art Pyrkas Collection Dialogue_49: -889657158936470844
+      Pixel Art Pyrkas Collection Dialogue_5: 7745906897239616881
+      Pixel Art Pyrkas Collection Dialogue_50: -7911717860466530505
+      Pixel Art Pyrkas Collection Dialogue_51: -1436571086102539735
+      Pixel Art Pyrkas Collection Dialogue_52: -4076059366476994943
+      Pixel Art Pyrkas Collection Dialogue_53: 1321477670827943211
+      Pixel Art Pyrkas Collection Dialogue_54: 1995005018340584453
+      Pixel Art Pyrkas Collection Dialogue_55: -8030406838326247189
+      Pixel Art Pyrkas Collection Dialogue_56: -2151887771270443765
+      Pixel Art Pyrkas Collection Dialogue_57: -5769311445545945391
+      Pixel Art Pyrkas Collection Dialogue_58: 4051959878868644789
+      Pixel Art Pyrkas Collection Dialogue_59: 1267976125888646565
+      Pixel Art Pyrkas Collection Dialogue_6: 8414980025532254552
+      Pixel Art Pyrkas Collection Dialogue_60: -4045030319339624024
+      Pixel Art Pyrkas Collection Dialogue_61: -6842523847935765640
+      Pixel Art Pyrkas Collection Dialogue_62: -5388162230595306962
+      Pixel Art Pyrkas Collection Dialogue_63: -1794350002776405820
+      Pixel Art Pyrkas Collection Dialogue_64: 7377500099113958264
+      Pixel Art Pyrkas Collection Dialogue_65: 7632092343013812020
+      Pixel Art Pyrkas Collection Dialogue_66: 5142856849713359829
+      Pixel Art Pyrkas Collection Dialogue_67: -1665411625929186335
+      Pixel Art Pyrkas Collection Dialogue_68: 4165953924648704530
+      Pixel Art Pyrkas Collection Dialogue_69: -3605216666896636542
+      Pixel Art Pyrkas Collection Dialogue_7: 2142589905767343443
+      Pixel Art Pyrkas Collection Dialogue_70: 8646395053309988593
+      Pixel Art Pyrkas Collection Dialogue_71: -7624993721195637962
+      Pixel Art Pyrkas Collection Dialogue_72: -7787140234359601048
+      Pixel Art Pyrkas Collection Dialogue_73: -2193938125265822750
+      Pixel Art Pyrkas Collection Dialogue_74: -3135405310569461698
+      Pixel Art Pyrkas Collection Dialogue_75: 2714087688221101652
+      Pixel Art Pyrkas Collection Dialogue_76: -8647749192650160290
+      Pixel Art Pyrkas Collection Dialogue_77: -4026985985685409137
+      Pixel Art Pyrkas Collection Dialogue_78: 5970140075540412049
+      Pixel Art Pyrkas Collection Dialogue_79: 612237350435952521
+      Pixel Art Pyrkas Collection Dialogue_8: -2105966447489004531
+      Pixel Art Pyrkas Collection Dialogue_80: -6116892854648119213
+      Pixel Art Pyrkas Collection Dialogue_81: -8093062518536907015
+      Pixel Art Pyrkas Collection Dialogue_82: -1264302412318285340
+      Pixel Art Pyrkas Collection Dialogue_83: -533297309564156493
+      Pixel Art Pyrkas Collection Dialogue_84: 5115437184094412244
+      Pixel Art Pyrkas Collection Dialogue_85: -4565928175929100750
+      Pixel Art Pyrkas Collection Dialogue_86: -739000485049300336
+      Pixel Art Pyrkas Collection Dialogue_87: -2334208858167291794
+      Pixel Art Pyrkas Collection Dialogue_88: 7813301664618434861
+      Pixel Art Pyrkas Collection Dialogue_89: 7154837125373532790
+      Pixel Art Pyrkas Collection Dialogue_9: 5021873269730678453
+      Pixel Art Pyrkas Collection Dialogue_90: 1326298216762604195
+      Pixel Art Pyrkas Collection Dialogue_91: -6951931602235803732
+      Pixel Art Pyrkas Collection Dialogue_92: 3743828453034511797
+      Pixel Art Pyrkas Collection Dialogue_93: -3546293115513942272
+      Pixel Art Pyrkas Collection Dialogue_94: -7856817858654023329
+      Pixel Art Pyrkas Collection Dialogue_95: 6179469045417901700
+      Pixel Art Pyrkas Collection Dialogue_96: 2278676711460021478
+      Pixel Art Pyrkas Collection Dialogue_97: 3410854753142782745
+      Pixel Art Pyrkas Collection Dialogue_98: 8625355233515225907
+      Pixel Art Pyrkas Collection Dialogue_99: -6781897380830609741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 671f0b7faa7ac9947b526fb9a1559b5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7341893782555978870
+    second: Twisted Purple Forest Tree Sprite Sheet_0
+  - first:
+      213: 8672685073975704113
+    second: Twisted Purple Forest Tree Sprite Sheet_1
+  - first:
+      213: -2370348023031787671
+    second: Twisted Purple Forest Tree Sprite Sheet_2
+  - first:
+      213: 5348921325787042384
+    second: Twisted Purple Forest Tree Sprite Sheet_3
+  - first:
+      213: 4048975046951941521
+    second: Twisted Purple Forest Tree Sprite Sheet_4
+  - first:
+      213: 1898005735043367420
+    second: Twisted Purple Forest Tree Sprite Sheet_5
+  - first:
+      213: 6968636523878294819
+    second: Twisted Purple Forest Tree Sprite Sheet_6
+  - first:
+      213: -7124989082497109347
+    second: Twisted Purple Forest Tree Sprite Sheet_7
+  - first:
+      213: -3350538858620606346
+    second: Twisted Purple Forest Tree Sprite Sheet_8
+  - first:
+      213: 8421089027313674966
+    second: Twisted Purple Forest Tree Sprite Sheet_9
+  - first:
+      213: 3984885014915926458
+    second: Twisted Purple Forest Tree Sprite Sheet_10
+  - first:
+      213: 7660848970545392587
+    second: Twisted Purple Forest Tree Sprite Sheet_11
+  - first:
+      213: 2572091830973456582
+    second: Twisted Purple Forest Tree Sprite Sheet_12
+  - first:
+      213: 6787995311834624123
+    second: Twisted Purple Forest Tree Sprite Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 560
+        height: 513
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ce5e70f75a3e560800000000000000
+      internalID: 7341893782555978870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 527
+        width: 406
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f042d1805da1fd0800000000000000
+      internalID: -2370348023031787671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 502
+        width: 541
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0525c032b9f2b3a40800000000000000
+      internalID: 5348921325787042384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 699
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325249e3ff195b060800000000000000
+      internalID: 6968636523878294819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 450
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab947d8eec72d4730800000000000000
+      internalID: 3984885014915926458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 26
+        width: 483
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c06bda84e7e1b320800000000000000
+      internalID: 2572091830973456582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Twisted Purple Forest Tree Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b707be295cdc33e50800000000000000
+      internalID: 6787995311834624123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: acab71cd2791bee4796685849efb517f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Twisted Purple Forest Tree Sprite Sheet_0: 7341893782555978870
+      Twisted Purple Forest Tree Sprite Sheet_1: 8672685073975704113
+      Twisted Purple Forest Tree Sprite Sheet_10: 3984885014915926458
+      Twisted Purple Forest Tree Sprite Sheet_11: 7660848970545392587
+      Twisted Purple Forest Tree Sprite Sheet_12: 2572091830973456582
+      Twisted Purple Forest Tree Sprite Sheet_13: 6787995311834624123
+      Twisted Purple Forest Tree Sprite Sheet_2: -2370348023031787671
+      Twisted Purple Forest Tree Sprite Sheet_3: 5348921325787042384
+      Twisted Purple Forest Tree Sprite Sheet_4: 4048975046951941521
+      Twisted Purple Forest Tree Sprite Sheet_5: 1898005735043367420
+      Twisted Purple Forest Tree Sprite Sheet_6: 6968636523878294819
+      Twisted Purple Forest Tree Sprite Sheet_7: -7124989082497109347
+      Twisted Purple Forest Tree Sprite Sheet_8: -3350538858620606346
+      Twisted Purple Forest Tree Sprite Sheet_9: 8421089027313674966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

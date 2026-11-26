@@ -1,0 +1,1744 @@
+fileFormatVersion: 2
+guid: b7fc0c1029b8fb945b54df7d4a4a15f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 410951864570356466
+    second: Shrine Unlocked Notification_0
+  - first:
+      213: 511952889952564023
+    second: Shrine Unlocked Notification_1
+  - first:
+      213: 3786333242326182678
+    second: Shrine Unlocked Notification_2
+  - first:
+      213: 4306871344958928691
+    second: Shrine Unlocked Notification_3
+  - first:
+      213: 8846050939192513004
+    second: Shrine Unlocked Notification_4
+  - first:
+      213: 6328595352162899374
+    second: Shrine Unlocked Notification_5
+  - first:
+      213: 6715730898663595288
+    second: Shrine Unlocked Notification_6
+  - first:
+      213: -601752879827980556
+    second: Shrine Unlocked Notification_7
+  - first:
+      213: 5974754990259183961
+    second: Shrine Unlocked Notification_8
+  - first:
+      213: 2652943530514669150
+    second: Shrine Unlocked Notification_9
+  - first:
+      213: 8341236347849388090
+    second: Shrine Unlocked Notification_10
+  - first:
+      213: 6558415012495607829
+    second: Shrine Unlocked Notification_11
+  - first:
+      213: -4907603611566041131
+    second: Shrine Unlocked Notification_12
+  - first:
+      213: 8362889207391799151
+    second: Shrine Unlocked Notification_13
+  - first:
+      213: 6536884026314001709
+    second: Shrine Unlocked Notification_14
+  - first:
+      213: -6203951291706995170
+    second: Shrine Unlocked Notification_15
+  - first:
+      213: -4449827409019106098
+    second: Shrine Unlocked Notification_16
+  - first:
+      213: -8228906478145420585
+    second: Shrine Unlocked Notification_17
+  - first:
+      213: 5522637919745035770
+    second: Shrine Unlocked Notification_18
+  - first:
+      213: 4176207508030304787
+    second: Shrine Unlocked Notification_19
+  - first:
+      213: 1506252587201338972
+    second: Shrine Unlocked Notification_20
+  - first:
+      213: -8978807982096789445
+    second: Shrine Unlocked Notification_21
+  - first:
+      213: 4202246465060212173
+    second: Shrine Unlocked Notification_22
+  - first:
+      213: -6889175211231122332
+    second: Shrine Unlocked Notification_23
+  - first:
+      213: -7757317819168740478
+    second: Shrine Unlocked Notification_24
+  - first:
+      213: -5686439555140688065
+    second: Shrine Unlocked Notification_25
+  - first:
+      213: -8180253017907392638
+    second: Shrine Unlocked Notification_26
+  - first:
+      213: -919787737114161291
+    second: Shrine Unlocked Notification_27
+  - first:
+      213: -971441823501803628
+    second: Shrine Unlocked Notification_28
+  - first:
+      213: 53148064062329802
+    second: Shrine Unlocked Notification_29
+  - first:
+      213: -5823700301465257962
+    second: Shrine Unlocked Notification_30
+  - first:
+      213: 7767324809428789642
+    second: Shrine Unlocked Notification_31
+  - first:
+      213: 479878726888847561
+    second: Shrine Unlocked Notification_32
+  - first:
+      213: -5474537190412124057
+    second: Shrine Unlocked Notification_33
+  - first:
+      213: 6881178788499749218
+    second: Shrine Unlocked Notification_34
+  - first:
+      213: 5142416164255683185
+    second: Shrine Unlocked Notification_35
+  - first:
+      213: -1622868955398112186
+    second: Shrine Unlocked Notification_36
+  - first:
+      213: 7485822900465086384
+    second: Shrine Unlocked Notification_37
+  - first:
+      213: 8849504314604372836
+    second: Shrine Unlocked Notification_38
+  - first:
+      213: 5345837239394798604
+    second: Shrine Unlocked Notification_39
+  - first:
+      213: -85510971556653242
+    second: Shrine Unlocked Notification_40
+  - first:
+      213: 1669186050727388611
+    second: Shrine Unlocked Notification_41
+  - first:
+      213: 8718492751541164477
+    second: Shrine Unlocked Notification_42
+  - first:
+      213: -4097967784384159892
+    second: Shrine Unlocked Notification_43
+  - first:
+      213: 459757981986073846
+    second: Shrine Unlocked Notification_44
+  - first:
+      213: -3197800002365452926
+    second: Shrine Unlocked Notification_45
+  - first:
+      213: 6994831403783864509
+    second: Shrine Unlocked Notification_46
+  - first:
+      213: 1041975199062826514
+    second: Shrine Unlocked Notification_47
+  - first:
+      213: -4852812751714007587
+    second: Shrine Unlocked Notification_48
+  - first:
+      213: 4772237617729728245
+    second: Shrine Unlocked Notification_49
+  - first:
+      213: -1390705018235335460
+    second: Shrine Unlocked Notification_50
+  - first:
+      213: -4782028078791480311
+    second: Shrine Unlocked Notification_51
+  - first:
+      213: 1900751834735095024
+    second: Shrine Unlocked Notification_52
+  - first:
+      213: -2667182544193191460
+    second: Shrine Unlocked Notification_53
+  - first:
+      213: -8878355044456194156
+    second: Shrine Unlocked Notification_54
+  - first:
+      213: -824059620592180899
+    second: Shrine Unlocked Notification_55
+  - first:
+      213: -4912517563522748186
+    second: Shrine Unlocked Notification_56
+  - first:
+      213: 5705988589689251190
+    second: Shrine Unlocked Notification_57
+  - first:
+      213: 2925731564408492130
+    second: Shrine Unlocked Notification_58
+  - first:
+      213: -8297295295706920932
+    second: Shrine Unlocked Notification_59
+  - first:
+      213: -3200724033214607902
+    second: Shrine Unlocked Notification_60
+  - first:
+      213: -1318212441467991867
+    second: Shrine Unlocked Notification_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 2025
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f220832b8ef3b500800000000000000
+      internalID: 410951864570356466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_1
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 697
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7337b53e072da1700800000000000000
+      internalID: 511952889952564023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_2
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 651
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bea16e502cb8430800000000000000
+      internalID: 3786333242326182678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_3
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 671
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337f5916ba415cb30800000000000000
+      internalID: 4306871344958928691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_4
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 669
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce19497f57c73ca70800000000000000
+      internalID: 8846050939192513004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_5
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 675
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea59bd441ffa3d750800000000000000
+      internalID: 6328595352162899374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_6
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 679
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d55fdbba1133d50800000000000000
+      internalID: 6715730898663595288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_7
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 668
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fee84ba1f426a7f0800000000000000
+      internalID: -601752879827980556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 667
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951246e02089ae250800000000000000
+      internalID: 5974754990259183961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_9
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 663
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e5f79c51621d420800000000000000
+      internalID: 2652943530514669150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 651
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30b32db34602c370800000000000000
+      internalID: 8341236347849388090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_11
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 649
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518c365b4bb240b50800000000000000
+      internalID: 6558415012495607829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_12
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 646
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d79e225480b4ebb0800000000000000
+      internalID: -4907603611566041131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_13
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 649
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f674986fc63fe0470800000000000000
+      internalID: 8362889207391799151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_14
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 653
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d0f56536da7ba50800000000000000
+      internalID: 6536884026314001709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 634
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e8afd8b2327e9a0800000000000000
+      internalID: -6203951291706995170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_16
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 637
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc8e953c890f32c0800000000000000
+      internalID: -4449827409019106098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 630
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d24b30282d0dcd80800000000000000
+      internalID: -8228906478145420585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_18
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 633
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd41858de954ac40800000000000000
+      internalID: 5522637919745035770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_19
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 629
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31237702a9ed4f930800000000000000
+      internalID: 4176207508030304787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_20
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 632
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e16226fb847e410800000000000000
+      internalID: 1506252587201338972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_21
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 635
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30dda846bdd46380800000000000000
+      internalID: -8978807982096789445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_22
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 626
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd0e8045e0615a30800000000000000
+      internalID: 4202246465060212173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_23
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 580
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c642355abb460a0800000000000000
+      internalID: -6889175211231122332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_24
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 620
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ba3a22b88785490800000000000000
+      internalID: -7757317819168740478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_25
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 628
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37eb174a55b511b0800000000000000
+      internalID: -5686439555140688065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_26
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 616
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f00d69837e97e80800000000000000
+      internalID: -8180253017907392638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_27
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 594
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fcc842de14c33f0800000000000000
+      internalID: -919787737114161291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 606
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f9736feceb482f0800000000000000
+      internalID: -971441823501803628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_29
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 595
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac35fe6f1e1dcb000800000000000000
+      internalID: 53148064062329802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_30
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 608
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618f3dc5e6f0e2fa0800000000000000
+      internalID: -5823700301465257962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_31
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 598
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89e419d2c41bcb60800000000000000
+      internalID: 7767324809428789642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_32
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 582
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8f97bd82fd8a600800000000000000
+      internalID: 479878726888847561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_33
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 601
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76002df3e698604b0800000000000000
+      internalID: -5474537190412124057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_34
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 580
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269fa7c66abde7f50800000000000000
+      internalID: 6881178788499749218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_35
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 586
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172dfa571488d5740800000000000000
+      internalID: 5142416164255683185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_36
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 600
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c7c7c88496a79e0800000000000000
+      internalID: -1622868955398112186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_37
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 605
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfa4b1344cf2e760800000000000000
+      internalID: 7485822900465086384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_38
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 610
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463c7469941cfca70800000000000000
+      internalID: 8849504314604372836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_39
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 594
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c8e2155aa303a40800000000000000
+      internalID: 5345837239394798604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_40
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 596
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64797f3793430def0800000000000000
+      internalID: -85510971556653242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_41
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 594
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a4a19ed32a2710800000000000000
+      internalID: 1669186050727388611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_42
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 510
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9dd6807fe4ef870800000000000000
+      internalID: 8718492751541164477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 323
+        width: 6
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f99c613081127c0800000000000000
+      internalID: -4097967784384159892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc2eeed273616600800000000000000
+      internalID: 459757981986073846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d834c27d12f93d0800000000000000
+      internalID: -3197800002365452926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_46
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 112
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0c84ef912a21160800000000000000
+      internalID: 6994831403783864509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_47
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 111
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e18e44ce6d57e00800000000000000
+      internalID: 1041975199062826514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_48
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5c99c738857acb0800000000000000
+      internalID: -4852812751714007587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_49
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 87
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe698434d46a3240800000000000000
+      internalID: 4772237617729728245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_50
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 80
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdccab8772933bce0800000000000000
+      internalID: -1390705018235335460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_51
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 98
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ca0b17cc2d2adb0800000000000000
+      internalID: -4782028078791480311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_52
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 87
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcae8b19b3d06a10800000000000000
+      internalID: 1900751834735095024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_53
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd10e3e7b934cfad0800000000000000
+      internalID: -2667182544193191460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 28
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f1469602fb9c480800000000000000
+      internalID: -8878355044456194156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_55
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 55
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d512cd0242a5094f0800000000000000
+      internalID: -824059620592180899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_56
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 45
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0fb59bd4b33dbb0800000000000000
+      internalID: -4912517563522748186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_57
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 31
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6752cd4046ebf2f40800000000000000
+      internalID: 5705988589689251190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_58
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 23
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26057bc4b594a9820800000000000000
+      internalID: 2925731564408492130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_59
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c188ed6b3e51adc80800000000000000
+      internalID: -8297295295706920932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_60
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 25
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed0030337eb493d0800000000000000
+      internalID: -3200724033214607902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrine Unlocked Notification_61
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 21
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8ccc7c4c4c4bde0800000000000000
+      internalID: -1318212441467991867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shrine Unlocked Notification_0: 410951864570356466
+      Shrine Unlocked Notification_1: 511952889952564023
+      Shrine Unlocked Notification_10: 8341236347849388090
+      Shrine Unlocked Notification_11: 6558415012495607829
+      Shrine Unlocked Notification_12: -4907603611566041131
+      Shrine Unlocked Notification_13: 8362889207391799151
+      Shrine Unlocked Notification_14: 6536884026314001709
+      Shrine Unlocked Notification_15: -6203951291706995170
+      Shrine Unlocked Notification_16: -4449827409019106098
+      Shrine Unlocked Notification_17: -8228906478145420585
+      Shrine Unlocked Notification_18: 5522637919745035770
+      Shrine Unlocked Notification_19: 4176207508030304787
+      Shrine Unlocked Notification_2: 3786333242326182678
+      Shrine Unlocked Notification_20: 1506252587201338972
+      Shrine Unlocked Notification_21: -8978807982096789445
+      Shrine Unlocked Notification_22: 4202246465060212173
+      Shrine Unlocked Notification_23: -6889175211231122332
+      Shrine Unlocked Notification_24: -7757317819168740478
+      Shrine Unlocked Notification_25: -5686439555140688065
+      Shrine Unlocked Notification_26: -8180253017907392638
+      Shrine Unlocked Notification_27: -919787737114161291
+      Shrine Unlocked Notification_28: -971441823501803628
+      Shrine Unlocked Notification_29: 53148064062329802
+      Shrine Unlocked Notification_3: 4306871344958928691
+      Shrine Unlocked Notification_30: -5823700301465257962
+      Shrine Unlocked Notification_31: 7767324809428789642
+      Shrine Unlocked Notification_32: 479878726888847561
+      Shrine Unlocked Notification_33: -5474537190412124057
+      Shrine Unlocked Notification_34: 6881178788499749218
+      Shrine Unlocked Notification_35: 5142416164255683185
+      Shrine Unlocked Notification_36: -1622868955398112186
+      Shrine Unlocked Notification_37: 7485822900465086384
+      Shrine Unlocked Notification_38: 8849504314604372836
+      Shrine Unlocked Notification_39: 5345837239394798604
+      Shrine Unlocked Notification_4: 8846050939192513004
+      Shrine Unlocked Notification_40: -85510971556653242
+      Shrine Unlocked Notification_41: 1669186050727388611
+      Shrine Unlocked Notification_42: 8718492751541164477
+      Shrine Unlocked Notification_43: -4097967784384159892
+      Shrine Unlocked Notification_44: 459757981986073846
+      Shrine Unlocked Notification_45: -3197800002365452926
+      Shrine Unlocked Notification_46: 6994831403783864509
+      Shrine Unlocked Notification_47: 1041975199062826514
+      Shrine Unlocked Notification_48: -4852812751714007587
+      Shrine Unlocked Notification_49: 4772237617729728245
+      Shrine Unlocked Notification_5: 6328595352162899374
+      Shrine Unlocked Notification_50: -1390705018235335460
+      Shrine Unlocked Notification_51: -4782028078791480311
+      Shrine Unlocked Notification_52: 1900751834735095024
+      Shrine Unlocked Notification_53: -2667182544193191460
+      Shrine Unlocked Notification_54: -8878355044456194156
+      Shrine Unlocked Notification_55: -824059620592180899
+      Shrine Unlocked Notification_56: -4912517563522748186
+      Shrine Unlocked Notification_57: 5705988589689251190
+      Shrine Unlocked Notification_58: 2925731564408492130
+      Shrine Unlocked Notification_59: -8297295295706920932
+      Shrine Unlocked Notification_6: 6715730898663595288
+      Shrine Unlocked Notification_60: -3200724033214607902
+      Shrine Unlocked Notification_61: -1318212441467991867
+      Shrine Unlocked Notification_7: -601752879827980556
+      Shrine Unlocked Notification_8: 5974754990259183961
+      Shrine Unlocked Notification_9: 2652943530514669150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
